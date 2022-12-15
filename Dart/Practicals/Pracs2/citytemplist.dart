@@ -1,29 +1,26 @@
 void main()
 {
-var city=['mumbai',31,'Nagpur',21,'Solapur',14,'Kolhapur',19,'Ratnagiri',32,'Pune',22,'Nashik',18,'Akola',44,'Amravati',41,'Raigad',33];
+   List list = ['Mumbai',24,'Pune',20,'Nashik',18,'Nagpur',15,'Nanded',25]; 
   
-  var max=city[0];
-  var min=city[0];
+   var max=list[1];
+   var min=list[1];
+  var mincityindex=0;
+  var maxcityindex=0;
   
-  // for(var i=1;i<city.length;i+2){
-	// 	print(city[i]);
+  
+  for(int i=1;i<=list.length;i=i+2){
+    if (list[i] < min){
+      min=list[i];
+      mincityindex=i-1;
+      }
+     if (list[i] > max){
+      max=list[i];
+      maxcityindex=i-1;
+      }
+  }
 
-
-	// }
-  //code to find max and min temp
-  // for(var i=1;i<city.length;i+=2){
-  //   // min=city[i];
-  //   if(city[i]>max){
-  //     max=city[i];
-  //   }
-  //   if(city[i]<min){
-  //     min=city[i];
-  //   }
-  // }
-
-
-
-
-  print("Max temp is ${max} and city is ${city[city.indexOf(max)-1]}");
-  print("Min temp is ${min} and city is ${city[city.indexOf(min)-1]}");
+  print("Minimum temp is ${min} and city is ${list[mincityindex]}");
+  print("Max temp is ${max} and city is ${list[maxcityindex]}");
+  
+  
 }
