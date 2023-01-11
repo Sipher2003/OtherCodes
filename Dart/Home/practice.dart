@@ -23,11 +23,20 @@ void main()
     // print (e);
 
 
-    final str1="Hello World";
-    final String str2="Hello World  Again";
+    int num1=8;
 
-    print(str1);
-    print(str2);
+    if (num1 % 2 == 0){
+      print("Even");
+    }
+    else{
+      print("odd");
+
+    }
+
+
+
+
+
 
 
 
