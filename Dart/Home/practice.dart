@@ -33,9 +33,20 @@ void main()
 
     // }
 
-int a=18;
+// int a=18;
 
-print(a);
+
+
+// print(a);
+
+
+// var c1=num.parse("1" );
+// var c2=num.parse("3.14");
+
+
+// var c3=c1+c2;
+
+// print(c3);
 
 
 
