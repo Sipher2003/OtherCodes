@@ -167,6 +167,25 @@ void main()
 //       print(j);
 //      }
 // }
+   
+//    int i=1;
+//    var list1=[7,2,3,4,5];
+
+
+//    for(var num1 in list1){
+//     print("Element ${i} is ${num1}");
+//     i++;
+//    }
+
+// int min=list1[0];
+
+// for(int i=0;i<list1.length;i++){
+// if(list1[i]<min){
+//   min=list1[i];
+// }
+// }
+
+// print("Minimum is ${min}");
 
 
 }
