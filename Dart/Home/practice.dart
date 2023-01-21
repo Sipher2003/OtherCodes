@@ -190,6 +190,20 @@ void main()
 // print(factorial(3));
 
 
+// var list1=new List<int>.filled(5,100,growable: true);
+
+
+// list1.add(800);
+// print(list1[5]);
+// print(list1);
+// print("Reversed is ${list1.reversed}");
+// print("Length is ${list1.length}");
+// // list1.replaceRange(start, end, replacements)
+
+// var list2=[569];
+// print("Single  function output is ${list2.single}");
+
+
 }
 
 // int factorial(num1){
