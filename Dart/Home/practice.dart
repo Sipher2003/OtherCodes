@@ -23,17 +23,19 @@ void main()
     // print (e);
 
 
-    int num1=8;
+    // int num1=8;
 
-    if (num1 % 2 == 0){
-      print("Even");
-    }
-    else{
-      print("odd");
+    // if (num1 % 2 == 0){
+    //   print("Even");
+    // }
+    // else{
+    //   print("odd");
 
-    }
+    // }
 
+int a=18;
 
+print(a);
 
 
 
