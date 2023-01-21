@@ -151,6 +151,22 @@ void main()
 // }
 // }
 
+// outerloop:
+
+// for(int i=1;i<=10;i++){
+//   print(i);
+//   innerloop:
+//      for(int j=1;j<=10;j++){
+
+//       if(j==4){
+//         break outerloop;
+//       }
+//       if(j==6){
+//         break innerloop;
+//       }
+//       print(j);
+//      }
+// }
 
 
 }
