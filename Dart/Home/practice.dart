@@ -48,8 +48,14 @@ void main()
 
 // print(c3);
 
+String s1="Hello";
 
+String s2="World";
 
+print(s1);
+print(s2);
+
+print(s1+s2);
 
 
 
