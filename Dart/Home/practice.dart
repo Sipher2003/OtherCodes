@@ -65,28 +65,75 @@ void main()
 
 // print(c1);
 
-int a=10;
-int b=20;
-int c=30;
+// int a=10;
+// int b=20;
+// int c=30;
 
 
 
-if(a>b){
-  if(a>c){
-    print("${a} is greatest");
-  }
-  else{
-    print("${c} is greatest");
-  }
-}
-else{
-  if(b>c){
-    print('${b} is greatest');
-  }
-  else{
-    print("${c} is greatest");
+// if(a>b){
+//   if(a>c){
+//     print("${a} is greatest");
+//   }
+//   else{
+//     print("${c} is greatest");
+//   }
+// }
+// else{
+//   if(b>c){
+//     print('${b} is greatest');
+//   }
+//   else{
+//     print("${c} is greatest");
 
-  }
-}
+//   }
+// }
+
+
+
+// int num=9;
+
+
+// switch(num){
+  
+//   case 1:
+//   {print("Sunday");}
+//   break;
+
+//   case 2:
+//   {print("Monday");}
+//   break;
+
+//   case 3:
+//   {print("Tuesday");}
+//   break;
+
+//   case 4:
+//   {print("Wednesday");}
+//   break;
+
+//   case 5:
+//   {print("Thursday");}
+//   break;
+
+//   case 6:
+//   {print("Friday");}
+//   break;
+
+//   case 7:
+//   {print("Saturday");}
+//   break;
+
+// default:
+// {print("invalid");}
+// break;
+
+
+
+// }
+
+
+
+
 
 }
