@@ -58,11 +58,35 @@ void main()
 // print(s1+s2);
 
 
-String str="Hello";
-String str2="Hell";
+// String str="Hello";
+// String str2="Hell";
 
-bool c1=(str==str2);
+// bool c1=(str==str2);
 
-print(c1);
+// print(c1);
+
+int a=10;
+int b=20;
+int c=30;
+
+
+
+if(a>b){
+  if(a>c){
+    print("${a} is greatest");
+  }
+  else{
+    print("${c} is greatest");
+  }
+}
+else{
+  if(b>c){
+    print('${b} is greatest');
+  }
+  else{
+    print("${c} is greatest");
+
+  }
+}
 
 }
