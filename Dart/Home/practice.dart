@@ -132,7 +132,24 @@ void main()
 
 // }
 
+// for(int i=10;i<=100;i++){
+//   print(i);
+// }
 
+// List a1=[1,2,3,3,4];
+
+
+// for(var a2 in a1){
+//   print(a2);
+// }
+
+// int i=1;
+// while(i<100){
+// if(i%2==0){
+//   print(i);
+// i++;
+// }
+// }
 
 
 
