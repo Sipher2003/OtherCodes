@@ -48,15 +48,21 @@ void main()
 
 // print(c3);
 
-String s1="Hello";
+// String s1="Hello";
 
-String s2="World";
+// String s2="World";
 
-print(s1);
-print(s2);
+// print(s1);
+// print(s2);
 
-print(s1+s2);
+// print(s1+s2);
 
 
+String str="Hello";
+String str2="Hell";
+
+bool c1=(str==str2);
+
+print(c1);
 
 }
