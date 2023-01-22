@@ -243,8 +243,13 @@ void main()
 // }
 
 
-numm(4,s2: 'hello');
-numm(4,s2: 'hello',s3:'world');
+// numm(4,s2: 'hello');
+// numm(4,s2: 'hello',s3:'world');
+
+
+
+// print(factorial(4));
+
 
 
 
@@ -259,7 +264,6 @@ numm(4,s2: 'hello',s3:'world');
 //     return (num1 * factorial(num1-1));
 //   }
 // }
-
 
 
 // class fact{
@@ -277,8 +281,17 @@ numm(4,s2: 'hello',s3:'world');
 
 
 
-void numm(int s1,{s2,s3}){
-  print(s1);
-  print(s2);
-  print(s3);
-}
+// void numm(int s1,{s2,s3}){
+//   print(s1);
+//   print(s2);
+//   print(s3);
+// }
+
+// int factorial(num1){
+//   if(num1<=0){
+//     return 1;
+//   }
+//   else{
+// return (num1*factorial(num1-1));
+//   }
+// }
