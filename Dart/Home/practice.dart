@@ -243,6 +243,8 @@ void main()
 // }
 
 
+numm(4,s2: 'hello');
+numm(4,s2: 'hello',s3:'world');
 
 
 
@@ -272,3 +274,11 @@ void main()
 //     print("FActorial of ${numm} is ${factt}");
 //   }
 // }
+
+
+
+void numm(int s1,{s2,s3}){
+  print(s1);
+  print(s2);
+  print(s3);
+}
