@@ -251,7 +251,12 @@ void main()
 // print(factorial(4));
 
 
+var listt=new List<String>.filled(7, "Hello",growable: true);
+listt.add("Yooo");
+print(listt);
 
+listt.replaceRange(1, 4, ["first","second","third"]);
+print(listt);
 
 
 }
