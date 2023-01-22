@@ -251,14 +251,42 @@ void main()
 // print(factorial(4));
 
 
-var listt=new List<String>.filled(7, "Hello",growable: true);
-listt.add("Yooo");
-print(listt);
+// var listt=new List<String>.filled(7, "Hello",growable: true);
+// listt.add("Yooo");
+// print(listt);
 
-listt.replaceRange(1, 4, ["first","second","third"]);
-print(listt);
+// listt.replaceRange(1, 4, ["first","second","third"]);
+// print(listt);
+
+// Map a1={"first":"kaustubh","Second":"Broly"};
+
+// a1.forEach((k,v) {print("${k}:${v}"); });
+// print(a1);
+// a1["Second"]="Goku";
+// a1["Third"]="Sengarp";
+// print(a1);
 
 
+// var details=new Map();
+
+// details["a1"]=1;
+// details["a2"]=2;
+// details["a3"]=3;
+
+// print(details);
+
+// B b1=new B();
+// b1.cal();
+
+// B b1=new B();
+// b1.data();
+
+
+// C c1=new C();
+// c1.age=18;
+// c1.name="Yelo";
+// c1.ageg();
+// c1.nameg();
 }
 
 // int factorial(num1){
@@ -299,4 +327,45 @@ print(listt);
 //   else{
 // return (num1*factorial(num1-1));
 //   }
+// }
+
+
+// class A{
+// int a=10;
+// }
+
+// class B extends A{
+
+//    int a=20;
+// void cal(){
+//     print("Value of a is ${a}");
+//   print("Value of a is ${super.a}");
+// }
+// }
+
+// class A{
+// var age;
+//   void ageg(){
+//     print("Age:${age}");
+//   }
+// }
+
+// class B{
+//   var name;
+//  void nameg(){
+// print("Name is ${name}");
+//  }
+// }
+
+
+// class C implements A,B{
+// var age,name;
+
+//  void ageg(){
+//   print("The ages ${age}");
+//  }
+
+//  void nameg(){
+//   print("Names is ${name}");
+//  }
 // }
