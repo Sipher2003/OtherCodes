@@ -204,11 +204,14 @@ void main()
 // print("Single  function output is ${list2.single}");
 
 
-final int a=10;
+// final int a=10;
 
-print(a is double);
+// print(a is double);
 
 
+// fact f1=new fact();
+
+// f1.calcfact(4);
 
 
 }
@@ -219,5 +222,20 @@ print(a is double);
 //   }
 //   else{
 //     return (num1 * factorial(num1-1));
+//   }
+// }
+
+
+
+// class fact{
+
+
+//   void calcfact(int numm){
+//   int factt=1;
+//     for(int i=1;i<=numm;i++){
+//       factt=factt*i;
+//     }
+
+//     print("FActorial of ${numm} is ${factt}");
 //   }
 // }
