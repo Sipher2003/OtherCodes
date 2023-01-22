@@ -204,6 +204,13 @@ void main()
 // print("Single  function output is ${list2.single}");
 
 
+final int a=10;
+
+print(a is double);
+
+
+
+
 }
 
 // int factorial(num1){
