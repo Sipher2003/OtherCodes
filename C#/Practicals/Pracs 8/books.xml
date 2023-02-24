@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<bookstore>
+	<book>
+		<name>1984</name>
+		<author>george orwell</author>
+		<price>200</price>
+		<pages>300</pages>
+	</book>
+	<book>
+		<name>Harry Potter</name>
+		<author>J.K. Rowling</author>
+		<price>200</price>
+		<pages>300</pages>
+	</book>
+</bookstore>

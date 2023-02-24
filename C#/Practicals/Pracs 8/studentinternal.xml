@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE students [
+<!ELEMENT students (student+)>
+<!ELEMENT student (id, name, marks)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT marks (#PCDATA)>
+]>
+<students>
+	<student1>
+		<id>1</id>
+		<name>Kurizu</name>
+		<marks>90</marks>
+	</student1>
+	<student2>
+		<id>2</id>
+		<name>Pocky</name>
+		<marks>85</marks>
+	</student2>
+	<student3>
+		<id>3</id>
+		<name>Syeca</name>
+		<marks>93</marks>
+	</student3>
+</students>

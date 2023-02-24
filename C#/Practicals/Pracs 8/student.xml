@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE students SYSTEM "students.dtd">
+<students>
+	<student>
+		<id>1</id>
+		<name>Kurizu</name>
+		<marks>90</marks>
+	</student>
+	<student>
+		<id>2</id>
+		<name>Pocky</name>
+		<marks>85</marks>
+	</student>
+	<student>
+		<id>3</id>
+		<name>Syeca</name>
+		<marks>93</marks>
+	</student>
+</students>
