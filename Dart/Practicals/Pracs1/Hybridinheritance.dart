@@ -14,7 +14,7 @@ class person{
     String name="";
     
     void display(){
-      print("Name is ${name}");
+      print("Name is ${name}");    //can also write $name
     }
   }
   
