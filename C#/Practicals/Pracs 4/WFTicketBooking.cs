@@ -81,7 +81,7 @@ namespace WebApplication5
         <asp:RadioButton ID="RadioButton2" runat="server" GroupName="City" Text="Pune" OnCheckedChanged="RadioButton2_CheckedChanged" AutoPostBack="True" />
         <br />
         <br />
-        <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" AurtoPostBAck="true">
+        <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" AutoPostBack="True">
         </asp:DropDownList>
         <br />
         <br />
