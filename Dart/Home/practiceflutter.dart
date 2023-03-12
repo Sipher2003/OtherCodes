@@ -182,3 +182,123 @@
 //         ));
 //   }
 // }
+
+
+
+
+
+//Routing
+
+// import 'package:flutter/material.dart';
+
+// void main() => runApp(MyApp());
+
+// class MyApp extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       title: "MyApp",
+//       theme: ThemeData(primarySwatch: Colors.orange),
+//       home: Myhomepage(),
+//       // initialRoute: "/",
+//       routes: {
+//         "/home": (context) => Myhomepage(),
+//         "/search": (context) => Mysearchpage(),
+//         "/cart": (context) => Mycartpage()
+//       },
+//     );
+//   }
+// }
+
+// class Myhomepage extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(title: Text("Navigation")),
+//       body: Center(
+//         child: ElevatedButton(
+//             onPressed: () {
+//               Navigator.pushNamed(context, "/search");
+//             },
+//             child: Text("Next")),
+//       ),
+//       bottomNavigationBar: BottomNavigationBar(
+//         currentIndex: 0,
+//         items: [
+//           BottomNavigationBarItem(label: ("home"), icon: Icon(Icons.home)),
+//           BottomNavigationBarItem(label: ("search"), icon: Icon(Icons.search)),
+//           BottomNavigationBarItem(
+//               label: ("cart"), icon: Icon(Icons.shopping_cart)),
+//         ],
+//       ),
+//     );
+//   }
+// }
+
+// class Mysearchpage extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(title: Text("Navigation")),
+//       body: Center(
+//         child: Column(
+//           mainAxisAlignment: MainAxisAlignment.center,
+//           children: [
+//             ElevatedButton(
+//                 onPressed: () {
+//                   Navigator.pushNamed(context, "/cart");
+//                 },
+//                 child: Text("Next")),
+//             SizedBox(height: 10),
+//             ElevatedButton(
+//                 onPressed: () {
+//                   Navigator.pushNamed(context, "/home");
+//                 },
+//                 child: Text("Prev")),
+//           ],
+//         ),
+//       ),
+//       bottomNavigationBar: BottomNavigationBar(
+//         currentIndex: 1,
+//         items: [
+//           BottomNavigationBarItem(label: ("home"), icon: Icon(Icons.home)),
+//           BottomNavigationBarItem(label: ("search"), icon: Icon(Icons.search)),
+//           BottomNavigationBarItem(
+//               label: ("cart"), icon: Icon(Icons.shopping_cart)),
+//         ],
+//       ),
+//     );
+//   }
+// }
+
+// class Mycartpage extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(title: Text("Navigation")),
+//       body: Center(
+//         child: Column(
+//           mainAxisAlignment: MainAxisAlignment.center,
+//           children: [
+//             ElevatedButton(onPressed: () {}, child: Text("Next")),
+//             SizedBox(height: 10),
+//             ElevatedButton(
+//                 onPressed: () {
+//                   Navigator.pushNamed(context, "/search");
+//                 },
+//                 child: Text("Prev")),
+//           ],
+//         ),
+//       ),
+//       bottomNavigationBar: BottomNavigationBar(
+//         currentIndex: 2,
+//         items: [
+//           BottomNavigationBarItem(label: ("home"), icon: Icon(Icons.home)),
+//           BottomNavigationBarItem(label: ("search"), icon: Icon(Icons.search)),
+//           BottomNavigationBarItem(
+//               label: ("cart"), icon: Icon(Icons.shopping_cart)),
+//         ],
+//       ),
+//     );
+//   }
+// }
