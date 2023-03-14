@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Flutter Maps 31011221077'),
+          title: Text('Flutter Maps 31011221008'),
           backgroundColor: Colors.green,
         ),
         body: Stack(
