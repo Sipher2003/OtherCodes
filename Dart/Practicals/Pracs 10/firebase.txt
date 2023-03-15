@@ -1,0 +1,8 @@
+Create a firestore database on firebase website.
+follow the steps on the firebase website and also of this document :https://flutlab.io/docs/android-how-to-use-firebase-in-flutlab
+now go see code
+
+
+
+
+Credits:Nnknoob
