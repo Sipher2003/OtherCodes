@@ -302,3 +302,116 @@
 //     );
 //   }
 // }
+
+
+// simple switch eg to change bgcolor
+// import 'package:flutter/material.dart';
+// import 'package:flutter/widgets.dart';
+
+// void main() => runApp(MyApp());
+
+// class MyApp extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       title: "My app",
+//       theme: ThemeData(primarySwatch: Colors.blue),
+//       home: MyhomePage(),
+//     );
+//   }
+// }
+
+// class MyhomePage extends StatefulWidget {
+//   @override
+//   _MyhomePagestate createState() => _MyhomePagestate();
+// }
+
+// bool switched = false;
+
+// class _MyhomePagestate extends State<MyhomePage> {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       backgroundColor: switched ? Colors.black : Colors.white,
+//       appBar: AppBar(title: Text("Myapp")),
+//       body: Container(
+//         child: Switch(
+//           value: switched,
+//           onChanged: (newval) {
+//             setState(() {
+//               switched = newval;
+//             });
+//           },
+//         ),
+        
+//       ),
+      
+//       floatingActionButton: FloatingActionButton(
+//         elevation: 10,
+//         child: Icon(Icons.add),
+//         onPressed: () {},
+//       ),
+//     );
+//   }
+// }
+
+
+
+
+// Flutter slider
+// import 'package:flutter/material.dart';
+// import 'package:flutter/widgets.dart';
+
+// void main() => runApp(MyApp());
+
+// class MyApp extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       title: "My app",
+//       theme: ThemeData(primarySwatch: Colors.blue),
+//       home: MyhomePage(),
+//     );
+//   }
+// }
+
+// class MyhomePage extends StatefulWidget {
+//   @override
+//   _MyhomePagestate createState() => _MyhomePagestate();
+// }
+
+// double _currentval = 1;
+
+// class _MyhomePagestate extends State<MyhomePage> {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       // backgroundColor: switched ? Colors.black : Colors.white,
+//       appBar: AppBar(title: Text("Myapp")),
+//       body: Container(
+//         child:
+//             Column(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
+//           Slider(
+//               min: 1,
+//               max: 100,
+//               divisions: 10,
+//               value: _currentval,
+//               onChanged: (value) {
+//                 setState(() {
+//                   _currentval = value;
+//                 });
+//               }),
+//           Text(
+//             _currentval.toString(),
+//             style: TextStyle(fontSize: 30),
+//           )
+//         ]),
+//       ),
+//       floatingActionButton: FloatingActionButton(
+//         elevation: 10,
+//         child: Icon(Icons.add),
+//         onPressed: () {},
+//       ),
+//     );
+//   }
+// }
