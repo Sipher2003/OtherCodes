@@ -1,12 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jquery timepass</title>
+    <title>jQuery Select Element by ID</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Highlight element with id mark
+            $("#mark").css("background", "yellow");
+        });
+    </script>
 </head>
+
 <body>
-    
+    <p id="mark">This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <p>This is one more paragraph.</p>
+    <p><strong>Note:</strong> The value of the id attribute must be unique in an HTML document.</p>
 </body>
+
 </html>
