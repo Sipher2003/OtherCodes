@@ -1,16 +1,12 @@
-void main(){
-
-
+void main() {
 // print("hello world");
 // int a=10;
 
 // String plat,abc="Helllo Worrld";
 
-
 // print(a);
 // // print(plat);
 // print(abc);
-
 
 // final a=10;
 
@@ -18,10 +14,8 @@ void main(){
 
 // print("Sum of a and b is ${a+b}");
 
-
 // num a=10;
 // print(a);
-
 
 // String a="Hello";
 // String b="World";
@@ -36,7 +30,6 @@ void main(){
 // for (var hell in a) {
 //   print(hell);
 // }
-
 
 // int num1=30;
 // int num2=20;
@@ -58,28 +51,45 @@ void main(){
 //     print("num3 is greatest");
 //   }
 
-var grade="A";
+// var grade=1;
 
+// switch(grade){
 
-switch(grade){
+// case 1:{
+//   print("100");
+//   break;
+// }
 
-case "A":{
-  print("100");
-  break;
-}
+// case 2:{
+//   print("200");
+//   break;
+// }
 
-case "B":{
-  print("200");
-  break;
-}
+// default:{
+//   print("invald");
+//   break;
+// }
 
-default:{
-  print("invald");
-}
+// int num=5;
+// int a=1;
+// int i=1;
+// while(i<=num){
+//   a*=i;
+//   i++;
+// }
 
+// print(a);
 
-}
+//labels
 
+  // outerloop:for (int i = 1; i <= 3; i++) {
+  //   innerloop:for (int j = 1; j <= 3; j++) {
+  //     print("$i,$j");
+  //     if (i == 2 && j == 2) {
+  //       break outerloop;
+  //     }
+  //   }
+  // }
 
-
+  
 }
