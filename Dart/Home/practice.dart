@@ -1,4 +1,39 @@
-void main() {
+// class A {
+// int age=0;
+
+//  void set stud_age(int age) {
+//  if(age<= 0) {
+//  print("Age should be greater than 0");
+//  } else {
+//  this.age = age;
+//  }
+//  }
+ 
+//  int get stud_age {
+//  return age; 
+//  }
+// } 
+
+
+
+class constructor{
+
+constructor(String name,int age){
+  print("$name,$age");
+}
+
+constructor.details(String address,int sal){
+  print("$sal,$address");
+
+}
+
+}
+
+
+  void main() {
+constructor c1=constructor("Kaustubh", 20);
+constructor c2=constructor.details("Mumbai", 20003);
+
 // print("hello world");
 // int a=10;
 
@@ -82,14 +117,14 @@ void main() {
 
 //labels
 
-  // outerloop:for (int i = 1; i <= 3; i++) {
-  //   innerloop:for (int j = 1; j <= 3; j++) {
-  //     print("$i,$j");
-  //     if (i == 2 && j == 2) {
-  //       break outerloop;
-  //     }
-  //   }
-  // }
+    // outerloop:for (int i = 1; i <= 3; i++) {
+    //   innerloop:for (int j = 1; j <= 3; j++) {
+    //     print("$i,$j");
+    //     if (i == 2 && j == 2) {
+    //       break outerloop;
+    //     }
+    //   }
+    // }
 // test(1,s1: 'hello',s2: 3);
 
 // var abc=List<int>.filled(5, 200,growable: true);
@@ -97,23 +132,16 @@ void main() {
 // abc.replaceRange(2, 4,[100,120]);
 // print(abc);
 
-Map a1={
-"Name":"Kaustubh",
-"Age":19,
-"education":"bca"
-};
+// Map a1={
+// "Name":"Kaustubh",
+// "Age":19,
+// "education":"bca"
+// };
 
-print(a1);
-a1["salary"]=10000;
-print(a1);
-print(a1['Name']);
+// print(a1);
+// a1["salary"]=10000;
+// print(a1);
+// print(a1['Name']);
 
-a1.forEach((key, value) {print("$key,$value");});
-
-}
-
-test(n1,{s1,s2}){
-  print(n1);
-  print(s1);
-  print(s2);
-}
+// a1.forEach((key, value) {print("$key,$value");});
+  }
