@@ -90,6 +90,30 @@ void main() {
   //     }
   //   }
   // }
+// test(1,s1: 'hello',s2: 3);
 
-  
+// var abc=List<int>.filled(5, 200,growable: true);
+// print(abc);
+// abc.replaceRange(2, 4,[100,120]);
+// print(abc);
+
+Map a1={
+"Name":"Kaustubh",
+"Age":19,
+"education":"bca"
+};
+
+print(a1);
+a1["salary"]=10000;
+print(a1);
+print(a1['Name']);
+
+a1.forEach((key, value) {print("$key,$value");});
+
+}
+
+test(n1,{s1,s2}){
+  print(n1);
+  print(s1);
+  print(s2);
 }
