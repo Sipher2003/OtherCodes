@@ -16,23 +16,45 @@
 
 
 
-class constructor{
+// class constructor{
 
-constructor(String name,int age){
-  print("$name,$age");
+// constructor(String name,int age){
+//   print("$name,$age");
+// }
+
+// constructor.details(String address,int sal){
+//   print("$sal,$address");
+
+// }
+
+// }
+class A{
+String name="Hello";
+void display(){
+  print("Name is $name");
+}
 }
 
-constructor.details(String address,int sal){
-  print("$sal,$address");
-
+class B extends A{
+int age=89;
+void display2(){
+  print("Name is $name and age is $age");
+}
 }
 
+class C extends B{
+double salary=4789.90;
+void display3(){
+  print("name is $name age is $age and salary is $salary");
+}
 }
 
+void main(){
+C c1=C();
+c1.display3();
 
-  void main() {
-constructor c1=constructor("Kaustubh", 20);
-constructor c2=constructor.details("Mumbai", 20003);
+
+}
 
 // print("hello world");
 // int a=10;
@@ -144,4 +166,4 @@ constructor c2=constructor.details("Mumbai", 20003);
 // print(a1['Name']);
 
 // a1.forEach((key, value) {print("$key,$value");});
-  }
+  // }
