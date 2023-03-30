@@ -415,3 +415,84 @@
 //     );
 //   }
 // }
+
+
+
+
+
+// Navigating using bottom nav bar
+// import 'package:flutter/material.dart';
+
+// void main() => runApp(MyApp());
+
+// class Bag extends StatelessWidget {
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: Center(child: Text("Bag")),
+//     );
+//   }
+// }
+
+// class Cart extends StatelessWidget {
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: Center(child: Text("cart")),
+//     );
+//   }
+// }
+
+// class Homee extends StatelessWidget {
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: Center(child: Text("Home")),
+//     );
+//   }
+// }
+
+// class MyApp extends StatelessWidget {
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       title: "My app",
+//       theme: ThemeData(primarySwatch: Colors.green),
+//       home: MyHome(),
+//     );
+//   }
+// }
+
+// class MyHome extends StatefulWidget {
+//   @override
+//   MyHomestate createState() => MyHomestate();
+// }
+
+// class MyHomestate extends State<MyHome> {
+//   int _currentIndex = 0;
+//   final List _children = [Homee(), Bag(), Cart()];
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(title: Text("Hello")),
+//       body: _children[_currentIndex],
+//       bottomNavigationBar: BottomNavigationBar(
+//         currentIndex: _currentIndex,
+//         onTap: (index) => setState(() {
+//           _currentIndex = index;
+//         }),
+//         selectedItemColor: Colors.red,
+//         items: [
+//           BottomNavigationBarItem(
+//             icon: Icon(Icons.home),
+//             label: "Home",
+//           ),
+//           BottomNavigationBarItem(icon: Icon(Icons.shopping_bag), label: "Bag"),
+//           BottomNavigationBarItem(
+//               icon: Icon(Icons.shopping_cart), label: "Cart"),
+//         ],
+//       ),
+//     );
+//   }
+// }
+
+
+
+
