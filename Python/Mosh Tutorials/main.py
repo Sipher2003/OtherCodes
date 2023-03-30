@@ -1,0 +1,5 @@
+print("Hello world My name is kaustubh")
+print("This is my first python code")
+print("O----")
+print(" ||||")
+print("*" * 10)
