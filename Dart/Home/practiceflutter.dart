@@ -494,5 +494,81 @@
 // }
 
 
+//dashboard
+// import 'package:flutter/material.dart';
+
+// void main() => runApp(Myapp());
+
+// class Myapp extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       title: "MyApp",
+//       theme: ThemeData(brightness: Brightness.dark),
+//       home: Dashboard(),
+//     );
+//   }
+// }
+
+// class Dashboard extends StatefulWidget {
+//   @override
+//   _DashboardState createState() => _DashboardState();
+// }
+
+// class _DashboardState extends State<Dashboard> {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(title: Text("Dashboard")),
+//       body: Container(
+//         padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 2.0),
+//         color: Colors.grey,
+//         child: GridView.count(
+//           crossAxisCount: 2,
+//           padding: const EdgeInsets.all(15),
+//           children: <Widget>[
+//             makeDashboardItem("Home", Icons.home),
+//             makeDashboardItem("Shoes", Icons.badge),
+//             makeDashboardItem("TRENDING", Icons.trending_up_rounded),
+//             makeDashboardItem("Cart", Icons.shopping_bag),
+//             makeDashboardItem("Offer", Icons.local_offer),
+//             makeDashboardItem("SETTINGS", Icons.settings_applications)
+//           ],
+//         ),
+//       ),
+//     );
+//   }
+
+//   Card makeDashboardItem(String title, IconData icon) {
+//     return Card(
+//       child: Container(
+//         decoration: BoxDecoration(color: Colors.yellow),
+//         child: InkWell(
+//           onTap: () {},
+//           child: Column(children: [
+//             const SizedBox(
+//               height: 50,
+//             ),
+//             Center(
+//                 child: Icon(
+//               icon,
+//               size: 40.0,
+//               color: Colors.black,
+//             )),
+//             Center(
+//               child: Text(
+//                 title,
+//                 style: TextStyle(fontSize: 18, color: Colors.black),
+//               ),
+//             )
+//           ]),
+//         ),
+//       ),
+//     );
+//   }
+// }
+
+
+
 
 
