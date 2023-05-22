@@ -678,3 +678,94 @@
 
 
 
+
+
+
+//NAme and age form 
+// import 'package:flutter/material.dart';
+
+// void main() => runApp(MyApp());
+
+// class MyApp extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       title: 'Hello World',
+//       theme: ThemeData(brightness: Brightness.dark),
+//       home: Myhome(),
+//     );
+//   }
+// }
+
+// class Myhome extends StatefulWidget {
+//   @override
+//   _Myhomestate createState() => _Myhomestate();
+// }
+
+// String name = "";
+// String age = "";
+// final TextEditingController _name = new TextEditingController();
+// final TextEditingController _age = new TextEditingController();
+
+// class _Myhomestate extends State<Myhome> {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//         appBar: AppBar(title: Text("First app")),
+//         body: Center(
+//           child: Column(children: [
+//             // Padding(padding: EdgeInsets.symmetric(vertical: 10)),
+//             SizedBox(
+//               height: 30,
+//             ),
+//             SizedBox(
+//                 width: 250,
+//                 child: Column(
+//                   children: [
+//                     TextField(
+//                       controller: _name,
+//                       decoration: InputDecoration(
+//                           enabledBorder: OutlineInputBorder(
+//                               borderSide:
+//                                   BorderSide(width: 3, color: Colors.yellow)),
+//                           labelText: "Name",
+//                           hintText: "Write name",
+//                           filled: true),
+//                     ),
+//                     SizedBox(
+//                       height: 30,
+//                     ),
+//                     TextField(
+//                       controller: _age,
+//                       decoration: InputDecoration(
+//                           enabledBorder: OutlineInputBorder(
+//                               borderSide:
+//                                   BorderSide(width: 3, color: Colors.yellow)),
+//                           labelText: "Age",
+//                           hintText: "Write age",
+//                           filled: true),
+//                     ),
+//                     SizedBox(
+//                       height: 30,
+//                     ),
+//                     ElevatedButton(
+//                         onPressed: () {
+//                           setState(() {
+//                             name = _name.text;
+//                             age = _age.text;
+//                           });
+//                         },
+//                         child: Text("Submit")),
+//                     SizedBox(
+//                       height: 30,
+//                     ),
+//                     if (name.isNotEmpty && age.isNotEmpty)
+//                       Text("Name is $name and Age is $age"),
+//                   ],
+//                 ))
+//           ]),
+//         ));
+//   }
+// }
+
+
