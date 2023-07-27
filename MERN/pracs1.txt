@@ -1,0 +1,1047 @@
+test> use db
+switched to db db
+db> db.createCollection("products");
+{ ok: 1 }
+db> db.products.insertMany([
+...   {
+...     item: "Product 1",
+...     qty: 10,
+...     tag: ["tag1", "tag2"],
+...     size: { h: 10, w: 5, uom: "cm" },
+...     price: 19.99
+...   },
+...   {
+...     item: "Product 2",
+...     qty: 5,
+...     tag: ["tag2", "tag3"],
+...     size: { h: 15, w: 8, uom: "cm" },
+...     price: 24.99
+...   },
+...   {
+...     item: "Product 3",
+...     qty: 20,
+...     tag: ["tag1", "tag3"],
+...     size: { h: 12, w: 6, uom: "cm" },
+...     price: 14.99
+...   },
+...   {
+...     item: "Product 4",
+...     qty: 8,
+...     tag: ["tag4"],
+...     size: { h: 18, w: 10, uom: "cm" },
+...     price: 29.99
+...   },
+...   {
+...     item: "Product 5",
+...     qty: 15,
+...     tag: ["tag1", "tag5"],
+...     size: { h: 20, w: 12, uom: "cm" },
+...     price: 39.99
+...   }
+... ]);
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("64c21fed4fc8e1162d037366"),
+    '1': ObjectId("64c21fed4fc8e1162d037367"),
+    '2': ObjectId("64c21fed4fc8e1162d037368"),
+    '3': ObjectId("64c21fed4fc8e1162d037369"),
+    '4': ObjectId("64c21fed4fc8e1162d03736a")
+  }
+}
+db> db.products.insertMany([
+...   {
+...     item: "Product 1",
+...     qty: 10,
+...     tag: "Samsung",
+...     size: { h: 10, w: 5, uom: "cm" },
+...     price: 19.99
+...   },
+...   {
+...     item: "Product 2",
+...     qty: 5,
+...     tag: "Nokia",
+...     size: { h: 15, w: 8, uom: "cm" },
+...     price: 24.99
+...   },
+...   {
+...     item: "Product 3",
+...     qty: 20,
+...     tag: "Samsung",
+...     size: { h: 12, w: 6, uom: "cm" },
+...     price: 14.99
+...   },
+...   {
+...     item: "Product 4",
+...     qty: 8,
+...     tag: "Apple",
+...     size: { h: 18, w: 10, uom: "cm" },
+...     price: 29.99
+...   },
+...   {
+...     item: "Product 5",
+...     qty: 15,
+...     tag: "Sony",
+...     size: { h: 20, w: 12, uom: "cm" },
+...     price: 39.99
+...   }
+... ]);
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("64c220934fc8e1162d03736b"),
+    '1': ObjectId("64c220934fc8e1162d03736c"),
+    '2': ObjectId("64c220934fc8e1162d03736d"),
+    '3': ObjectId("64c220934fc8e1162d03736e"),
+    '4': ObjectId("64c220934fc8e1162d03736f")
+  }
+}
+db> db.products.find().pretty()
+[
+  {
+    _id: ObjectId("64c220934fc8e1162d03736b"),
+    item: 'Product 1',
+    qty: 10,
+    tag: 'Samsung',
+    size: { h: 10, w: 5, uom: 'cm' },
+    price: 19.99
+  },
+  {
+    _id: ObjectId("64c220934fc8e1162d03736c"),
+    item: 'Product 2',
+    qty: 5,
+    tag: 'Nokia',
+    size: { h: 15, w: 8, uom: 'cm' },
+    price: 24.99
+  },
+  {
+    _id: ObjectId("64c220934fc8e1162d03736d"),
+    item: 'Product 3',
+    qty: 20,
+    tag: 'Samsung',
+    size: { h: 12, w: 6, uom: 'cm' },
+    price: 14.99
+  },
+  {
+    _id: ObjectId("64c220934fc8e1162d03736e"),
+    item: 'Product 4',
+    qty: 8,
+    tag: 'Apple',
+    size: { h: 18, w: 10, uom: 'cm' },
+    price: 29.99
+  },
+  {
+    _id: ObjectId("64c220934fc8e1162d03736f"),
+    item: 'Product 5',
+    qty: 15,
+    tag: 'Sony',
+    size: { h: 20, w: 12, uom: 'cm' },
+    price: 39.99
+  }
+]
+db> db.products.updateOne({tag:"Samsung"},{$set:price:20.00});
+Uncaught:
+SyntaxError: Unexpected token, expected "," (1:49)
+
+> 1 | db.products.updateOne({tag:"Samsung"},{$set:price:20.00});
+    |                                                  ^
+  2 |
+
+db> db.products.updateOne({tag: "Samsung"}, {$set: {price: 20.00}});
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+db> db.products.deleteOne({item:'Product 5'});
+{ acknowledged: true, deletedCount: 1 }
+db> db.showDbs()
+TypeError: db.showDbs is not a function
+db> db
+db
+db> db.products.find({item:"Product 2"},{item:1},{tag:1},{price:1});
+[ { _id: ObjectId("64c220934fc8e1162d03736c"), item: 'Product 2' } ]
+db> db.products.find({ "item": "mobile phone" }, { "item": 1, "tag": 1, "price": 1, "_id": 0 })
+
+db> db.products.find({ "item": "Product 2" }, { "item": 1, "tag": 1, "price": 1, "_id": 0 })
+[ { item: 'Product 2', tag: 'Nokia', price: 24.99 } ]
+db> show collections
+products
+db> use db2
+switched to db db2
+db2> db2.createCollections("transactions");
+ReferenceError: db2 is not defined
+db2> db2.createCollection("transactions");
+ReferenceError: db2 is not defined
+db2> use db
+switched to db db
+db> db.createCollection("transactions");
+{ ok: 1 }
+db> db.transactions.insertMany([{])
+Uncaught:
+SyntaxError: Unexpected token (1:29)
+
+> 1 | db.transactions.insertMany([{])
+    |                              ^
+  2 |
+
+db>  "Id": 100,
+Uncaught:
+SyntaxError: Missing semicolon. (1:5)
+
+> 1 |  "Id": 100,
+    |      ^
+  2 |
+
+db>  "Name": "AAA",
+Uncaught:
+SyntaxError: Missing semicolon. (1:7)
+
+> 1 |  "Name": "AAA",
+    |        ^
+  2 |
+
+db>  "TransactionId": "tran1",
+Uncaught:
+SyntaxError: Missing semicolon. (1:16)
+
+> 1 |  "TransactionId": "tran1",
+    |                 ^
+  2 |
+
+db>  "Transaction": [
+Uncaught:
+SyntaxError: Missing semicolon. (1:14)
+
+> 1 |  "Transaction": [
+    |               ^
+  2 |
+
+db>  {
+...  "ItemId":"a100",
+...  "price": 2000000000
+...  },
+...  {
+...  "ItemId":"a110",
+...  "price": 200
+...  }
+...  ],
+Uncaught:
+SyntaxError: Missing semicolon. (2:9)
+
+  1 |  {
+> 2 |  "ItemId":"a100",
+    |          ^
+  3 |  "price": 2000000000
+  4 |  },
+  5 |  {
+
+db>  "Subscriber": true,
+Uncaught:
+SyntaxError: Missing semicolon. (1:13)
+
+> 1 |  "Subscriber": true,
+    |              ^
+  2 |
+
+db>  "Payment": {
+Uncaught:
+SyntaxError: Missing semicolon. (1:10)
+
+> 1 |  "Payment": {
+    |           ^
+  2 |
+
+db>  "Type": "Credit-Card",
+Uncaught:
+SyntaxError: Missing semicolon. (1:7)
+
+> 1 |  "Type": "Credit-Card",
+    |        ^
+  2 |
+
+db>  "Total": 400,
+Uncaught:
+SyntaxError: Missing semicolon. (1:8)
+
+> 1 |  "Total": 400,
+    |         ^
+  2 |
+
+db>  "Success": true
+Uncaught:
+SyntaxError: Missing semicolon. (1:10)
+
+> 1 |  "Success": true
+    |           ^
+  2 |
+
+db>  },
+Uncaught:
+SyntaxError: Unexpected token (1:1)
+
+> 1 |  },
+    |  ^
+  2 |
+
+db>  "Note": "1st Complete Record"
+Uncaught:
+SyntaxError: Missing semicolon. (1:7)
+
+> 1 |  "Note": "1st Complete Record"
+    |        ^
+  2 |
+
+db> },
+Uncaught:
+SyntaxError: Unexpected token (1:0)
+
+> 1 | },
+    | ^
+  2 |
+
+db> {
+...  "Id": 101,
+...  "Name": "Tom",
+...  "TransactionId": "tran2",
+...  "Transaction": [
+...  {
+...  "ItemId":"a100",
+...  "price": 200
+...  },
+...  {
+...  "ItemId":"a110",
+...  "price": 200
+...  }
+...  ],
+...  "Subscriber": true,
+...  "Payment": {
+...  "Type": "Debit-Card",
+...  "Total": 400,
+...  "Success": true
+...  },
+...  "Note":null
+... },
+... {
+...  "Id": 102,
+...  "Name": "Margaret",
+...  "TransactionId": "tran3",
+...  "Transaction": [
+...  {
+...  "ItemId":"a100",
+...  "price": 200
+...  },
+...  {
+...  "ItemId":"a110",
+...  "price": 200
+...  }
+...  ],
+...  "Subscriber": true,
+...  "Payment": {
+...  "Type": "Credit-Card",
+...  "Total": 400,
+...  "Success": true
+...  }
+... },
+... {
+...  "Id": 103,
+...  "Name": "Dylan",
+...  "TransactionId": "tran4",
+...  "Transaction": [
+...  {
+...  "ItemId":"a100",
+...  "price": 200
+...  },
+...  {
+...  "ItemId":"a110",
+...  "price": 200
+...  }
+...  ],
+...  "Subscriber": true,
+...  "Payment": null,
+...  "Note": "Payment is Null"
+... },
+... {
+...  "Id": 104,
+...  "Name": "Oliver",
+...  "TransactionId": "tran5",
+...  "Transaction": [
+...  {
+...  "ItemId":"a100",
+...  "price": 200
+...  },
+...  {
+...  "ItemId":"a110",
+...  "price": 200
+...  }
+...  ],
+...  "Subscriber": true,
+...  "Payment": {
+...  "Total": 400,
+...  "Success": true
+...  },
+...  "Note": "Payment Type is missing"
+... },
+... {
+...  "Id": 105,
+...  "Name": "Sarah",
+...  "TransactionId": "tran6",
+...  "Transaction": [
+...  {
+...  "ItemId":"a100",
+...  "price": 200
+...  },
+...  {
+...  "ItemId":"a110",
+...  "price": 200
+...  }
+...  ],
+...  "Subscriber": true,
+...  "Note": "Payment is missing"
+... }
+db>
+db.transactions.insertMany([{
+...  "Id": 100,
+...  "Name": "AAA",
+...  "TransactionId": "tran1",
+...  "Transaction": [
+...  {
+...  "ItemId":"a100",
+...  "price": 2000000000
+...  },
+...  {
+...  "ItemId":"a110",
+...  "price": 200
+...  }
+...  ],
+...  "Subscriber": true,
+...  "Payment": {
+...  "Type": "Credit-Card",
+...  "Total": 400,
+...  "Success": true
+...  },
+...  "Note": "1st Complete Record"
+... },
+... {
+...  "Id": 101,
+...  "Name": "Tom",
+...  "TransactionId": "tran2",
+...  "Transaction": [
+...  {
+...  "ItemId":"a100",
+...  "price": 200
+...  },
+...  {
+...  "ItemId":"a110",
+...  "price": 200
+...  }
+...  ],
+...  "Subscriber": true,
+...  "Payment": {
+...  "Type": "Debit-Card",
+...  "Total": 400,
+...  "Success": true
+...  },
+...  "Note":null
+... },
+... {
+...  "Id": 102,
+...  "Name": "Margaret",
+...  "TransactionId": "tran3",
+...  "Transaction": [
+...  {
+...  "ItemId":"a100",
+...  "price": 200
+...  },
+...  {
+...  "ItemId":"a110",
+...  "price": 200
+...  }
+...  ],
+...  "Subscriber": true,
+...  "Payment": {
+...  "Type": "Credit-Card",
+...  "Total": 400,
+...  "Success": true
+...  }
+... },
+... {
+...  "Id": 103,
+...  "Name": "Dylan",
+...  "TransactionId": "tran4",
+...  "Transaction": [
+...  {
+...  "ItemId":"a100",
+...  "price": 200
+...  },
+...  {
+...  "ItemId":"a110",
+...  "price": 200
+...  }
+...  ],
+...  "Subscriber": true,
+...  "Payment": null,
+...  "Note": "Payment is Null"
+... },
+... {
+...  "Id": 104,
+...  "Name": "Oliver",
+...  "TransactionId": "tran5",
+...  "Transaction": [
+...  {
+...  "ItemId":"a100",
+...  "price": 200
+...  },
+...  {
+...  "ItemId":"a110",
+...  "price": 200
+...  }
+...  ],
+...  "Subscriber": true,
+...  "Payment": {
+...  "Total": 400,
+...  "Success": true
+...  },
+...  "Note": "Payment Type is missing"
+... },
+... {
+...  "Id": 105,
+...  "Name": "Sarah",
+...  "TransactionId": "tran6",
+...  "Transaction": [
+...  {
+...  "ItemId":"a100",
+...  "price": 200
+...  },
+...  {
+...  "ItemId":"a110",
+...  "price": 200
+...  }
+...  ],
+...  "Subscriber": true,
+...  "Note": "Payment is missing"
+... }]);
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("64c228c34fc8e1162d037370"),
+    '1': ObjectId("64c228c34fc8e1162d037371"),
+    '2': ObjectId("64c228c34fc8e1162d037372"),
+    '3': ObjectId("64c228c34fc8e1162d037373"),
+    '4': ObjectId("64c228c34fc8e1162d037374"),
+    '5': ObjectId("64c228c34fc8e1162d037375")
+  }
+}
+db> db.transactions.find({name:{$eq:"Tom"}});
+
+
+db> db.transactions.find({'Payment.Total':{$eq:400}});
+[
+  {
+    _id: ObjectId("64c228c34fc8e1162d037370"),
+    Id: 100,
+    Name: 'AAA',
+    TransactionId: 'tran1',
+    Transaction: [
+      { ItemId: 'a100', price: 2000000000 },
+      { ItemId: 'a110', price: 200 }
+    ],
+    Subscriber: true,
+    Payment: { Type: 'Credit-Card', Total: 400, Success: true },
+    Note: '1st Complete Record'
+  },
+  {
+    _id: ObjectId("64c228c34fc8e1162d037371"),
+    Id: 101,
+    Name: 'Tom',
+    TransactionId: 'tran2',
+    Transaction: [ { ItemId: 'a100', price: 200 }, { ItemId: 'a110', price: 200 } ],
+    Subscriber: true,
+    Payment: { Type: 'Debit-Card', Total: 400, Success: true },
+    Note: null
+  },
+  {
+    _id: ObjectId("64c228c34fc8e1162d037372"),
+    Id: 102,
+    Name: 'Margaret',
+    TransactionId: 'tran3',
+    Transaction: [ { ItemId: 'a100', price: 200 }, { ItemId: 'a110', price: 200 } ],
+    Subscriber: true,
+    Payment: { Type: 'Credit-Card', Total: 400, Success: true }
+  },
+  {
+    _id: ObjectId("64c228c34fc8e1162d037374"),
+    Id: 104,
+    Name: 'Oliver',
+    TransactionId: 'tran5',
+    Transaction: [ { ItemId: 'a100', price: 200 }, { ItemId: 'a110', price: 200 } ],
+    Subscriber: true,
+    Payment: { Total: 400, Success: true },
+    Note: 'Payment Type is missing'
+  }
+]
+db> db.transactions.find({Name:"Tom"},{}).pretty();
+[
+  {
+    _id: ObjectId("64c228c34fc8e1162d037371"),
+    Id: 101,
+    Name: 'Tom',
+    TransactionId: 'tran2',
+    Transaction: [ { ItemId: 'a100', price: 200 }, { ItemId: 'a110', price: 200 } ],
+    Subscriber: true,
+    Payment: { Type: 'Debit-Card', Total: 400, Success: true },
+    Note: null
+  }
+]
+db> db.transactions.find({"Transaction.price":{$gt:400}});
+[
+  {
+    _id: ObjectId("64c228c34fc8e1162d037370"),
+    Id: 100,
+    Name: 'AAA',
+    TransactionId: 'tran1',
+    Transaction: [
+      { ItemId: 'a100', price: 2000000000 },
+      { ItemId: 'a110', price: 200 }
+    ],
+    Subscriber: true,
+    Payment: { Type: 'Credit-Card', Total: 400, Success: true },
+    Note: '1st Complete Record'
+  }
+]
+
+
+db> db.transactions.find({ $or: [{ Note: null }, { Note: { $exists: false } }] });
+[
+  {
+    _id: ObjectId("64c228c34fc8e1162d037370"),
+    Id: 100,
+    Name: 'AAA',
+    TransactionId: 'tran1',
+    Transaction: [
+      { ItemId: 'a100', price: 2000000000 },
+      { ItemId: 'a110', price: 200 }
+    ],
+    Subscriber: true,
+    Payment: { Type: 'Credit-Card', Total: 400, Success: true },
+    Note: '1st Complete Record'
+  },
+  {
+    _id: ObjectId("64c228c34fc8e1162d037371"),
+    Id: 101,
+    Name: 'Tom',
+    TransactionId: 'tran2',
+    Transaction: [ { ItemId: 'a100', price: 200 }, { ItemId: 'a110', price: 200 } ],
+    Subscriber: true,
+    Payment: { Type: 'Debit-Card', Total: 400, Success: true },
+    Note: null
+  },
+
+
+db.createCollection("restauraunt");
+{ ok: 1 }
+... {
+...  "address": {
+...  "building": "1007",
+...  "coord": [ -73.856077, 40.848447 ],
+...  "street": "Morris Park Ave",
+...  "zipcode": "10462"
+...  },
+...  "borough": "Bronx",
+...  "cuisine": "Bakery",
+...  "grades": [
+...  { "date": { "$date": 1393804800000 }, "grade": "A", "score": 2 },
+...  { "date": { "$date": 1378857600000 }, "grade": "A", "score": 6 },
+...
+...  ],
+...  "name": "Morris Park Bake Shop",
+...  "restaurant_id": "30075445"
+... },
+... {
+...  "address": {
+...  "building": "60",
+...  "coord": [ 80.077, -45.87 ],
+...  "street": "Ambedkar Street",
+...  "zipcode": "4087"
+...  },
+...  "borough": "Silver",
+...  "cuisine": "Continental",
+...  "grades": [
+...  { "date": { "$date": 1393804800000 }, "grade": "A", "score": 6 }
+...
+...  ],
+...  "name": "Continent",
+...  "restaurant_id": "30075446"
+... },
+... {
+...  "address": {
+...  "building": "601",
+...  "coord": [ 45, -45.87 ],
+...  "street": "Highway",
+...  "zipcode": "5562"
+...  },
+...  "borough": "Bronx",
+...  "cuisine": "Asian",
+...  "grades": [
+...  { "date": { "$date": 1358985600000 }, "grade": "A", "score": 10 },
+...  { "date": { "$date": 1378857600000 }, "grade": "A", "score": 12 }
+...
+...  ],
+...  "name": "Trixy",
+...  "restaurant_id": "30075447"
+... },
+... {
+...  "address": {
+...  "building": "1151",
+...  "coord": [ -22.876, -12 ],
+...  "street": "Park Avenue",
+...  "zipcode": "1234"
+...  },
+...  "borough": "Golden",
+...  "cuisine": "Fusion",
+...  "grades": [
+...  { "date": { "$date": 1322006400000 }, "grade": "A", "score": 9 },
+...  { "date": { "$date": 1299715200000 }, "grade": "B", "score": 14 }
+...  ],
+...  "name": "Lalta Restraunt",
+...  "restaurant_id": "30075448"
+... },
+... {
+...  "address": {
+...  "building": "6014",
+...  "coord": [ -12.345, -45.87 ],
+...  "street": "Road 4",
+...  "zipcode": "5522"
+...  },
+...  "borough": "Bronx",
+...  "cuisine": "Indian",
+...  "grades": [
+...  { "date": { "$date": 1393804800000 }, "grade": "A", "score": 10 }
+...  ],
+...  "name": "MiFavorito",
+...  "restaurant_id": "30075449"
+... }
+... ]);
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("64c230a44fc8e1162d037376"),
+    '1': ObjectId("64c230a44fc8e1162d037377"),
+    '2': ObjectId("64c230a44fc8e1162d037378"),
+    '3': ObjectId("64c230a44fc8e1162d037379"),
+    '4': ObjectId("64c230a44fc8e1162d03737a")
+  }
+}
+db> db.restauraunt.find({}).pretty();
+[
+  {
+    _id: ObjectId("64c230a44fc8e1162d037376"),
+    address: {
+      building: '1007',
+      coord: [ -73.856077, 40.848447 ],
+      street: 'Morris Park Ave',
+      zipcode: '10462'
+    },
+    borough: 'Bronx',
+    cuisine: 'Bakery',
+    grades: [
+      { date: { '$date': 1393804800000 }, grade: 'A', score: 2 },
+      { date: { '$date': 1378857600000 }, grade: 'A', score: 6 }
+    ],
+    name: 'Morris Park Bake Shop',
+    restaurant_id: '30075445'
+  },
+  {
+    _id: ObjectId("64c230a44fc8e1162d037377"),
+    address: {
+      building: '60',
+      coord: [ 80.077, -45.87 ],
+      street: 'Ambedkar Street',
+      zipcode: '4087'
+    },
+    borough: 'Silver',
+    cuisine: 'Continental',
+    grades: [ { date: { '$date': 1393804800000 }, grade: 'A', score: 6 } ],
+    name: 'Continent',
+    restaurant_id: '30075446'
+  },
+  {
+    _id: ObjectId("64c230a44fc8e1162d037378"),
+    address: {
+      building: '601',
+      coord: [ 45, -45.87 ],
+      street: 'Highway',
+      zipcode: '5562'
+    },
+    borough: 'Bronx',
+    cuisine: 'Asian',
+    grades: [
+      { date: { '$date': 1358985600000 }, grade: 'A', score: 10 },
+      { date: { '$date': 1378857600000 }, grade: 'A', score: 12 }
+    ],
+    name: 'Trixy',
+    restaurant_id: '30075447'
+  },
+  {
+    _id: ObjectId("64c230a44fc8e1162d037379"),
+    address: {
+      building: '1151',
+      coord: [ -22.876, -12 ],
+      street: 'Park Avenue',
+      zipcode: '1234'
+    },
+    borough: 'Golden',
+    cuisine: 'Fusion',
+    grades: [
+      { date: { '$date': 1322006400000 }, grade: 'A', score: 9 },
+      { date: { '$date': 1299715200000 }, grade: 'B', score: 14 }
+    ],
+    name: 'Lalta Restraunt',
+    restaurant_id: '30075448'
+  },
+  {
+    _id: ObjectId("64c230a44fc8e1162d03737a"),
+    address: {
+      building: '6014',
+      coord: [ -12.345, -45.87 ],
+      street: 'Road 4',
+      zipcode: '5522'
+    },
+    borough: 'Bronx',
+    cuisine: 'Indian',
+    grades: [ { date: { '$date': 1393804800000 }, grade: 'A', score: 10 } ],
+    name: 'MiFavorito',
+    restaurant_id: '30075449'
+  }
+]
+db> db.restaurant.find({}, { restaurant_id: 1, name: 1, borough: 1, cuisine: 1 });
+
+db> db.restaurant.find({}, { restaurant_id: 1, name: 1, borough: 1, cuisine: 1 });
+
+db> db.restauraunt.find({}, { restaurant_id: 1, name: 1, borough: 1, cuisine: 1 });
+[
+  {
+    _id: ObjectId("64c230a44fc8e1162d037376"),
+    borough: 'Bronx',
+    cuisine: 'Bakery',
+    name: 'Morris Park Bake Shop',
+    restaurant_id: '30075445'
+  },
+  {
+    _id: ObjectId("64c230a44fc8e1162d037377"),
+    borough: 'Silver',
+    cuisine: 'Continental',
+    name: 'Continent',
+    restaurant_id: '30075446'
+  },
+  {
+    _id: ObjectId("64c230a44fc8e1162d037378"),
+    borough: 'Bronx',
+    cuisine: 'Asian',
+    name: 'Trixy',
+    restaurant_id: '30075447'
+  },
+  {
+    _id: ObjectId("64c230a44fc8e1162d037379"),
+    borough: 'Golden',
+    cuisine: 'Fusion',
+    name: 'Lalta Restraunt',
+    restaurant_id: '30075448'
+  },
+  {
+    _id: ObjectId("64c230a44fc8e1162d03737a"),
+    borough: 'Bronx',
+    cuisine: 'Indian',
+    name: 'MiFavorito',
+    restaurant_id: '30075449'
+  }
+]
+db> ]);
+Uncaught:
+SyntaxError: Unexpected token (1:0)
+    borough: 'Bronx',
+> 1 | ]); 'Morris Park Bake Shop',
+    | ^taurant_id: '30075445'
+  2 |
+  { borough: 'Silver', name: 'Continent', restaurant_id: '30075446' },
+db> db.restauraunt.find({ borough: "Bronx" }).limit(2);
+[ {
+  { borough: 'Golden',
+    _id: ObjectId("64c230a44fc8e1162d037376"),
+    address: {_id: '30075448'
+      building: '1007',
+      coord: [ -73.856077, 40.848447 ],', restaurant_id: '30075449' }
+      street: 'Morris Park Ave',
+      zipcode: '10462'
+    },
+    borough: 'Bronx',
+    cuisine: 'Bakery',
+    grades: [
+      { date: { '$date': 1393804800000 }, grade: 'A', score: 2 },
+      { date: { '$date': 1378857600000 }, grade: 'A', score: 6 }
+    ],
+    name: 'Morris Park Bake Shop',
+    restaurant_id: '30075445'
+  },
+  {
+    _id: ObjectId("64c230a44fc8e1162d037378"),
+    address: {
+      building: '601',
+      coord: [ 45, -45.87 ],
+      street: 'Highway',
+      zipcode: '5562'
+    },
+    borough: 'Bronx',
+    cuisine: 'Asian',
+    grades: [
+      { date: { '$date': 1358985600000 }, grade: 'A', score: 10 },
+      { date: { '$date': 1378857600000 }, grade: 'A', score: 12 }
+    ],
+    name: 'Trixy',
+    restaurant_id: '30075447'
+  }
+]
+
+
+
+db.restauraunt.find({ "grades.score": { $gt: 10 } });
+[
+  {
+    _id: ObjectId("64c230a44fc8e1162d037378"),
+    address: {
+      building: '601',
+      coord: [ 45, -45.87 ],
+      street: 'Highway',
+      zipcode: '5562'
+    },
+    borough: 'Bronx',
+    cuisine: 'Asian',
+    grades: [
+      { date: { '$date': 1358985600000 }, grade: 'A', score: 10 },
+      { date: { '$date': 1378857600000 }, grade: 'A', score: 12 }
+    ],
+    name: 'Trixy',
+    restaurant_id: '30075447'
+  },
+  {
+    _id: ObjectId("64c230a44fc8e1162d037379"),
+    address: {
+      building: '1151',
+      coord: [ -22.876, -12 ],
+      street: 'Park Avenue',
+      zipcode: '1234'
+    },
+    borough: 'Golden',
+    cuisine: 'Fusion',
+    grades: [
+      { date: { '$date': 1322006400000 }, grade: 'A', score: 9 },
+      { date: { '$date': 1299715200000 }, grade: 'B', score: 14 }
+    ],
+    name: 'Lalta Restraunt',
+    restaurant_id: '30075448'
+  }
+]
+db> db.restauraunt.find({ "grades.score": { $gt: 5, $lt: 10 } });
+[
+  {
+    _id: ObjectId("64c230a44fc8e1162d037376"),
+    address: {
+      building: '1007',
+      coord: [ -73.856077, 40.848447 ],
+      street: 'Morris Park Ave',
+      zipcode: '10462'
+    },
+    borough: 'Bronx',
+    cuisine: 'Bakery',
+    grades: [
+      { date: { '$date': 1393804800000 }, grade: 'A', score: 2 },
+      { date: { '$date': 1378857600000 }, grade: 'A', score: 6 }
+    ],
+    name: 'Morris Park Bake Shop',
+    restaurant_id: '30075445'
+  },
+  {
+    _id: ObjectId("64c230a44fc8e1162d037377"),
+    address: {
+      building: '60',
+      coord: [ 80.077, -45.87 ],
+      street: 'Ambedkar Street',
+      zipcode: '4087'
+    },
+    borough: 'Silver',
+    cuisine: 'Continental',
+    grades: [ { date: { '$date': 1393804800000 }, grade: 'A', score: 6 } ],
+    name: 'Continent',
+    restaurant_id: '30075446'
+  },
+  {
+    _id: ObjectId("64c230a44fc8e1162d037379"),
+    address: {
+      building: '1151',
+      coord: [ -22.876, -12 ],
+      street: 'Park Avenue',
+      zipcode: '1234'
+    },
+    borough: 'Golden',
+    cuisine: 'Fusion',
+    grades: [
+      { date: { '$date': 1322006400000 }, grade: 'A', score: 9 },
+      { date: { '$date': 1299715200000 }, grade: 'B', score: 14 }
+    ],
+    name: 'Lalta Restraunt',
+    restaurant_id: '30075448'
+  }
+]
+db> db.restauraunt.find({ "grades.score": { $gt: 5, $lt: 10 } });
+[
+  {
+    _id: ObjectId("64c230a44fc8e1162d037376"),
+    address: {
+      building: '1007',
+      coord: [ -73.856077, 40.848447 ],
+      street: 'Morris Park Ave',
+      zipcode: '10462'
+    },
+    borough: 'Bronx',
+    cuisine: 'Bakery',
+    grades: [
+      { date: { '$date': 1393804800000 }, grade: 'A', score: 2 },
+      { date: { '$date': 1378857600000 }, grade: 'A', score: 6 }
+    ],
+    name: 'Morris Park Bake Shop',
+    restaurant_id: '30075445'
+  },
+  {
+    _id: ObjectId("64c230a44fc8e1162d037377"),
+    address: {
+      building: '60',
+      coord: [ 80.077, -45.87 ],
+      street: 'Ambedkar Street',
+      zipcode: '4087'
+    },
+    borough: 'Silver',
+    cuisine: 'Continental',
+    grades: [ { date: { '$date': 1393804800000 }, grade: 'A', score: 6 } ],
+    name: 'Continent',
+    restaurant_id: '30075446'
+  },
+  {
+    _id: ObjectId("64c230a44fc8e1162d037379"),
+    address: {
+      building: '1151',
+      coord: [ -22.876, -12 ],
+      street: 'Park Avenue',
+      zipcode: '1234'
+    },
+    borough: 'Golden',
+    cuisine: 'Fusion',
+    grades: [
+      { date: { '$date': 1322006400000 }, grade: 'A', score: 9 },
+      { date: { '$date': 1299715200000 }, grade: 'B', score: 14 }
+    ],
+    name: 'Lalta Restraunt',
+    restaurant_id: '30075448'
+  }
+]
