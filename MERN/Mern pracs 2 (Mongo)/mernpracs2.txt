@@ -1,0 +1,470 @@
+1)Display first 2 reastauraunts in brough bronx
+-> )
+db.restauraunt.find({"borough": "Bronx"}).limit(2).pretty();
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13824"),
+        "address" : {
+                "building" : "1007",
+                "coord" : [
+                        -73.856077,
+                        40.848447
+                ],
+                "street" : "Morris Park Ave",
+                "zipcode" : "10462"
+        },
+        "borough" : "Bronx",
+        "cuisine" : "Bakery",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1393804800000
+                        },
+                        "grade" : "A",
+                        "score" : 2
+                },
+                {
+                        "date" : {
+                                "$date" : 1378857600000
+                        },
+                        "grade" : "A",
+                        "score" : 6
+                }
+        ],
+        "name" : "Morris Park Bake Shop",
+        "restaurant_id" : "30075445"
+}
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13826"),
+        "address" : {
+                "building" : "601",
+                "coord" : [
+                        45,
+                        -45.87
+                ],
+                "street" : "Highway",
+                "zipcode" : "5562"
+        },
+        "borough" : "Bronx",
+        "cuisine" : "Asian",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1358985600000
+                        },
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : {
+                                "$date" : 1378857600000
+                        },
+                        "grade" : "A",
+                        "score" : 12
+                }
+        ],
+        "name" : "Trixy",
+        "restaurant_id" : "30075447"
+}
+
+
+2) Display forst 2 restauraunts after skipping forst in brough bronx.
+->) db.restauraunt.find({"borough": "Bronx"}).skip(1).pretty();
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13826"),
+        "address" : {
+                "building" : "601",
+                "coord" : [
+                        45,
+                        -45.87
+                ],
+                "street" : "Highway",
+                "zipcode" : "5562"
+        },
+        "borough" : "Bronx",
+        "cuisine" : "Asian",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1358985600000
+                        },
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : {
+                                "$date" : 1378857600000
+                        },
+                        "grade" : "A",
+                        "score" : 12
+                }
+        ],
+        "name" : "Trixy",
+        "restaurant_id" : "30075447"
+}
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13828"),
+        "address" : {
+                "building" : "6014",
+                "coord" : [
+                        -12.345,
+                        -45.87
+                ],
+                "street" : "Road 4",
+                "zipcode" : "5522"
+        },
+        "borough" : "Bronx",
+        "cuisine" : "Indian",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1393804800000
+                        },
+                        "grade" : "A",
+                        "score" : 10
+                }
+        ],
+        "name" : "MiFavorito",
+        "restaurant_id" : "30075449"
+}
+
+3) query to find restauraunts which has latitude less than -45
+->)
+db.restauraunt.find({'address.coord.1':{$lt:-45}}).pretty();
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13825"),
+        "address" : {
+                "building" : "60",
+                "coord" : [
+                        80.077,
+                        -45.87
+                ],
+                "street" : "Ambedkar Street",
+                "zipcode" : "4087"
+        },
+        "borough" : "Silver",
+        "cuisine" : "Continental",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1393804800000
+                        },
+                        "grade" : "A",
+                        "score" : 6
+                }
+        ],
+        "name" : "Continent",
+        "restaurant_id" : "30075446"
+}
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13826"),
+        "address" : {
+                "building" : "601",
+                "coord" : [
+                        45,
+                        -45.87
+                ],
+                "street" : "Highway",
+                "zipcode" : "5562"
+        },
+        "borough" : "Bronx",
+        "cuisine" : "Asian",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1358985600000
+                        },
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : {
+                                "$date" : 1378857600000
+                        },
+                        "grade" : "A",
+                        "score" : 12
+                }
+        ],
+        "name" : "Trixy",
+        "restaurant_id" : "30075447"
+}
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13828"),
+        "address" : {
+                "building" : "6014",
+                "coord" : [
+                        -12.345,
+                        -45.87
+                ],
+                "street" : "Road 4",
+                "zipcode" : "5522"
+        },
+        "borough" : "Bronx",
+        "cuisine" : "Indian",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1393804800000
+                        },
+                        "grade" : "A",
+                        "score" : 10
+                }
+        ],
+        "name" : "MiFavorito",
+        "restaurant_id" : "30075449"
+}
+
+
+4)find restauraunt that dont have cusine bakery, score gt 10, latitute lt 15
+->)
+db.restauraunt.find({$and:[{cusine:{$ne:"Bakery"}},{"grades.score":{$gt:10}},{"address.coord.1":{$lt:15}}]}).pretty();
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13826"),
+        "address" : {
+                "building" : "601",
+                "coord" : [
+                        45,
+                        -45.87
+                ],
+                "street" : "Highway",
+                "zipcode" : "5562"
+        },
+        "borough" : "Bronx",
+        "cuisine" : "Asian",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1358985600000
+                        },
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : {
+                                "$date" : 1378857600000
+                        },
+                        "grade" : "A",
+                        "score" : 12
+                }
+        ],
+        "name" : "Trixy",
+        "restaurant_id" : "30075447"
+}
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13827"),
+        "address" : {
+                "building" : "1151",
+                "coord" : [
+                        -22.876,
+                        -12
+                ],
+                "street" : "Park Avenue",
+                "zipcode" : "1234"
+        },
+        "borough" : "Golden",
+        "cuisine" : "Fusion",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1322006400000
+                        },
+                        "grade" : "A",
+                        "score" : 9
+                },
+                {
+                        "date" : {
+                                "$date" : 1299715200000
+                        },
+                        "grade" : "B",
+                        "score" : 14
+                }
+        ],
+        "name" : "Lalta Restraunt",
+        "restaurant_id" : "30075448"
+}
+
+5)find restauraunt that dont have cusine bakery, score gt 10, longitude lt 10
+->) db.restauraunt.find({$and:[{cusine:{$ne:"Bakery"}},{"grades.score":{$gt:10}},{"address.coord.0":{$lt:10}}]}).pretty();
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13827"),
+        "address" : {
+                "building" : "1151",
+                "coord" : [
+                        -22.876,
+                        -12
+                ],
+                "street" : "Park Avenue",
+                "zipcode" : "1234"
+        },
+        "borough" : "Golden",
+        "cuisine" : "Fusion",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1322006400000
+                        },
+                        "grade" : "A",
+                        "score" : 9
+                },
+                {
+                        "date" : {
+                                "$date" : 1299715200000
+                        },
+                        "grade" : "B",
+                        "score" : 14
+                }
+        ],
+        "name" : "Lalta Restraunt",
+        "restaurant_id" : "30075448"
+}
+6)find rest that dont prep cusine bakery,grade point A, dont belong to brough bronx in descending
+->)db.restauraunt.find({$and:[{cusine:{$ne:"Bakery"}},{"grades.grade":{$eq:"A"}},{borough:{$ne:"Bronx"}}]}).sort({cusine:-1}).pretty();
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13825"),
+        "address" : {
+                "building" : "60",
+                "coord" : [
+                        80.077,
+                        -45.87
+                ],
+                "street" : "Ambedkar Street",
+                "zipcode" : "4087"
+        },
+        "borough" : "Silver",
+        "cuisine" : "Continental",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1393804800000
+                        },
+                        "grade" : "A",
+                        "score" : 6
+                }
+        ],
+        "name" : "Continent",
+        "restaurant_id" : "30075446"
+}
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13827"),
+        "address" : {
+                "building" : "1151",
+                "coord" : [
+                        -22.876,
+                        -12
+                ],
+                "street" : "Park Avenue",
+                "zipcode" : "1234"
+        },
+        "borough" : "Golden",
+        "cuisine" : "Fusion",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1322006400000
+                        },
+                        "grade" : "A",
+                        "score" : 9
+                },
+                {
+                        "date" : {
+                                "$date" : 1299715200000
+                        },
+                        "grade" : "B",
+                        "score" : 14
+                }
+        ],
+        "name" : "Lalta Restraunt",
+        "restaurant_id" : "30075448"
+}
+
+7) query whose res name starts with con
+->)db.restauraunt.find({name:{$regex:"^Con",$options:"m"}},{restaurant_id:1,name:1,borough:1,cusine:1}).pretty();
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13825"),
+        "borough" : "Silver",
+        "name" : "Continent",
+        "restaurant_id" : "30075446"
+}
+
+8)query whose res name ends with hop
+->)db.restauraunt.find({name:{$regex:"hop$",$options:"m"}},{restaurant_id:1,name:1,borough:1,cusine:1}).pretty();
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13824"),
+        "borough" : "Bronx",
+        "name" : "Morris Park Bake Shop",
+        "restaurant_id" : "30075445"
+}
+
+9) query whose res name has alt somewhere.
+->) 
+db.restauraunt.find({name:{$regex:"alt",$options:"i"}},{restaurant_id:1,name:1,borough:1,cusine:1}).pretty();
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13827"),
+        "borough" : "Golden",
+        "name" : "Lalta Restraunt",
+        "restaurant_id" : "30075448"
+}
+
+10)mongo db query to find restraunt which belong to bronx and have cusine either indian or asian
+->)
+db.restauraunt.find({$and:[{borough:{$eq:"Bronx"}},{$or:[{cuisine:{$eq:"Asian"}},{cuisine:{$eq:"Asian"}}]}]}).pretty();
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13826"),
+        "address" : {
+                "building" : "601",
+                "coord" : [
+                        45,
+                        -45.87
+                ],
+                "street" : "Highway",
+                "zipcode" : "5562"
+        },
+        "borough" : "Bronx",
+        "cuisine" : "Asian",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1358985600000
+                        },
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : {
+                                "$date" : 1378857600000
+                        },
+                        "grade" : "A",
+                        "score" : 12
+                }
+        ],
+        "name" : "Trixy",
+        "restaurant_id" : "30075447"
+}
+
+11) restraunt that belong to borough bronx and  golden.
+->)
+db.restauraunt.find({borough:{$in:["Bronx","Golden"]}},{restaurant_id:1,name:1,borough:1,cusine:1}).pretty();
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13824"),
+        "borough" : "Bronx",
+        "name" : "Morris Park Bake Shop",
+        "restaurant_id" : "30075445"
+}
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13826"),
+        "borough" : "Bronx",
+        "name" : "Trixy",
+        "restaurant_id" : "30075447"
+}
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13827"),
+        "borough" : "Golden",
+        "name" : "Lalta Restraunt",
+        "restaurant_id" : "30075448"
+}
+{
+        "_id" : ObjectId("64cb246cfe99f6b17dd13828"),
+        "borough" : "Bronx",
+        "name" : "MiFavorito",
+        "restaurant_id" : "30075449"
+}
+
