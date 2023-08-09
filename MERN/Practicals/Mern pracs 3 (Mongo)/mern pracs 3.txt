@@ -1,0 +1,29 @@
+15)find for restraunt that prepare dish except Asian and Chinese and starts with letter Mi
+->)db.restauraunt.find({$and:[{name:{$regex:"^Mi",$options:"m"}},{$nor:[{cuisine:"Asian"},{cuisine:"Chinese"}]}]}).pretty();
+
+16)find for restauraunt where where 2nd element of coord is gt-52, lt-42
+->)db.restauraunt.find({$and:[{'address.coord.1':{$lt:-42}},{'address.coord.1':{$gte:-52}}]}).pretty();
+
+17)restaurnt sort in ascending order by name
+-> )db.restauraunt.find({}).sort({"name":1}).pretty();
+
+18)restaurnt sort in descending order by name
+->)db.restauraunt.find({}).sort({"name":1}).pretty();
+
+19)name in ascending order and cuisine and borough in descending order.
+->)db.restauraunt.find({}).sort({"name":1,"cuisine":-1,"borough":-1}).pretty();
+
+20)query to know whether all adresss contains street or not.
+->)
+
+21)query which will select all docs in restraunt collection where the coord field is double.
+->)
+
+22)query to show restraunts that display 0 after dividing score by 5.(use $mod)
+->)db.restauraunt.find({"grades.score":{$mod:[5,0]}}).pretty()
+
+23)disp name,borough which contain "Tri" as start of the name.
+->)db.restauraunt.find({name:{$regex:"^Tri",$options:"m"}},{"name":1,"borough":1,"address":1}).pretty();
+
+24)disp name,borough which contain "vor" somewhere in the name.
+->)db.restauraunt.find({name:{$regex:".*vor"}},{"name":1,"borough":1,"address":1}).pretty();
