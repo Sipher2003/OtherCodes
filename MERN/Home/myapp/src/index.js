@@ -7,10 +7,11 @@ import First from './components/class';
 import Courses from './components/courses';
 
 
-const rootElement = (
-  <div>
-   <App />
-  </div>
-);
+// const rootElement = (
 
-ReactDOM.render(rootElement, document.getElementById('root'));
+// );
+
+ReactDOM.render(
+  <div>
+    <App />
+  </div>, document.getElementById('root'));
