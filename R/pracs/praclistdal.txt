@@ -1,0 +1,2 @@
+DAL Lab FYMCA
+prac 1: Install R studio and explore the basic operations in R
