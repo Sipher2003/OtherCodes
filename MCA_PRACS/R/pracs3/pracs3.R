@@ -1,5 +1,5 @@
 #setwd and getwd functions
-setwd("D:/R pracs fymca")
+setwd("C:/Kaustubh/Github/OtherCodes/MCA_PRACS/R/pracs3")
 getwd
 
 
