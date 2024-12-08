@@ -1,4 +1,4 @@
-package Practical_1;
+
 
 // 1. Create an ArrayList of type Interger, add element into it traverse the arraylist and print the elements
 import java.util.ArrayList;
