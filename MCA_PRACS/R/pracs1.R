@@ -245,6 +245,74 @@ ggplot(data.frame(x=data_normal),aes(x))+geom_histogram(aes(y=..density..),bins 
 
 
 
+#binomial distribution
+
+n_trials=10
+prob_success=0.5
+size=1000
+
+
+data_binom=rbinom(size,n_trials,prob_success)
+
+
+ggplot(data.frame(x=data_binom),aes(x))+
+         geom_histogram(bins = 15,colour = "black",fill="lightgreen",alpha=0.7)
+
+
+
+#univariate 
+
+ggplot(data.frame(x=data_normal),aes(x))+
+  geom_boxplot(color="purple",fill="lightblue")
+
+ggplot(data.frame(x=data_normal),aes(x))+
+  geom_histogram(bins=30,color="purple",fill="lightblue")
+
+
+#bivariate analysis
+
+set.seed(123)
+x=rnorm(100)
+y=2*x+rnorm(100)
+
+
+ggplot(data.frame(x,y),aes(x=x,y=y))+
+  geom_point(color="blue",fill="pink")
+
+corr=cor(x,y)
+corr
+ggcorrplot(cor,type =  "lower",colors = c("red","blue","white"))
+
+
+#linear regression
+set.seed(123)
+x=rnorm(100)
+y=2*x+rnorm(100)
+
+ggplot(data.frame(x,y),aes(x=x,y=y))+
+  geom_point(color="blue")+
+  geom_smooth(method = "lm",color="red")
+
+
+
+model=lm(y~x)
+data=data.frame(x=x,y=y,residuals=residuals(model))
+
+ggplot(data,aes(x=x,y=residuals))+
+  geom_point(color="blue")+
+  geom_hline(yintercept = 0,linetype="dashed")
+
+
+
+data$predicted=predict(model)
+
+ggplot(data,aes(x=predicted,y=y))+
+  geom_point(color="blue")+
+  geom_abline(slope=1,intercept = 0,color="red")
+
+
+  
+  
 #apriori algorithm
 
 library(arules)
@@ -257,3 +325,43 @@ rules=apriori(Groceries,parameter = list(supp=0.01,conf=0.2))
 inspect(rules[1:10])
 
 arules::itemFrequencyPlot(Groceries,topN=20,col=brewer.pal(8,'Pastel2'),type="relative")
+
+
+#decision tree c50
+
+library(C50)
+
+data("iris")
+
+model_c50=C5.0(Species ~ Sepal.Length+Sepal.Width+Petal.Length+Petal.Width,data=iris)
+
+summary(model_c50)
+
+plot(model_c50)
+
+#dtid3
+library(RWeka)
+
+data("iris")
+
+model_r48=J48(Species ~ Sepal.Length+Sepal.Width+Petal.Length+Petal.Width,data=iris)
+
+summary(model_r48)
+
+plot(model_r48)
+
+#kmeans
+
+data("iris")
+
+data=iris[,-5]
+
+set.seed(123)
+kmmodel=kmeans(data,centers = 3)
+
+print(kmmodel$cluster)
+
+
+ggplot(data,aes(x=Sepal.Length,y=Sepal.Width,colour = factor(kmmodel$cluster)))+
+  geom_point()
+  
