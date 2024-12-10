@@ -14,14 +14,7 @@ class Employee {
 
     }
 
-    // @Override
-    // public String toString() {
-    //     return "Employee" +
-    //             "Id = " + id +
-    //             ", Name = " + name +
-    //             ", Salary = " + salary +
-    //             ' ';
-    // }
+  
 
 }
 
