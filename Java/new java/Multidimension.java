@@ -21,3 +21,13 @@ public class Multidimension {
         }
     }
 }
+
+
+// Dynamically Initializing Columns:
+
+// After declaring the rows, you can assign different sizes for the columns in each row:
+// java
+// Copy code
+// arr[0] = new int[3];  // Row 0 has 3 columns
+// arr[1] = new int[2];  // Row 1 has 2 columns
+// arr[2] = new int[4];  // Row 2 has 4 columns
