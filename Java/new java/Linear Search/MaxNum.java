@@ -14,7 +14,6 @@ public class MaxNum {
                 max=arr[i];
             }
         }
-        
         return max;
     }
     
