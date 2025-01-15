@@ -9,7 +9,8 @@ public class Pattern1 {
         // ptrn5(5);
         // ptrn6(5);
         // ptrn7(5);
-        ptrn8(5);
+        // ptrn8(5);
+        ptrn10(5);
     }
 
     static void ptrn1(int n) {
@@ -172,5 +173,100 @@ public class Pattern1 {
         }
 
     }
+
+    static void ptrn9(int n){
+    //           *
+    //         *
+    //       *
+    //     *
+    //   *
+
+    for (int rows = 1; rows <= n; rows++) {
+        
+        int totalspaces=n-rows;
+
+        for (int s = 1; s <= totalspaces; s++) {
+            System.out.print("  ");
+        }
+
+        System.out.print("*");   //no need to use for loop here to print * since we need 1 * each row
+        System.out.println();
+    }
+
+
+    }
+
+
+    static void ptrn10(int n){
+    //           *
+    //         *   *
+    //       *       *
+    //     *           *
+    //   *               *
+
+
+    for (int i = 1; i <=n; i++) {
+    int outerspaces= n-i;
+    
+    
+    for (int s = 1; s <= outerspaces; s++) {
+        System.out.print("  ");
+    }
+    System.out.print("*");
+    
+    if(i>1){
+        int innerspaces=2*(i-1);
+        for (int s = 1; s <= innerspaces; s++) {
+            System.out.print(" ");
+        }
+
+        System.out.print("*");
+
+    }
+
+
+    System.out.println();
+    }
+
+    //           *
+    //         *   *
+    //       *       *
+    //     *           *
+    //   *               *
+    // Give the java code for the above pattern
+    // 1. The number of rows is 5
+    // 2. The number of spaces in the first row is 4
+    
+    
+    //give code: 
+    // for (int i = 1; i <=5; i++) {
+    //     int outerspaces= 5-i;
+
+    //     for (int s = 1; s <= outerspaces; s++) {
+    //         System.out.print("  ");
+    //     }
+    //     System.out.print("*");
+
+    //     if(i>1){
+    //         int innerspaces=2*(i-1);
+
+    //         for (int s = 1; s <= innerspaces; s++) {
+    //             System.out.print(" ");
+    //         }
+
+    //         System.out.print("*");
+
+    //     }
+
+    //     System.out.println();
+    // }
+    
+    //
+    
+
+    }
+    
+
+    
 
 }
