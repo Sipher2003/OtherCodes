@@ -1,36 +1,37 @@
 // leetcode 268: Missing numbers
 
-import java.util.Arrays;
-
 public class Missingnumber {
 
     public static void main(String[] args) {
-        int[] arr={4,1,2,0};
-        missnum(arr);
-        System.out.println(Arrays.toString(arr));
+        int[] nums={4,1,2,0};
+        System.out.println(missnum(nums));;
+        // System.out.println(numsays.toString(nums));
     }
 
-    static void missnum(int[] arr){
+    static int missnum(int[] nums){
 
-        int i=0;
-        
-        while(i<arr.length){
-            int corrind=i;
-            if(arr[i]!=arr[corrind]){
-                int temp=arr[i];
-                arr[i]=arr[corrind];
-                arr[corrind]=temp;
-            }
-            else{
-                i++;
-            }
+      int i =0;
+      
+      while(i<nums.length){
+          int corrind=nums[i];
+          if(nums[i]<nums.length&&nums[i]!=nums[corrind]){
+            int temp=nums[i];
+            nums[i]=nums[corrind];
+            nums[corrind]=temp;
+          }
+          else{
+            i++;
+          }
 
+      }
 
+      for (int j = 0; j < nums.length; j++) {
+        if(nums[j]!=j){
+            return j;
         }
+      }
 
-
-
-        // return 0;
+        return nums.length;
     }
 
 
