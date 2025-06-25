@@ -1,7 +1,7 @@
 public class SkipString {
 
     public static void main(String[] args) {
-        Skip("","habbcada");
+        Subseq("","habbcada");
     }
 
     //skip a character
@@ -18,6 +18,17 @@ public class SkipString {
          }else{
             Skip(p+ch, up.substring(1));
          }
+    }
+
+    static void Subseq(String p,String up){
+      if(up.isEmpty()){
+         System.out.println(p);
+         return;
+      }
+
+      char ch=up.charAt(0);
+      Subseq(p+ch, up.substring(1));
+      Subseq(p, up.substring(1));
     }
 
 
