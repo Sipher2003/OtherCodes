@@ -20,6 +20,55 @@ public class LL {
          size+=1;
     }
 
+    //inserting element in the last
+    public void Insertlast(int val){
+       //if tail is initially set to null in your linked list (because the list is empty).
+        if(tail==null){
+            Insertfirst(val);
+            return;
+        }
+       
+       Node node=new Node(val);
+       tail.next=node;
+       tail=node;
+       size+=1;
+    }
+
+    //inserting elements at a particular index
+    public void insert(int val,int index){
+        if(index==0){
+            Insertfirst(val);
+            return;
+        }
+        if(index==size){
+            Insertlast(val);
+            return;
+        }
+
+        Node temp=head;
+        for (int i = 1; i < index; i++) {
+            temp=temp.next;
+        }
+
+        Node node=new Node(val,temp.next);
+        temp.next=node;
+
+        size+=1;
+    }
+
+    //delete first element
+    public int deletefirst(){
+      int val=head.value;
+      head=head.next;
+      
+      if(head==null){
+        tail=null;
+      }
+      
+      size--;
+      return val;
+    }
+
     //displaying the linkedlist
     public void display(){
       Node temp=head;
@@ -27,7 +76,7 @@ public class LL {
       while (temp!=null) {
         System.out.print(temp.value+"->");
         temp=temp.next;
-      }
+      }     
       System.out.println("end");
     }
 
