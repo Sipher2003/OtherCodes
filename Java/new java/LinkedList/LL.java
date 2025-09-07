@@ -56,6 +56,15 @@ public class LL {
         size+=1;
     }
 
+    public Node get(int index){
+        Node node=head;
+        for (int i = 1; i < index; i++) {
+            node=node.next;
+        }
+
+        return node;
+    }
+
     //delete first element
     public int deletefirst(){
       int val=head.value;
@@ -67,6 +76,38 @@ public class LL {
       
       size--;
       return val;
+    }
+
+    //delete last element
+    public int deletelast(){
+        // same as deleting the first element
+        if(size<=1){
+            return deletefirst();
+        }
+
+        Node secondlast=get(size-2);
+        int val=tail.value;
+        tail=secondlast;
+        tail.next=null;
+        
+        return val;
+    }
+
+    public int delete(int index){
+        if(index==0){
+            return deletefirst();
+        }
+        if(index==size-1){
+            return deletelast();
+        }
+
+        Node prev=get(index-1);
+        int val=prev.next.value;
+
+        prev.next=prev.next.next;
+   size--;
+        return val;
+
     }
 
     //displaying the linkedlist
