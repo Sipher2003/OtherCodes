@@ -28,6 +28,9 @@ public class Main {
         list.Insertfirst(20);
         list.Insertfirst(30);
         list.Insertfirst(40);
+        list.insertLast(5);
+        list.display();
+        list.insert(30, 35);
         list.display();
 
 
