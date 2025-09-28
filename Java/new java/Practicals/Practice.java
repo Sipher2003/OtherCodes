@@ -5,6 +5,11 @@ public class Practice {
         System.out.println(BinSrch(arr, 7));
     }
 
+    // static int 2dSrch(int[][] arr,int target){
+      
+    //     return new int[] {-1,-1};
+    // }
+
     static int BinSrch(int[] arr, int t) {
         int start = 0;
         int end = arr.length - 1;
