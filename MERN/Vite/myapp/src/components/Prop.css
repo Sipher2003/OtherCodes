@@ -1,0 +1,15 @@
+.props-card {
+    background-color: #e3f2fd;
+    border: 1px solid #90caf9;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.props-title {
+    color: #0d47a1;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

@@ -1,14 +1,15 @@
 import React from 'react';
+import './Alert.css';
 
 function Alert() {
 
     const myfunc = () => {
-        alert("Thanks for clicking")
-    }
-    return (
+        alert("Thanks for clicking");
+    };
 
-        <div>
-            <button onClick={myfunc} >click me</button>
+    return (
+        <div className="alert-container">
+            <button className="alert-button" onClick={myfunc}>Click Me</button>
         </div>
     );
 }
