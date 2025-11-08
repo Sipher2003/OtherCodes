@@ -1,0 +1,1 @@
+hello[space]world[enter][esc]

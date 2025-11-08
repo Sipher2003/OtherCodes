@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+
+  <title>Victim Page — Sensitive Action</title>
+</head>
+<body>
+  <h2>Victim Site</h2>
+  <p>This page contains a sensitive action button.</p>
+  
+  <form id="sensitiveForm">
+    <button id="sensitiveButton" type="button">Perform Sensitive Action</button>
+  </form>
+
+  <script>
+    document.getElementById('sensitiveButton').addEventListener('click', function() {
+      alert('Sensitive action performed successfully!');
+    });
+
+    // Frame-busting defense
+    if (window.top !== window.self) {
+      document.body.innerHTML = '<h2>Warning: Framing detected!</h2>';
+      try { window.top.location = window.location; } catch(e) {}
+    }
+  </script>
+</body>
+</html>
