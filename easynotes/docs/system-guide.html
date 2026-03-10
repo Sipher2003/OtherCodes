@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura Notes — System Documentation</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: #1a1a2e;
+      background: #ffffff;
+      line-height: 1.7;
+      font-size: 15px;
+    }
+
+    .page { max-width: 800px; margin: 0 auto; padding: 60px 40px; }
+
+    /* Cover Page */
+    .cover {
+      text-align: center;
+      padding: 120px 40px;
+      page-break-after: always;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #0f0f23 0%, #1a1a3e 50%, #16213e 100%);
+      color: white;
+    }
+    .cover-icon {
+      width: 80px; height: 80px;
+      background: rgba(92, 158, 255, 0.15);
+      border: 2px solid rgba(92, 158, 255, 0.4);
+      border-radius: 20px;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 30px;
+      font-size: 36px;
+    }
+    .cover h1 { font-size: 42px; font-weight: 700; letter-spacing: -1px; margin-bottom: 12px; }
+    .cover .subtitle { font-size: 18px; color: rgba(255,255,255,0.6); font-weight: 300; margin-bottom: 50px; }
+    .cover .meta { font-size: 13px; color: rgba(255,255,255,0.35); }
+    .cover .meta span { display: block; margin-bottom: 4px; }
+
+    /* Section Headings */
+    h1 { font-size: 30px; font-weight: 700; margin: 50px 0 20px; color: #0f0f23; letter-spacing: -0.5px; border-bottom: 3px solid #5c9eff; padding-bottom: 10px; }
+    h2 { font-size: 22px; font-weight: 600; margin: 35px 0 14px; color: #16213e; }
+    h3 { font-size: 17px; font-weight: 600; margin: 25px 0 10px; color: #2d3748; }
+    h4 { font-size: 15px; font-weight: 600; margin: 20px 0 8px; color: #4a5568; }
+
+    p { margin-bottom: 14px; color: #374151; }
+
+    /* Code */
+    code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      background: #f1f5f9;
+      padding: 2px 7px;
+      border-radius: 4px;
+      color: #e11d48;
+    }
+    pre {
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 20px 24px;
+      border-radius: 10px;
+      overflow-x: auto;
+      margin: 16px 0 20px;
+      font-size: 12.5px;
+      line-height: 1.6;
+      border: 1px solid #1e293b;
+    }
+    pre code {
+      background: none;
+      padding: 0;
+      color: inherit;
+      font-size: inherit;
+    }
+    .code-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #64748b;
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    /* Syntax colors inside <pre> */
+    .kw { color: #c084fc; }      /* keyword */
+    .fn { color: #67e8f9; }      /* function */
+    .str { color: #86efac; }     /* string */
+    .cm { color: #64748b; }      /* comment */
+    .num { color: #fbbf24; }     /* number */
+    .op { color: #94a3b8; }      /* operator */
+
+    /* Info boxes */
+    .box {
+      padding: 16px 20px;
+      border-radius: 8px;
+      margin: 16px 0 20px;
+      font-size: 14px;
+    }
+    .box-blue { background: #eff6ff; border-left: 4px solid #5c9eff; }
+    .box-green { background: #f0fdf4; border-left: 4px solid #2ea043; }
+    .box-yellow { background: #fefce8; border-left: 4px solid #eab308; }
+    .box-red { background: #fef2f2; border-left: 4px solid #ef4444; }
+    .box strong { display: block; margin-bottom: 4px; }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 20px;
+      font-size: 13.5px;
+    }
+    th, td { padding: 10px 14px; text-align: left; border: 1px solid #e2e8f0; }
+    th { background: #f8fafc; font-weight: 600; color: #1e293b; font-size: 12px; text-transform: uppercase; letter-spacing: 0.3px; }
+    td { color: #475569; }
+    tr:nth-child(even) td { background: #fafbfc; }
+
+    /* Lists */
+    ul, ol { margin: 10px 0 16px 24px; color: #374151; }
+    li { margin-bottom: 6px; }
+
+    /* Diagram */
+    .diagram {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 30px;
+      margin: 20px 0;
+      text-align: center;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      line-height: 1.4;
+      color: #334155;
+      white-space: pre;
+      overflow-x: auto;
+    }
+
+    /* Separator */
+    hr { border: none; border-top: 1px solid #e5e7eb; margin: 40px 0; }
+
+    /* Badges */
+    .badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 50px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+    .badge-get { background: #dbeafe; color: #1d4ed8; }
+    .badge-post { background: #dcfce7; color: #15803d; }
+    .badge-put { background: #fef3c7; color: #a16207; }
+    .badge-patch { background: #e0e7ff; color: #4338ca; }
+    .badge-delete { background: #fee2e2; color: #dc2626; }
+
+    /* TOC */
+    .toc { list-style: none; margin-left: 0; padding-left: 0; }
+    .toc li { margin-bottom: 8px; padding: 6px 0; border-bottom: 1px solid #f1f5f9; }
+    .toc li a { color: #5c9eff; text-decoration: none; font-weight: 500; }
+    .toc li a:hover { text-decoration: underline; }
+    .toc .section-num { color: #94a3b8; margin-right: 8px; font-family: 'JetBrains Mono', monospace; font-size: 13px; }
+
+    /* File tree */
+    .file-tree {
+      background: #0f172a;
+      color: #94a3b8;
+      padding: 20px 24px;
+      border-radius: 10px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      line-height: 1.7;
+      margin: 16px 0 20px;
+    }
+    .file-tree .folder { color: #67e8f9; }
+    .file-tree .file { color: #e2e8f0; }
+    .file-tree .desc { color: #64748b; }
+
+    /* Print */
+    @media print {
+      body { font-size: 12px; }
+      .cover { padding: 80px 30px; min-height: auto; }
+      pre { font-size: 10px; padding: 12px; }
+      h1 { page-break-before: always; }
+      h1:first-of-type { page-break-before: auto; }
+      .page { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ==================== COVER PAGE ==================== -->
+<div class="cover">
+  <div class="cover-icon">🌙</div>
+  <h1>Aura Notes</h1>
+  <p class="subtitle">System Documentation &amp; Codebase Guide</p>
+  <div class="meta">
+    <span>Full-Stack Journal &amp; Task Manager</span>
+    <span>React + Express + SQLite</span>
+    <span style="margin-top: 12px;">March 2026</span>
+  </div>
+</div>
+
+<!-- ==================== CONTENT ==================== -->
+<div class="page">
+
+<!-- TABLE OF CONTENTS -->
+<h1 id="toc">Table of Contents</h1>
+<ol class="toc">
+  <li><span class="section-num">1.</span> <a href="#overview">What is Aura Notes?</a></li>
+  <li><span class="section-num">2.</span> <a href="#architecture">How the System Works (Architecture)</a></li>
+  <li><span class="section-num">3.</span> <a href="#folder">Project Folder Structure</a></li>
+  <li><span class="section-num">4.</span> <a href="#backend">Backend — Server, Database &amp; API</a></li>
+  <li><span class="section-num">5.</span> <a href="#auth">Authentication System</a></li>
+  <li><span class="section-num">6.</span> <a href="#api">API Reference (All Endpoints)</a></li>
+  <li><span class="section-num">7.</span> <a href="#frontend">Frontend — React App</a></li>
+  <li><span class="section-num">8.</span> <a href="#dataflow">Data Flow: From Click to Database</a></li>
+  <li><span class="section-num">9.</span> <a href="#running">How to Run the Project</a></li>
+  <li><span class="section-num">10.</span> <a href="#techstack">Tech Stack Summary</a></li>
+</ol>
+
+<hr>
+
+<!-- ==================== 1. OVERVIEW ==================== -->
+<h1 id="overview">1. What is Aura Notes?</h1>
+
+<p>Aura Notes is a <strong>personal daily journal and task manager</strong>. Think of it like a calendar where each day has:</p>
+<ul>
+  <li><strong>A note</strong> — with a title, content, and tags (like a diary entry)</li>
+  <li><strong>A to-do list</strong> — tasks you can add, check off, and delete</li>
+</ul>
+
+<p>It also tracks your <strong>streak</strong> (consecutive days of activity) and shows a <strong>GitHub-like contribution chart</strong> on a dashboard.</p>
+
+<h3>Key Features</h3>
+<ul>
+  <li>📅 Calendar view — click any day to write a note or add tasks</li>
+  <li>📝 Rich daily notes with auto-save (saves 1 second after you stop typing)</li>
+  <li>✅ Per-day to-do lists with progress tracking</li>
+  <li>📊 Dashboard with activity heatmap and stats</li>
+  <li>🔐 User accounts — register/login so your data syncs across devices</li>
+  <li>🌙 Dark/light theme toggle</li>
+  <li>🔥 Daily streak counter</li>
+</ul>
+
+<div class="box box-blue">
+  <strong>Why a backend?</strong>
+  Previously, everything was stored in the browser's localStorage — meaning data was stuck on one device. Now with the backend, your notes and tasks are saved in a database and accessible from anywhere you log in.
+</div>
+
+<hr>
+
+<!-- ==================== 2. ARCHITECTURE ==================== -->
+<h1 id="architecture">2. How the System Works</h1>
+
+<p>The app is split into two parts that talk to each other:</p>
+
+<div class="diagram">
+┌─────────────────────────────────────────────────────────────────┐
+│                         YOUR BROWSER                            │
+│                                                                 │
+│   ┌─────────────┐   ┌──────────────┐   ┌───────────────────┐   │
+│   │  AuthPage    │   │   Calendar   │   │   DayWorkspace    │   │
+│   │  (Login/     │   │   (pick a    │   │   (write note,    │   │
+│   │   Signup)    │   │    day)      │   │    add tasks)     │   │
+│   └──────┬───── │   └──────┬───────┘   └────────┬──────────┘   │
+│          │       │          │                     │              │
+│          ▼       │          ▼                     ▼              │
+│   ┌──────────────────────────────────────────────────────────┐  │
+│   │              useStore (React Hook)                        │  │
+│   │     Manages all state + calls API for persistence        │  │
+│   └───────────────────────┬──────────────────────────────────┘  │
+│                           │                                     │
+│                           ▼                                     │
+│   ┌──────────────────────────────────────────────────────────┐  │
+│   │              api.js (API Client)                          │  │
+│   │     Makes HTTP requests with JWT token attached           │  │
+│   └───────────────────────┬──────────────────────────────────┘  │
+│                           │                                     │
+└───────────────────────────┼─────────────────────────────────────┘
+                            │  HTTP requests (fetch)
+                            │  with Authorization: Bearer &lt;token&gt;
+                            ▼
+┌───────────────────────────────────────────────────────────────────┐
+│                     EXPRESS SERVER (port 3001)                     │
+│                                                                   │
+│   ┌────────────┐   ┌─────────────┐   ┌────────────────────────┐  │
+│   │ Auth Routes │   │ Notes Routes│   │    Todos Routes        │  │
+│   │ /api/auth/* │   │ /api/notes/*│   │    /api/todos/*        │  │
+│   └──────┬─────┘   └──────┬──────┘   └───────────┬────────────┘  │
+│          │                │                       │               │
+│          ▼                ▼                       ▼               │
+│   ┌──────────────────────────────────────────────────────────┐    │
+│   │              SQLite Database (data.db)                    │    │
+│   │     users  |  notes  |  todos                            │    │
+│   └──────────────────────────────────────────────────────────┘    │
+└───────────────────────────────────────────────────────────────────┘</div>
+
+<h3>In plain English:</h3>
+<ol>
+  <li>You open the app in a browser → it loads the <strong>React frontend</strong></li>
+  <li>You log in → the frontend sends your email/password to the <strong>Express server</strong></li>
+  <li>The server checks the database, and if correct, sends back a <strong>JWT token</strong></li>
+  <li>The frontend stores this token and includes it in every request from now on</li>
+  <li>When you write a note or add a task, the frontend <strong>instantly updates the UI</strong> (optimistic update) and also sends the data to the server to save it in <strong>SQLite</strong></li>
+  <li>Next time you open the app (even on another device), it loads your data from the server</li>
+</ol>
+
+<hr>
+
+<!-- ==================== 3. FOLDER STRUCTURE ==================== -->
+<h1 id="folder">3. Project Folder Structure</h1>
+
+<div class="file-tree">
+<span class="folder">notion-notes/</span>
+├── <span class="file">package.json</span>            <span class="desc">← project config &amp; scripts</span>
+├── <span class="file">vite.config.js</span>          <span class="desc">← Vite setup + API proxy</span>
+├── <span class="file">index.html</span>              <span class="desc">← entry HTML file</span>
+│
+├── <span class="folder">server/</span>                  <span class="desc">← ★ BACKEND (Express + SQLite)</span>
+│   ├── <span class="file">index.js</span>             <span class="desc">← server entry point</span>
+│   ├── <span class="file">db.js</span>                <span class="desc">← database setup &amp; table creation</span>
+│   ├── <span class="file">data.db</span>              <span class="desc">← SQLite database file (auto-created)</span>
+│   ├── <span class="folder">middleware/</span>
+│   │   └── <span class="file">auth.js</span>          <span class="desc">← JWT token generation &amp; verification</span>
+│   └── <span class="folder">routes/</span>
+│       ├── <span class="file">auth.js</span>          <span class="desc">← login, register, verify endpoints</span>
+│       ├── <span class="file">notes.js</span>         <span class="desc">← get &amp; save notes</span>
+│       └── <span class="file">todos.js</span>         <span class="desc">← CRUD for todos</span>
+│
+└── <span class="folder">src/</span>                     <span class="desc">← ★ FRONTEND (React)</span>
+    ├── <span class="file">main.jsx</span>             <span class="desc">← React entry point (wraps with AuthProvider)</span>
+    ├── <span class="file">App.jsx</span>              <span class="desc">← main app layout &amp; routing</span>
+    ├── <span class="file">index.css</span>            <span class="desc">← Tailwind CSS + theme variables</span>
+    ├── <span class="folder">contexts/</span>
+    │   └── <span class="file">AuthContext.jsx</span>  <span class="desc">← auth state (user, login, logout)</span>
+    ├── <span class="folder">hooks/</span>
+    │   └── <span class="file">useStore.js</span>      <span class="desc">← data store (notes, todos, API calls)</span>
+    ├── <span class="folder">lib/</span>
+    │   └── <span class="file">api.js</span>           <span class="desc">← HTTP client for all API calls</span>
+    └── <span class="folder">components/</span>
+        ├── <span class="file">AuthPage.jsx</span>     <span class="desc">← login &amp; signup page</span>
+        ├── <span class="file">Sidebar.jsx</span>      <span class="desc">← navigation, user info, logout</span>
+        ├── <span class="file">Calendar.jsx</span>     <span class="desc">← monthly calendar with indicators</span>
+        └── <span class="file">DayWorkspace.jsx</span> <span class="desc">← note editor + task list for a day</span>
+</div>
+
+<hr>
+
+<!-- ==================== 4. BACKEND ==================== -->
+<h1 id="backend">4. Backend — Server, Database &amp; API</h1>
+
+<h2>4.1 Server Entry Point</h2>
+<p>The server is a simple Express.js app. It listens on port 3001 and sets up three groups of routes:</p>
+
+<span class="code-label">server/index.js</span>
+<pre><code><span class="kw">import</span> express <span class="kw">from</span> <span class="str">'express'</span>;
+<span class="kw">import</span> cors <span class="kw">from</span> <span class="str">'cors'</span>;
+<span class="kw">import</span> authRoutes <span class="kw">from</span> <span class="str">'./routes/auth.js'</span>;
+<span class="kw">import</span> notesRoutes <span class="kw">from</span> <span class="str">'./routes/notes.js'</span>;
+<span class="kw">import</span> todosRoutes <span class="kw">from</span> <span class="str">'./routes/todos.js'</span>;
+
+<span class="kw">const</span> app <span class="op">=</span> <span class="fn">express</span>();
+
+app.<span class="fn">use</span>(<span class="fn">cors</span>());             <span class="cm">// Allow cross-origin requests</span>
+app.<span class="fn">use</span>(express.<span class="fn">json</span>());    <span class="cm">// Parse JSON request bodies</span>
+
+app.<span class="fn">use</span>(<span class="str">'/api/auth'</span>, authRoutes);    <span class="cm">// Login, register, verify</span>
+app.<span class="fn">use</span>(<span class="str">'/api/notes'</span>, notesRoutes);  <span class="cm">// Notes CRUD</span>
+app.<span class="fn">use</span>(<span class="str">'/api/todos'</span>, todosRoutes);  <span class="cm">// Todos CRUD</span>
+
+app.<span class="fn">listen</span>(<span class="num">3001</span>);</code></pre>
+
+<h2>4.2 Database (SQLite)</h2>
+<p>The database is a single file (<code>server/data.db</code>) managed by <strong>better-sqlite3</strong>. It's created automatically on first run. There are <strong>3 tables</strong>:</p>
+
+<h3>Users Table</h3>
+<table>
+  <tr><th>Column</th><th>Type</th><th>Purpose</th></tr>
+  <tr><td>id</td><td>INTEGER (PK)</td><td>Auto-incrementing user ID</td></tr>
+  <tr><td>email</td><td>TEXT (UNIQUE)</td><td>User's email address</td></tr>
+  <tr><td>username</td><td>TEXT</td><td>Display name</td></tr>
+  <tr><td>password_hash</td><td>TEXT</td><td>Bcrypt-hashed password (never stored in plain text!)</td></tr>
+  <tr><td>created_at</td><td>DATETIME</td><td>When the account was created</td></tr>
+</table>
+
+<h3>Notes Table</h3>
+<table>
+  <tr><th>Column</th><th>Type</th><th>Purpose</th></tr>
+  <tr><td>id</td><td>INTEGER (PK)</td><td>Auto-incrementing note ID</td></tr>
+  <tr><td>user_id</td><td>INTEGER (FK)</td><td>Links to users.id</td></tr>
+  <tr><td>date_key</td><td>TEXT</td><td>Date string like "2026-03-10"</td></tr>
+  <tr><td>title</td><td>TEXT</td><td>Note title</td></tr>
+  <tr><td>content</td><td>TEXT</td><td>Note body text</td></tr>
+  <tr><td>tags</td><td>TEXT</td><td>JSON array of tag strings</td></tr>
+  <tr><td>updated_at</td><td>DATETIME</td><td>Last modified timestamp</td></tr>
+</table>
+<p><strong>Unique constraint:</strong> <code>(user_id, date_key)</code> — each user can have only one note per day.</p>
+
+<h3>Todos Table</h3>
+<table>
+  <tr><th>Column</th><th>Type</th><th>Purpose</th></tr>
+  <tr><td>id</td><td>INTEGER (PK)</td><td>Auto-incrementing row ID</td></tr>
+  <tr><td>user_id</td><td>INTEGER (FK)</td><td>Links to users.id</td></tr>
+  <tr><td>date_key</td><td>TEXT</td><td>Date string like "2026-03-10"</td></tr>
+  <tr><td>todo_id</td><td>TEXT</td><td>Client-generated ID (timestamp)</td></tr>
+  <tr><td>text</td><td>TEXT</td><td>Task description</td></tr>
+  <tr><td>completed</td><td>INTEGER</td><td>0 = not done, 1 = done</td></tr>
+</table>
+
+<span class="code-label">server/db.js — Table creation (runs on startup)</span>
+<pre><code><span class="kw">const</span> db <span class="op">=</span> <span class="kw">new</span> <span class="fn">Database</span>(dbPath);
+db.<span class="fn">pragma</span>(<span class="str">'journal_mode = WAL'</span>);   <span class="cm">// Better performance</span>
+db.<span class="fn">pragma</span>(<span class="str">'foreign_keys = ON'</span>);    <span class="cm">// Enforce relationships</span>
+
+db.<span class="fn">exec</span>(<span class="str">`
+  CREATE TABLE IF NOT EXISTS users ( ... );
+  CREATE TABLE IF NOT EXISTS notes ( ... );
+  CREATE TABLE IF NOT EXISTS todos ( ... );
+  CREATE INDEX IF NOT EXISTS idx_notes_user_date ON notes(user_id, date_key);
+  CREATE INDEX IF NOT EXISTS idx_todos_user_date ON todos(user_id, date_key);
+`</span>);</code></pre>
+
+<div class="box box-green">
+  <strong>Why SQLite?</strong>
+  It's a file-based database — no need to install PostgreSQL or MySQL. The entire database is one file (<code>data.db</code>). Perfect for personal projects. If you ever need to scale, the SQL is standard and can be migrated easily.
+</div>
+
+<hr>
+
+<!-- ==================== 5. AUTH ==================== -->
+<h1 id="auth">5. Authentication System</h1>
+
+<p>The auth system uses <strong>JWT (JSON Web Tokens)</strong> — a standard way to handle stateless authentication.</p>
+
+<h2>5.1 How It Works</h2>
+<div class="diagram">
+  SIGNUP / LOGIN FLOW:
+
+  ┌──────────┐    POST {email, password}   ┌──────────┐   check DB    ┌────────┐
+  │  Browser  │  ─────────────────────────► │  Server  │  ──────────►  │ SQLite │
+  │           │                             │          │  ◄──────────  │        │
+  │           │   ◄─────────────────────── │          │   user data   │        │
+  │  Stores   │    { user, token }          │  Creates │               └────────┘
+  │  token in │                             │  JWT     │
+  │  localStorage                           └──────────┘
+  └──────────┘
+
+  SUBSEQUENT REQUESTS:
+
+  ┌──────────┐   GET /api/notes             ┌──────────┐
+  │  Browser  │   Authorization:             │  Server  │
+  │           │   Bearer eyJhbGc...   ────► │          │
+  │           │                              │  Verify  │ ── valid? ──► return data
+  │           │   ◄──── notes data ──────── │  JWT     │ ── invalid? ► 403 error
+  └──────────┘                               └──────────┘</div>
+
+<h2>5.2 JWT Middleware</h2>
+<p>Every request to <code>/api/notes</code> and <code>/api/todos</code> goes through the <code>authenticateToken</code> middleware. It checks the token and attaches the user info to the request:</p>
+
+<span class="code-label">server/middleware/auth.js</span>
+<pre><code><span class="kw">export function</span> <span class="fn">authenticateToken</span>(req, res, next) {
+  <span class="kw">const</span> authHeader <span class="op">=</span> req.headers[<span class="str">'authorization'</span>];
+  <span class="kw">const</span> token <span class="op">=</span> authHeader <span class="op">&&</span> authHeader.<span class="fn">split</span>(<span class="str">' '</span>)[<span class="num">1</span>]; <span class="cm">// "Bearer TOKEN" → "TOKEN"</span>
+
+  <span class="kw">if</span> (!token) <span class="kw">return</span> res.<span class="fn">status</span>(<span class="num">401</span>).<span class="fn">json</span>({ error: <span class="str">'Authentication required'</span> });
+
+  <span class="kw">try</span> {
+    <span class="kw">const</span> decoded <span class="op">=</span> jwt.<span class="fn">verify</span>(token, JWT_SECRET);
+    req.user <span class="op">=</span> decoded;  <span class="cm">// { id, email, username }</span>
+    <span class="fn">next</span>();               <span class="cm">// Continue to the route handler</span>
+  } <span class="kw">catch</span> {
+    <span class="kw">return</span> res.<span class="fn">status</span>(<span class="num">403</span>).<span class="fn">json</span>({ error: <span class="str">'Invalid or expired token'</span> });
+  }
+}</code></pre>
+
+<h2>5.3 Password Security</h2>
+<p>Passwords are <strong>never stored in plain text</strong>. They are hashed using <strong>bcrypt</strong> with 10 salt rounds:</p>
+<pre><code><span class="cm">// During registration:</span>
+<span class="kw">const</span> passwordHash <span class="op">=</span> bcrypt.<span class="fn">hashSync</span>(password, <span class="num">10</span>);
+
+<span class="cm">// During login:</span>
+<span class="kw">const</span> valid <span class="op">=</span> bcrypt.<span class="fn">compareSync</span>(password, user.password_hash);</code></pre>
+
+<h2>5.4 Token Expiry</h2>
+<p>Tokens expire after <strong>30 days</strong>. When a token expires, the frontend detects the 401/403 response, clears storage, and shows the login page.</p>
+
+<hr>
+
+<!-- ==================== 6. API REFERENCE ==================== -->
+<h1 id="api">6. API Reference</h1>
+
+<h2>6.1 Auth Endpoints</h2>
+
+<h4><span class="badge badge-post">POST</span> <code>/api/auth/register</code></h4>
+<p>Create a new account.</p>
+<table>
+  <tr><th>Field</th><th>Type</th><th>Required</th></tr>
+  <tr><td>email</td><td>string</td><td>Yes</td></tr>
+  <tr><td>username</td><td>string</td><td>Yes</td></tr>
+  <tr><td>password</td><td>string (min 6 chars)</td><td>Yes</td></tr>
+</table>
+<p><strong>Response:</strong> <code>{ user: { id, email, username }, token: "eyJ..." }</code></p>
+
+<h4><span class="badge badge-post">POST</span> <code>/api/auth/login</code></h4>
+<p>Log in to existing account.</p>
+<table>
+  <tr><th>Field</th><th>Type</th><th>Required</th></tr>
+  <tr><td>email</td><td>string</td><td>Yes</td></tr>
+  <tr><td>password</td><td>string</td><td>Yes</td></tr>
+</table>
+<p><strong>Response:</strong> <code>{ user: { id, email, username }, token: "eyJ..." }</code></p>
+
+<h4><span class="badge badge-get">GET</span> <code>/api/auth/me</code></h4>
+<p>Verify token and get current user. Used on app startup to check if a saved token is still valid.</p>
+
+<hr style="border-style: dashed; margin: 25px 0;">
+
+<h2>6.2 Notes Endpoints <em>(require auth token)</em></h2>
+
+<h4><span class="badge badge-get">GET</span> <code>/api/notes</code></h4>
+<p>Get all notes for the logged-in user.</p>
+<p><strong>Response:</strong></p>
+<pre><code>{
+  <span class="str">"2026-03-10"</span>: { <span class="str">"title"</span>: <span class="str">"My Note"</span>, <span class="str">"content"</span>: <span class="str">"Hello..."</span>, <span class="str">"tags"</span>: [<span class="str">"work"</span>] },
+  <span class="str">"2026-03-09"</span>: { ... }
+}</code></pre>
+
+<h4><span class="badge badge-put">PUT</span> <code>/api/notes/:dateKey</code></h4>
+<p>Save or update a note for a specific date.</p>
+<table>
+  <tr><th>Field</th><th>Type</th><th>Description</th></tr>
+  <tr><td>title</td><td>string</td><td>Note title</td></tr>
+  <tr><td>content</td><td>string</td><td>Note body</td></tr>
+  <tr><td>tags</td><td>string[]</td><td>Array of tag strings</td></tr>
+</table>
+<p>Uses SQLite <code>INSERT ... ON CONFLICT DO UPDATE</code> — creates a new note or updates existing one.</p>
+
+<hr style="border-style: dashed; margin: 25px 0;">
+
+<h2>6.3 Todos Endpoints <em>(require auth token)</em></h2>
+
+<h4><span class="badge badge-get">GET</span> <code>/api/todos</code></h4>
+<p>Get all todos grouped by date.</p>
+<p><strong>Response:</strong></p>
+<pre><code>{
+  <span class="str">"2026-03-10"</span>: [
+    { <span class="str">"id"</span>: <span class="str">"1710000000"</span>, <span class="str">"text"</span>: <span class="str">"Buy groceries"</span>, <span class="str">"completed"</span>: <span class="kw">false</span> },
+    { <span class="str">"id"</span>: <span class="str">"1710000001"</span>, <span class="str">"text"</span>: <span class="str">"Read book"</span>, <span class="str">"completed"</span>: <span class="kw">true</span> }
+  ]
+}</code></pre>
+
+<h4><span class="badge badge-post">POST</span> <code>/api/todos/:dateKey</code></h4>
+<p>Add a new todo to a specific date.</p>
+
+<h4><span class="badge badge-patch">PATCH</span> <code>/api/todos/:todoId/toggle</code></h4>
+<p>Toggle a todo between completed and not completed.</p>
+
+<h4><span class="badge badge-delete">DELETE</span> <code>/api/todos/:todoId</code></h4>
+<p>Permanently delete a todo.</p>
+
+<hr>
+
+<!-- ==================== 7. FRONTEND ==================== -->
+<h1 id="frontend">7. Frontend — React App</h1>
+
+<h2>7.1 Entry Point &amp; Auth Wrapper</h2>
+<p>The app starts in <code>main.jsx</code>, which wraps everything in an <code>AuthProvider</code>:</p>
+
+<span class="code-label">src/main.jsx</span>
+<pre><code><span class="fn">createRoot</span>(document.<span class="fn">getElementById</span>(<span class="str">'root'</span>)).<span class="fn">render</span>(
+  &lt;StrictMode&gt;
+    &lt;AuthProvider&gt;      <span class="cm">← provides user, login, logout to entire app</span>
+      &lt;App /&gt;
+    &lt;/AuthProvider&gt;
+  &lt;/StrictMode&gt;
+);</code></pre>
+
+<h2>7.2 App.jsx — The Main Layout</h2>
+<p>This is the "router" of the app. It decides what to show based on auth state:</p>
+
+<pre><code><span class="kw">function</span> <span class="fn">App</span>() {
+  <span class="kw">const</span> { user, loading } <span class="op">=</span> <span class="fn">useAuth</span>();
+
+  <span class="kw">if</span> (loading)    <span class="kw">return</span> &lt;Spinner /&gt;;    <span class="cm">// Checking token...</span>
+  <span class="kw">if</span> (!user)      <span class="kw">return</span> &lt;AuthPage /&gt;;   <span class="cm">// Not logged in → show login</span>
+  <span class="kw">if</span> (!dataLoaded) <span class="kw">return</span> &lt;Spinner /&gt;;   <span class="cm">// Loading notes from server...</span>
+
+  <span class="cm">// Logged in → show the main app</span>
+  <span class="kw">return</span> (
+    &lt;Sidebar /&gt;
+    &lt;main&gt;
+      {currentView <span class="op">===</span> <span class="str">'calendar'</span>  <span class="op">&&</span> &lt;Calendar /&gt; + &lt;DayWorkspace /&gt;}
+      {currentView <span class="op">===</span> <span class="str">'notes'</span>     <span class="op">&&</span> &lt;AllNotesView /&gt;}
+      {currentView <span class="op">===</span> <span class="str">'dashboard'</span> <span class="op">&&</span> &lt;Dashboard /&gt;}
+    &lt;/main&gt;
+  );
+}</code></pre>
+
+<h2>7.3 AuthContext — Managing Login State</h2>
+<p>This React Context holds the current user and provides login/register/logout functions to any component:</p>
+
+<span class="code-label">src/contexts/AuthContext.jsx — simplified</span>
+<pre><code><span class="kw">const</span> <span class="fn">login</span> <span class="op">=</span> <span class="kw">async</span> (email, password) <span class="op">=></span> {
+  <span class="kw">const</span> data <span class="op">=</span> <span class="kw">await</span> api.<span class="fn">login</span>(email, password);
+  localStorage.<span class="fn">setItem</span>(<span class="str">'aura-token'</span>, data.token);   <span class="cm">// Save token</span>
+  localStorage.<span class="fn">setItem</span>(<span class="str">'aura-user'</span>, <span class="fn">JSON.stringify</span>(data.user));
+  <span class="fn">setUser</span>(data.user);                              <span class="cm">// Update state</span>
+};
+
+<span class="kw">const</span> <span class="fn">logout</span> <span class="op">=</span> () <span class="op">=></span> {
+  localStorage.<span class="fn">removeItem</span>(<span class="str">'aura-token'</span>);
+  localStorage.<span class="fn">removeItem</span>(<span class="str">'aura-user'</span>);
+  <span class="fn">setUser</span>(<span class="kw">null</span>);  <span class="cm">// This triggers the app to show login page</span>
+};</code></pre>
+
+<h2>7.4 useStore — The Data Store</h2>
+<p>This is the <strong>heart of the data layer</strong>. It's a custom React hook that:</p>
+<ol>
+  <li>Loads all notes &amp; todos from the server on mount</li>
+  <li>Provides getter functions (<code>getNote</code>, <code>getTodos</code>)</li>
+  <li>Provides action functions that do <strong>optimistic updates</strong></li>
+</ol>
+
+<div class="box box-yellow">
+  <strong>What is an "optimistic update"?</strong>
+  When you save a note, the UI updates <em>immediately</em> (so it feels instant), and the API call happens in the background. If the API call fails, the error is logged but the UI stays responsive.
+</div>
+
+<span class="code-label">src/hooks/useStore.js — optimistic save example</span>
+<pre><code><span class="kw">const</span> <span class="fn">saveNote</span> <span class="op">=</span> <span class="fn">useCallback</span>((date, noteData) <span class="op">=></span> {
+  <span class="kw">const</span> key <span class="op">=</span> <span class="fn">getDateKey</span>(date);
+
+  <span class="cm">// 1. Update UI immediately</span>
+  <span class="fn">setNotes</span>(prev <span class="op">=></span> ({ ...prev, [key]: noteData }));
+
+  <span class="cm">// 2. Save to server in background</span>
+  api.<span class="fn">saveNote</span>(key, noteData).<span class="fn">catch</span>(err <span class="op">=></span> {
+    console.<span class="fn">error</span>(<span class="str">'Failed to save note:'</span>, err);
+  });
+}, []);</code></pre>
+
+<h2>7.5 API Client</h2>
+<p>All HTTP requests go through a central <code>request()</code> function that automatically attaches the JWT token:</p>
+
+<span class="code-label">src/lib/api.js</span>
+<pre><code><span class="kw">async function</span> <span class="fn">request</span>(url, options <span class="op">=</span> {}) {
+  <span class="kw">const</span> token <span class="op">=</span> localStorage.<span class="fn">getItem</span>(<span class="str">'aura-token'</span>);
+  <span class="kw">const</span> headers <span class="op">=</span> {
+    <span class="str">'Content-Type'</span>: <span class="str">'application/json'</span>,
+    ...(token ? { Authorization: <span class="str">`Bearer ${token}`</span> } : {}),
+  };
+
+  <span class="kw">const</span> res <span class="op">=</span> <span class="kw">await</span> <span class="fn">fetch</span>(<span class="str">`/api${url}`</span>, { ...options, headers });
+
+  <span class="cm">// If token expired, clear everything and reload</span>
+  <span class="kw">if</span> (res.status <span class="op">===</span> <span class="num">401</span> <span class="op">||</span> res.status <span class="op">===</span> <span class="num">403</span>) {
+    localStorage.<span class="fn">removeItem</span>(<span class="str">'aura-token'</span>);
+    window.location.<span class="fn">reload</span>();
+  }
+
+  <span class="kw">return await</span> res.<span class="fn">json</span>();
+}</code></pre>
+
+<h2>7.6 Key Components</h2>
+
+<h3>AuthPage.jsx</h3>
+<p>A clean login/signup page with tabs. Validates inputs client-side (password match for signup, min 6 chars). On success, calls <code>login()</code> or <code>register()</code> from AuthContext.</p>
+
+<h3>Sidebar.jsx</h3>
+<p>Left navigation panel showing:</p>
+<ul>
+  <li>Navigation links (Calendar, All Notes, Dashboard)</li>
+  <li>User info (name + email)</li>
+  <li>Theme toggle (dark/light)</li>
+  <li>Streak counter</li>
+  <li>Sign Out button</li>
+</ul>
+
+<h3>Calendar.jsx</h3>
+<p>A full monthly calendar. Each day cell shows colored dots if there's a note (blue) or todos (green). Clicking a day opens the DayWorkspace for that date.</p>
+
+<h3>DayWorkspace.jsx</h3>
+<p>The main editor for a single day. Split into two columns:</p>
+<ul>
+  <li><strong>Left (2/3):</strong> Note editor — title input, tag chips, textarea with auto-save (1s debounce), word count</li>
+  <li><strong>Right (1/3):</strong> Task list — progress bar, add task form, list with toggle/delete</li>
+</ul>
+
+<h3>Dashboard (inside App.jsx)</h3>
+<p>Shows stats cards (active days, total notes, tasks done) and a GitHub-style contribution heatmap for the last 365 days.</p>
+
+<hr>
+
+<!-- ==================== 8. DATA FLOW ==================== -->
+<h1 id="dataflow">8. Data Flow: From Click to Database</h1>
+
+<p>Let's trace what happens when you <strong>type a note</strong>:</p>
+
+<div class="diagram">
+ 1. User types in textarea
+           │
+           ▼
+ 2. React onChange updates local state
+    setContent("Hello world")
+           │
+           ▼
+ 3. useEffect debounce timer starts (1 second)
+           │
+           ▼ (after 1s of no typing)
+ 4. saveNote(date, { title, content, tags }) called
+           │
+           ├──► setNotes(prev => {...})     ← INSTANT UI update
+           │
+           └──► api.saveNote(key, data)     ← Background HTTP request
+                      │
+                      ▼
+           5. PUT /api/notes/2026-03-10
+              Authorization: Bearer eyJ...
+              Body: { title, content, tags }
+                      │
+                      ▼
+           6. authenticateToken middleware
+              → verifies JWT → attaches req.user
+                      │
+                      ▼
+           7. SQLite: INSERT ... ON CONFLICT DO UPDATE
+              → saves to data.db file on disk
+                      │
+                      ▼
+           8. Response: { success: true }</div>
+
+<p>And when you <strong>open the app fresh</strong>:</p>
+
+<div class="diagram">
+ 1. App loads → AuthProvider checks localStorage for token
+           │
+           ├── No token? → Show login page
+           │
+           └── Has token? → Call GET /api/auth/me
+                      │
+                      ├── Token invalid → Clear storage, show login
+                      │
+                      └── Token valid → Set user, render app
+                                │
+                                ▼
+                  2. useStore fires useEffect
+                     → Promise.all([getAllNotes(), getAllTodos()])
+                                │
+                                ▼
+                  3. Server returns all user's data
+                     → setNotes(data), setTodos(data)
+                     → setDataLoaded(true)
+                                │
+                                ▼
+                  4. Calendar renders with note/todo indicators
+                     Dashboard shows stats from loaded data</div>
+
+<hr>
+
+<!-- ==================== 9. RUNNING ==================== -->
+<h1 id="running">9. How to Run the Project</h1>
+
+<h2>Prerequisites</h2>
+<ul>
+  <li><strong>Node.js</strong> v18+ installed</li>
+  <li><strong>npm</strong> (comes with Node.js)</li>
+</ul>
+
+<h2>Quick Start</h2>
+<pre><code><span class="cm"># 1. Install all dependencies</span>
+npm install
+
+<span class="cm"># 2. Start both backend + frontend</span>
+npm run dev:all</code></pre>
+
+<p>This starts:</p>
+<ul>
+  <li>Express server on <code>http://localhost:3001</code></li>
+  <li>Vite dev server on <code>http://localhost:5173</code> (open this in browser)</li>
+</ul>
+
+<h2>Individual Commands</h2>
+<table>
+  <tr><th>Command</th><th>What it does</th></tr>
+  <tr><td><code>npm run server</code></td><td>Start only the backend (port 3001)</td></tr>
+  <tr><td><code>npm run dev</code></td><td>Start only the frontend (port 5173)</td></tr>
+  <tr><td><code>npm run dev:all</code></td><td>Start both together (recommended)</td></tr>
+  <tr><td><code>npm run build</code></td><td>Build frontend for production</td></tr>
+</table>
+
+<div class="box box-blue">
+  <strong>How does the frontend talk to the backend?</strong>
+  During development, the Vite dev server <strong>proxies</strong> any request starting with <code>/api</code> to <code>http://localhost:3001</code>. This is configured in <code>vite.config.js</code>. So when the frontend calls <code>fetch('/api/notes')</code>, Vite forwards it to the Express server.
+</div>
+
+<h2>Vite Proxy Config</h2>
+<span class="code-label">vite.config.js</span>
+<pre><code><span class="kw">export default</span> <span class="fn">defineConfig</span>({
+  plugins: [<span class="fn">react</span>(), <span class="fn">tailwindcss</span>()],
+  server: {
+    proxy: {
+      <span class="str">'/api'</span>: {
+        target: <span class="str">'http://localhost:3001'</span>,
+        changeOrigin: <span class="kw">true</span>,
+      }
+    }
+  }
+});</code></pre>
+
+<hr>
+
+<!-- ==================== 10. TECH STACK ==================== -->
+<h1 id="techstack">10. Tech Stack Summary</h1>
+
+<h2>Frontend</h2>
+<table>
+  <tr><th>Technology</th><th>Version</th><th>Purpose</th></tr>
+  <tr><td>React</td><td>19.x</td><td>UI framework</td></tr>
+  <tr><td>Vite</td><td>7.x</td><td>Build tool &amp; dev server</td></tr>
+  <tr><td>Tailwind CSS</td><td>4.x</td><td>Utility-first CSS styling</td></tr>
+  <tr><td>date-fns</td><td>4.x</td><td>Date formatting &amp; manipulation</td></tr>
+  <tr><td>Lucide React</td><td>—</td><td>Icon library</td></tr>
+</table>
+
+<h2>Backend</h2>
+<table>
+  <tr><th>Technology</th><th>Version</th><th>Purpose</th></tr>
+  <tr><td>Express</td><td>5.x</td><td>HTTP server &amp; routing</td></tr>
+  <tr><td>better-sqlite3</td><td>—</td><td>SQLite database driver</td></tr>
+  <tr><td>jsonwebtoken</td><td>—</td><td>JWT creation &amp; verification</td></tr>
+  <tr><td>bcryptjs</td><td>—</td><td>Password hashing</td></tr>
+  <tr><td>cors</td><td>—</td><td>Cross-origin resource sharing</td></tr>
+  <tr><td>concurrently</td><td>—</td><td>Run multiple npm scripts at once</td></tr>
+</table>
+
+<div class="box box-green" style="margin-top: 40px;">
+  <strong>That's the whole system!</strong>
+  The frontend is a React SPA with three views (Calendar, Notes, Dashboard). The backend is a lightweight Express server with JWT auth and SQLite storage. The two communicate over REST API calls, and the Vite proxy makes development seamless.
+</div>
+
+<div style="text-align: center; margin-top: 60px; padding: 30px; color: #94a3b8; font-size: 13px;">
+  <p>Aura Notes — System Documentation</p>
+  <p>Generated March 2026</p>
+</div>
+
+</div>
+</body>
+</html>

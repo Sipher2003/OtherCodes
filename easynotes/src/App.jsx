@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react';
 import { format, parseISO, startOfDay, endOfDay, subDays, isSameDay, startOfWeek, eachDayOfInterval } from 'date-fns';
-import { ChevronDown, ChevronRight, Search, Filter, X, TrendingUp, Award, Calendar as CalendarIcon } from 'lucide-react';
+import { ChevronDown, ChevronRight, Search, Filter, X, TrendingUp, Award, Calendar as CalendarIcon, Loader2 } from 'lucide-react';
 import Sidebar from './components/Sidebar';
 import Calendar from './components/Calendar';
 import DayWorkspace from './components/DayWorkspace';
+import AuthPage from './components/AuthPage';
 import useStore from './hooks/useStore';
+import { useAuth } from './contexts/AuthContext';
 
 function Dashboard() {
   const { notes, todos } = useStore();
@@ -293,13 +295,41 @@ function AllNotesView() {
 }
 
 function App() {
+  const { user, loading: authLoading } = useAuth();
   const {
     selectedDate,
     setSelectedDate,
-    getStreak
+    getStreak,
+    dataLoaded
   } = useStore();
 
   const [currentView, setCurrentView] = useState('calendar'); // 'calendar', 'notes'
+
+  // Show loading while checking auth
+  if (authLoading) {
+    return (
+      <div className="flex items-center justify-center h-screen w-screen bg-bg-main">
+        <Loader2 className="w-8 h-8 animate-spin text-brand" />
+      </div>
+    );
+  }
+
+  // Show auth page if not logged in
+  if (!user) {
+    return <AuthPage />;
+  }
+
+  // Show loading while fetching data
+  if (!dataLoaded) {
+    return (
+      <div className="flex items-center justify-center h-screen w-screen bg-bg-main">
+        <div className="text-center">
+          <Loader2 className="w-8 h-8 animate-spin text-brand mx-auto mb-4" />
+          <p className="text-text-secondary text-sm">Loading your notes...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="flex bg-bg-main text-text-primary h-screen w-screen overflow-hidden dark">
