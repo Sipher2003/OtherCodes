@@ -1,0 +1,11 @@
+
+
+Questions on Data:
+- How many transactions were made in USD currency?
+- What is the total revenue (in INR) and number of order lines by month for 2025? Show a monthly trend chart. 
+- Show the top 10 products by revenue (in INR) for the month of August. Include category and brand.
+- What was the biggest single revenue day in this period, and what product segments drove it?
+- Average revenue per customer by channel (Website vs Mobile) across each month.
+- What is the distribution of customers by country?
+- What’s the average revenue per region
+------------------------------------------------------------------

@@ -1,0 +1,1001 @@
+employee_id,first_name,last_name,full_name,age,department,job_title,location,salary,bonus,hire_date,years_experience,performance_score,email,phone,status
+EMP000001,Sarah,Smith,Sarah Smith,60,Finance,Director,Austin,87721.13,3895.34,2020-10-12,31,82.7,sarah.smith@company.com,(954) 304-9935,Active
+EMP000002,Stephanie,Johnson,Stephanie Johnson,40,Engineering,Director,San Francisco,99818.59,5346.14,2021-04-21,14,73.6,stephanie.johnson@company.com,(717) 816-1434,Active
+EMP000003,Nicole,Wilson,Nicole Wilson,57,HR,Specialist,Miami,82339.83,5842.51,2024-07-15,31,61.1,nicole.wilson@company.com,(206) 977-3615,Active
+EMP000004,James,Rodriguez,James Rodriguez,42,Marketing,Coordinator,Austin,62436.33,11047.22,2020-07-28,16,96.9,james.rodriguez@company.com,(294) 589-2584,Active
+EMP000005,Amanda,Martin,Amanda Martin,65,Finance,Lead,New York,101566.66,7982.91,2023-01-03,37,68.6,amanda.martin@company.com,(327) 587-2291,Active
+EMP000006,Lisa,Lopez,Lisa Lopez,37,HR,Manager,San Francisco,52617.51,4830.64,2023-09-16,10,71.2,lisa.lopez@company.com,(433) 991-5741,On Leave
+EMP000007,Jessica,Brown,Jessica Brown,65,IT,Lead,Seattle,156470.78,18909.58,2023-07-25,41,80.9,jessica.brown@company.com,(573) 366-7065,Active
+EMP000008,William,Williams,William Williams,30,Marketing,Analyst,Austin,72662.58,6206.5,2022-08-04,5,66.0,william.williams@company.com,(588) 476-4598,Active
+EMP000009,Jane,Davis,Jane Davis,49,Engineering,Associate,Boston,83039.73,6775.33,2021-07-02,23,72.6,jane.davis@company.com,(267) 416-6155,Active
+EMP000010,Melissa,Gonzalez,Melissa Gonzalez,38,Legal,Specialist,Chicago,95041.84,3702.62,2020-10-12,15,87.3,melissa.gonzalez@company.com,(452) 962-9830,Active
+EMP000011,Anthony,Wilson,Anthony Wilson,27,IT,Director,Boston,79734.0,10917.44,2020-10-10,1,54.1,anthony.wilson@company.com,(721) 705-2489,Active
+EMP000012,Sarah,Jones,Sarah Jones,29,Marketing,Senior Developer,Los Angeles,62482.0,14545.84,2022-02-27,2,86.8,sarah.jones@company.com,(590) 810-8668,Active
+EMP000013,Nicole,Smith,Nicole Smith,61,Sales,Coordinator,Seattle,95897.9,7381.08,2020-08-16,33,84.9,nicole.smith@company.com,(500) 645-3591,Active
+EMP000014,William,Taylor,William Taylor,62,Marketing,Specialist,San Francisco,100183.99,7447.05,2024-09-19,40,62.3,william.taylor@company.com,(854) 719-4258,Active
+EMP000015,Emily,Moore,Emily Moore,28,Engineering,Lead,Boston,44544.3,6750.69,2020-02-09,0,54.5,emily.moore@company.com,(314) 571-6038,Active
+EMP000016,Jessica,Jackson,Jessica Jackson,54,Sales,Lead,San Francisco,97169.2,10560.36,2024-07-29,31,85.5,jessica.jackson@company.com,(270) 978-9727,Active
+EMP000017,David,Thomas,David Thomas,62,Marketing,Associate,Seattle,72347.22,3232.71,2021-03-09,34,73.3,david.thomas@company.com,(752) 973-4295,Active
+EMP000018,Christopher,Lopez,Christopher Lopez,56,Legal,Senior Developer,Miami,83571.13,11022.84,2021-05-22,32,51.4,christopher.lopez@company.com,(430) 265-6539,Active
+EMP000019,Nicole,Davis,Nicole Davis,22,HR,Senior Developer,New York,56252.41,6641.71,2023-12-20,0,73.8,nicole.davis@company.com,(846) 260-4750,Active
+EMP000020,Jane,Hernandez,Jane Hernandez,35,Sales,Specialist,Austin,91070.55,4916.03,2023-10-02,7,100.0,jane.hernandez@company.com,(697) 419-9834,Active
+EMP000021,Anthony,Jackson,Anthony Jackson,47,Legal,Lead,Austin,98632.13,18711.9,2024-07-11,22,70.5,anthony.jackson@company.com,(616) 394-2545,Active
+EMP000022,Stephanie,Lopez,Stephanie Lopez,58,IT,Lead,Los Angeles,114132.41,2881.54,2024-11-04,34,67.0,stephanie.lopez@company.com,(946) 255-2612,Active
+EMP000023,James,Brown,James Brown,50,HR,Director,Austin,61085.34,1628.02,2023-01-03,27,67.5,james.brown@company.com,(659) 343-7912,Active
+EMP000024,Daniel,Davis,Daniel Davis,27,Sales,Senior Developer,Miami,74989.44,6640.89,2020-04-13,2,52.8,daniel.davis@company.com,(867) 753-1241,On Leave
+EMP000025,Jessica,Garcia,Jessica Garcia,51,IT,Lead,Miami,90766.55,7673.0,2021-03-13,23,86.3,jessica.garcia@company.com,(610) 260-3697,Active
+EMP000026,Christopher,Rodriguez,Christopher Rodriguez,54,Legal,Associate,Seattle,116621.1,4015.71,2023-11-27,32,87.7,christopher.rodriguez@company.com,(948) 769-8973,Active
+EMP000027,Ashley,Miller,Ashley Miller,34,Engineering,Coordinator,New York,39000.0,1762.28,2020-04-27,8,80.2,ashley.miller@company.com,(251) 798-8811,Active
+EMP000028,Matthew,Garcia,Matthew Garcia,45,Engineering,Analyst,San Francisco,116640.24,14020.45,2020-05-20,16,72.6,matthew.garcia@company.com,(809) 269-4853,Active
+EMP000029,Anthony,Davis,Anthony Davis,45,Engineering,Associate,San Francisco,80410.39,4639.61,2023-09-08,23,96.1,anthony.davis@company.com,(797) 778-9565,Active
+EMP000030,William,Miller,William Miller,60,Operations,Specialist,Austin,64313.26,6346.07,2022-03-21,38,46.2,william.miller@company.com,(334) 887-5915,Active
+EMP000031,Michael,Smith,Michael Smith,38,Legal,Senior Developer,San Francisco,79716.89,7204.97,2023-01-06,9,73.7,michael.smith@company.com,(418) 718-5345,Active
+EMP000032,Amanda,Williams,Amanda Williams,23,HR,Specialist,Boston,56630.89,9854.71,2020-11-19,0,37.5,amanda.williams@company.com,(648) 756-5956,Active
+EMP000033,Matthew,Smith,Matthew Smith,53,Finance,Analyst,San Francisco,78056.66,10892.93,2021-06-25,24,77.5,matthew.smith@company.com,(318) 309-3546,Active
+EMP000034,Lisa,Miller,Lisa Miller,45,Operations,Specialist,Austin,53005.31,5242.54,2022-11-01,18,80.3,lisa.miller@company.com,(700) 457-1832,Active
+EMP000035,Stephanie,Rodriguez,Stephanie Rodriguez,32,Engineering,Coordinator,New York,95272.26,4808.69,2024-04-28,10,83.2,stephanie.rodriguez@company.com,(333) 852-5291,Active
+EMP000036,Daniel,Moore,Daniel Moore,50,IT,Senior Developer,New York,85806.64,12259.64,2020-06-03,25,68.8,daniel.moore@company.com,(907) 352-9938,Active
+EMP000037,Amanda,Jackson,Amanda Jackson,40,Marketing,Analyst,Los Angeles,81047.04,3799.88,2020-03-26,15,84.1,amanda.jackson@company.com,(515) 573-1653,Inactive
+EMP000038,Robert,Davis,Robert Davis,54,Sales,Associate,Boston,90303.89,0.0,2023-06-25,25,81.4,robert.davis@company.com,(967) 358-4878,Inactive
+EMP000039,Emily,Wilson,Emily Wilson,22,Engineering,Coordinator,Chicago,97679.55,13741.15,2024-05-21,0,88.1,emily.wilson@company.com,(621) 885-5065,Active
+EMP000040,Sarah,Gonzalez,Sarah Gonzalez,47,Engineering,Director,Miami,76878.15,9139.93,2021-02-12,25,75.2,sarah.gonzalez@company.com,(671) 558-6000,Active
+EMP000041,Jessica,Davis,Jessica Davis,23,Engineering,Associate,Austin,95429.47,3640.87,2021-11-03,0,77.3,jessica.davis@company.com,(485) 271-5573,Active
+EMP000042,Matthew,Gonzalez,Matthew Gonzalez,37,Operations,Senior Developer,New York,42324.18,6807.99,2024-12-01,13,84.3,matthew.gonzalez@company.com,(467) 382-5349,Active
+EMP000043,Lisa,Wilson,Lisa Wilson,29,Operations,Associate,Boston,62046.37,6747.02,2023-05-26,2,91.5,lisa.wilson@company.com,(723) 318-7311,Inactive
+EMP000044,Robert,Rodriguez,Robert Rodriguez,56,Engineering,Manager,Los Angeles,86511.33,11491.1,2022-11-30,34,57.1,robert.rodriguez@company.com,(751) 903-4228,Active
+EMP000045,Michael,Hernandez,Michael Hernandez,25,Operations,Specialist,San Francisco,41422.46,6924.11,2022-11-04,0,58.0,michael.hernandez@company.com,(516) 882-7691,Active
+EMP000046,Ashley,Moore,Ashley Moore,24,Marketing,Associate,Austin,45772.7,8918.34,2023-09-23,0,87.3,ashley.moore@company.com,(588) 893-3851,Active
+EMP000047,Ashley,Gonzalez,Ashley Gonzalez,43,Engineering,Specialist,Seattle,79374.47,7892.03,2021-03-06,16,62.8,ashley.gonzalez@company.com,(640) 793-6279,Active
+EMP000048,Daniel,Miller,Daniel Miller,29,Legal,Senior Developer,Chicago,86750.39,11008.45,2021-08-04,2,93.1,daniel.miller@company.com,(727) 879-6491,Active
+EMP000049,Jessica,Martinez,Jessica Martinez,54,HR,Analyst,Austin,71307.13,7113.97,2020-02-20,28,100.0,jessica.martinez@company.com,(247) 450-8784,Active
+EMP000050,Michael,Anderson,Michael Anderson,25,IT,Associate,Austin,43725.38,4072.42,2022-10-09,3,75.6,michael.anderson@company.com,(609) 449-3417,Active
+EMP000051,John,Brown,John Brown,65,IT,Analyst,Austin,106377.67,9959.05,2024-07-04,43,85.7,john.brown@company.com,(912) 730-8611,Active
+EMP000052,Jessica,Brown,Jessica Brown,52,Legal,Lead,Chicago,108404.83,2629.65,2023-09-29,24,62.3,jessica.brown@company.com,(743) 772-6198,On Leave
+EMP000053,Daniel,Martin,Daniel Martin,54,IT,Analyst,Miami,83171.16,12876.27,2024-03-03,32,67.3,daniel.martin@company.com,(686) 660-5246,Active
+EMP000054,William,Taylor,William Taylor,24,Legal,Specialist,Austin,67711.04,7291.55,2022-06-19,0,61.7,william.taylor@company.com,(279) 930-5681,Active
+EMP000055,James,Hernandez,James Hernandez,43,Sales,Analyst,Chicago,54814.54,6462.05,2021-04-18,20,63.7,james.hernandez@company.com,(592) 910-3503,Active
+EMP000056,Michael,Wilson,Michael Wilson,54,IT,Lead,Boston,109934.12,6990.82,2022-05-01,26,81.3,michael.wilson@company.com,(263) 411-7883,Active
+EMP000057,Anthony,Smith,Anthony Smith,50,IT,Manager,Miami,83995.02,10562.57,2021-12-21,27,49.6,anthony.smith@company.com,(505) 971-7389,Inactive
+EMP000058,Stephanie,Moore,Stephanie Moore,41,HR,Director,Miami,117531.88,17560.45,2021-07-12,12,95.0,stephanie.moore@company.com,(646) 697-1475,Active
+EMP000059,Christopher,Garcia,Christopher Garcia,35,Legal,Manager,Chicago,79088.7,1737.75,2022-03-17,10,86.4,christopher.garcia@company.com,(806) 777-1444,Active
+EMP000060,Stephanie,Jones,Stephanie Jones,43,Legal,Manager,Chicago,130506.53,10081.41,2021-06-16,16,61.3,stephanie.jones@company.com,(588) 535-4467,Active
+EMP000061,James,Gonzalez,James Gonzalez,43,Finance,Specialist,Los Angeles,75000.23,31.73,2024-09-05,18,76.2,james.gonzalez@company.com,(283) 681-1317,Active
+EMP000062,Jane,Lopez,Jane Lopez,29,HR,Manager,San Francisco,62631.35,8391.34,2024-03-24,3,64.3,jane.lopez@company.com,(231) 453-4266,Active
+EMP000063,Lisa,Jones,Lisa Jones,60,HR,Lead,Chicago,111451.99,10547.85,2023-10-03,32,100.0,lisa.jones@company.com,(317) 777-4571,Active
+EMP000064,William,Lopez,William Lopez,40,Marketing,Analyst,San Francisco,61471.4,5794.49,2021-09-29,14,63.1,william.lopez@company.com,(310) 792-1420,Inactive
+EMP000065,Anthony,Gonzalez,Anthony Gonzalez,47,IT,Senior Developer,Austin,79227.26,7465.29,2023-04-27,24,99.9,anthony.gonzalez@company.com,(907) 842-4978,Active
+EMP000066,Ashley,Martin,Ashley Martin,53,Sales,Coordinator,New York,94875.63,11408.71,2022-12-27,24,100.0,ashley.martin@company.com,(638) 877-7071,Active
+EMP000067,James,Smith,James Smith,22,IT,Senior Developer,Miami,107318.81,11196.39,2022-06-06,0,90.5,james.smith@company.com,(570) 850-8532,Active
+EMP000068,Stephanie,Garcia,Stephanie Garcia,58,Finance,Lead,Miami,85257.43,5050.35,2022-06-11,33,69.9,stephanie.garcia@company.com,(948) 806-5397,Active
+EMP000069,Jessica,Williams,Jessica Williams,26,Finance,Director,Miami,62249.19,5486.05,2024-03-16,0,65.9,jessica.williams@company.com,(675) 783-7209,Active
+EMP000070,Melissa,Hernandez,Melissa Hernandez,47,Marketing,Director,Miami,100396.08,13050.97,2021-12-27,22,85.5,melissa.hernandez@company.com,(464) 548-5581,Inactive
+EMP000071,William,Moore,William Moore,54,Engineering,Senior Developer,Austin,149365.69,26460.64,2021-05-09,31,67.5,william.moore@company.com,(937) 616-9004,Active
+EMP000072,Jessica,Thomas,Jessica Thomas,55,Legal,Manager,Miami,129811.2,17887.56,2020-07-09,26,75.0,jessica.thomas@company.com,(501) 426-7625,Active
+EMP000073,Ashley,Jackson,Ashley Jackson,26,Operations,Coordinator,Miami,64081.07,5759.42,2022-05-21,0,98.2,ashley.jackson@company.com,(963) 763-6419,Active
+EMP000074,Daniel,Rodriguez,Daniel Rodriguez,53,Finance,Director,Seattle,91644.79,12198.52,2020-09-04,30,76.7,daniel.rodriguez@company.com,(938) 397-6169,Active
+EMP000075,Nicole,Garcia,Nicole Garcia,56,HR,Lead,Austin,68015.7,8319.3,2021-07-20,32,100.0,nicole.garcia@company.com,(941) 803-9595,Active
+EMP000076,Sarah,Miller,Sarah Miller,22,Finance,Coordinator,Austin,82108.0,5654.37,2021-01-02,0,79.2,sarah.miller@company.com,(509) 214-9751,Active
+EMP000077,Jane,Johnson,Jane Johnson,47,Finance,Lead,Chicago,99962.34,3807.41,2020-07-29,24,68.0,jane.johnson@company.com,(212) 787-5658,Active
+EMP000078,Daniel,Hernandez,Daniel Hernandez,28,Marketing,Specialist,New York,47528.72,3106.22,2024-10-30,2,80.4,daniel.hernandez@company.com,(689) 316-2070,Active
+EMP000079,Michael,Jackson,Michael Jackson,32,Engineering,Analyst,Chicago,92339.27,9468.21,2024-07-19,6,83.7,michael.jackson@company.com,(776) 511-2395,On Leave
+EMP000080,Sarah,Moore,Sarah Moore,58,IT,Associate,Austin,112582.8,14694.14,2022-07-11,36,86.2,sarah.moore@company.com,(653) 504-8025,Active
+EMP000081,Lisa,Johnson,Lisa Johnson,56,Sales,Director,Austin,57984.93,8824.37,2021-06-25,28,56.7,lisa.johnson@company.com,(876) 283-3573,Active
+EMP000082,Nicole,Williams,Nicole Williams,53,Marketing,Associate,New York,81542.94,12634.17,2022-07-11,27,71.7,nicole.williams@company.com,(905) 808-8699,Active
+EMP000083,Jessica,Martinez,Jessica Martinez,44,Finance,Senior Developer,Miami,75989.4,6360.41,2023-11-08,22,78.9,jessica.martinez@company.com,(439) 470-4241,Active
+EMP000084,Nicole,Davis,Nicole Davis,46,Marketing,Analyst,Seattle,119329.29,10081.73,2020-05-26,24,85.2,nicole.davis@company.com,(261) 369-6039,Active
+EMP000085,Anthony,Martinez,Anthony Martinez,57,Legal,Lead,San Francisco,101917.99,9171.57,2023-11-11,30,65.8,anthony.martinez@company.com,(511) 916-7594,Inactive
+EMP000086,Matthew,Moore,Matthew Moore,37,Legal,Senior Developer,Miami,124963.52,9704.83,2023-05-09,15,48.1,matthew.moore@company.com,(240) 642-6280,Active
+EMP000087,John,Williams,John Williams,42,HR,Specialist,New York,76644.16,14614.76,2023-03-26,20,85.0,john.williams@company.com,(241) 981-3870,Active
+EMP000088,Daniel,Rodriguez,Daniel Rodriguez,33,Marketing,Lead,Los Angeles,68845.31,8592.12,2020-07-05,11,88.3,daniel.rodriguez@company.com,(681) 556-7690,Active
+EMP000089,Sarah,Garcia,Sarah Garcia,59,Operations,Lead,Los Angeles,77243.32,11146.99,2021-08-13,36,67.4,sarah.garcia@company.com,(878) 610-1601,Active
+EMP000090,James,Rodriguez,James Rodriguez,23,Operations,Associate,San Francisco,46660.28,3552.29,2024-11-06,0,92.3,james.rodriguez@company.com,(726) 201-9889,Active
+EMP000091,Jane,Miller,Jane Miller,28,Operations,Lead,Miami,43879.84,7631.26,2024-04-05,2,71.8,jane.miller@company.com,(252) 408-5375,Active
+EMP000092,Ashley,Anderson,Ashley Anderson,31,Legal,Manager,San Francisco,64509.98,6436.28,2023-07-14,6,70.5,ashley.anderson@company.com,(823) 445-3594,Active
+EMP000093,John,Moore,John Moore,41,IT,Director,San Francisco,110240.49,8048.96,2024-09-19,15,86.6,john.moore@company.com,(316) 672-2924,Active
+EMP000094,David,Thomas,David Thomas,46,Finance,Associate,Seattle,61050.63,7502.13,2024-09-05,19,69.9,david.thomas@company.com,(694) 683-4993,Active
+EMP000095,David,Gonzalez,David Gonzalez,65,HR,Senior Developer,Chicago,83415.71,8632.08,2021-07-19,37,80.8,david.gonzalez@company.com,(991) 624-6568,Inactive
+EMP000096,Matthew,Rodriguez,Matthew Rodriguez,32,Engineering,Specialist,Seattle,104458.33,11935.28,2024-09-11,8,72.5,matthew.rodriguez@company.com,(801) 793-9022,Inactive
+EMP000097,Daniel,Moore,Daniel Moore,41,Legal,Coordinator,Boston,77841.0,12456.16,2023-02-04,19,60.5,daniel.moore@company.com,(981) 756-7180,Active
+EMP000098,James,Miller,James Miller,37,HR,Director,Los Angeles,87157.19,9628.68,2024-10-19,14,80.5,james.miller@company.com,(994) 620-1715,Active
+EMP000099,Melissa,Gonzalez,Melissa Gonzalez,53,IT,Lead,Chicago,96300.9,2634.55,2020-03-16,24,66.0,melissa.gonzalez@company.com,(329) 714-6439,Inactive
+EMP000100,Daniel,Brown,Daniel Brown,49,Legal,Analyst,New York,113700.12,20404.31,2022-04-19,24,56.9,daniel.brown@company.com,(870) 358-2225,Active
+EMP000101,William,Hernandez,William Hernandez,49,IT,Coordinator,San Francisco,60611.28,1471.11,2024-10-11,24,80.4,william.hernandez@company.com,(890) 746-7226,On Leave
+EMP000102,Melissa,Moore,Melissa Moore,34,Engineering,Director,San Francisco,100613.36,19274.8,2023-07-16,5,55.2,melissa.moore@company.com,(900) 494-4727,Active
+EMP000103,Stephanie,Brown,Stephanie Brown,51,Sales,Analyst,Miami,79695.83,9326.86,2023-11-22,29,70.8,stephanie.brown@company.com,(506) 229-1753,Active
+EMP000104,Jane,Martinez,Jane Martinez,32,Operations,Associate,Boston,55584.33,9321.14,2020-10-25,5,49.3,jane.martinez@company.com,(450) 743-7751,Active
+EMP000105,Emily,Garcia,Emily Garcia,48,Marketing,Associate,San Francisco,64588.42,1309.76,2023-06-23,26,76.6,emily.garcia@company.com,(899) 446-9153,Inactive
+EMP000106,David,Davis,David Davis,27,Legal,Lead,Seattle,65761.72,12861.45,2021-06-06,1,80.1,david.davis@company.com,(882) 209-8622,Inactive
+EMP000107,Nicole,Garcia,Nicole Garcia,59,Sales,Coordinator,Miami,89696.44,7565.79,2023-04-18,33,87.1,nicole.garcia@company.com,(506) 854-7951,Active
+EMP000108,Daniel,Martinez,Daniel Martinez,22,HR,Lead,Los Angeles,30251.83,3803.32,2020-08-06,0,76.8,daniel.martinez@company.com,(442) 590-6881,Active
+EMP000109,Ashley,Smith,Ashley Smith,22,IT,Manager,Seattle,88208.04,0.0,2023-03-05,0,98.1,ashley.smith@company.com,(902) 996-1803,Inactive
+EMP000110,Melissa,Martinez,Melissa Martinez,24,HR,Director,Boston,49658.45,5133.49,2023-07-27,0,92.7,melissa.martinez@company.com,(394) 835-5106,Active
+EMP000111,David,Brown,David Brown,65,Engineering,Lead,Seattle,139618.31,10029.77,2020-03-09,43,77.5,david.brown@company.com,(793) 573-3153,Active
+EMP000112,Ashley,Hernandez,Ashley Hernandez,44,IT,Director,Chicago,135946.64,22897.71,2020-09-27,21,84.7,ashley.hernandez@company.com,(752) 574-9697,Active
+EMP000113,William,Garcia,William Garcia,32,Finance,Specialist,Miami,65004.77,6676.22,2024-03-08,7,69.9,william.garcia@company.com,(546) 317-8673,On Leave
+EMP000114,David,Davis,David Davis,39,IT,Senior Developer,Boston,89766.32,0.0,2024-06-07,11,57.3,david.davis@company.com,(604) 214-5332,Active
+EMP000115,Daniel,Lopez,Daniel Lopez,55,Finance,Coordinator,Los Angeles,95702.22,8310.58,2020-08-09,26,42.4,daniel.lopez@company.com,(891) 439-8724,Active
+EMP000116,Nicole,Hernandez,Nicole Hernandez,63,HR,Lead,San Francisco,88579.93,8611.97,2023-12-06,34,49.4,nicole.hernandez@company.com,(509) 864-7689,Active
+EMP000117,Jane,Johnson,Jane Johnson,26,Finance,Senior Developer,Miami,66777.71,7931.82,2020-07-18,0,81.0,jane.johnson@company.com,(440) 750-3222,Active
+EMP000118,Amanda,Moore,Amanda Moore,32,IT,Associate,Chicago,54031.39,2863.99,2023-09-03,3,80.5,amanda.moore@company.com,(301) 701-7686,Inactive
+EMP000119,William,Johnson,William Johnson,25,Operations,Lead,Austin,60528.94,7468.6,2022-06-29,1,70.6,william.johnson@company.com,(441) 571-2627,On Leave
+EMP000120,Amanda,Moore,Amanda Moore,40,Operations,Associate,New York,61392.07,9347.9,2021-07-19,17,67.5,amanda.moore@company.com,(394) 325-8450,Active
+EMP000121,Robert,Martin,Robert Martin,43,Engineering,Coordinator,New York,68755.27,5587.53,2021-05-13,20,72.1,robert.martin@company.com,(328) 778-4362,Active
+EMP000122,Nicole,Miller,Nicole Miller,48,HR,Coordinator,Austin,59507.86,6587.46,2024-05-04,21,64.5,nicole.miller@company.com,(351) 810-1046,Active
+EMP000123,David,Jones,David Jones,64,Finance,Senior Developer,Chicago,114367.35,12455.34,2023-09-15,42,65.7,david.jones@company.com,(226) 334-1243,Active
+EMP000124,Jessica,Jackson,Jessica Jackson,43,Operations,Analyst,New York,63694.35,3884.26,2021-06-27,16,86.5,jessica.jackson@company.com,(253) 329-7897,Active
+EMP000125,Michael,Thomas,Michael Thomas,45,Legal,Senior Developer,Boston,90257.76,12868.06,2022-07-14,21,76.9,michael.thomas@company.com,(715) 426-1710,Active
+EMP000126,Matthew,Martinez,Matthew Martinez,44,Legal,Manager,New York,75476.2,11772.68,2022-09-07,18,100.0,matthew.martinez@company.com,(611) 636-2768,Active
+EMP000127,Daniel,Williams,Daniel Williams,39,Sales,Analyst,Boston,94056.81,10786.75,2020-05-14,11,38.1,daniel.williams@company.com,(329) 481-9984,Active
+EMP000128,Christopher,Martin,Christopher Martin,49,Finance,Associate,Miami,79055.3,3630.42,2020-07-22,24,65.3,christopher.martin@company.com,(918) 317-4522,Active
+EMP000129,Jessica,Wilson,Jessica Wilson,46,Operations,Associate,Miami,68062.34,11376.96,2022-05-01,21,88.7,jessica.wilson@company.com,(947) 297-6120,Active
+EMP000130,William,Lopez,William Lopez,39,Marketing,Senior Developer,Miami,49005.89,2790.19,2020-07-05,16,76.2,william.lopez@company.com,(287) 295-8075,Active
+EMP000131,Amanda,Jones,Amanda Jones,29,Engineering,Senior Developer,Boston,111008.96,6240.82,2022-04-21,6,100.0,amanda.jones@company.com,(562) 881-7929,Inactive
+EMP000132,Jane,Martinez,Jane Martinez,47,Finance,Senior Developer,Boston,62543.8,8116.31,2023-03-29,23,53.8,jane.martinez@company.com,(719) 417-3535,Active
+EMP000133,Jessica,Brown,Jessica Brown,27,Operations,Senior Developer,Boston,34528.26,2387.47,2024-04-10,0,83.4,jessica.brown@company.com,(485) 787-4705,Active
+EMP000134,Nicole,Martin,Nicole Martin,25,Engineering,Manager,Seattle,53452.58,5733.33,2021-01-04,0,87.0,nicole.martin@company.com,(479) 919-6062,Inactive
+EMP000135,Amanda,Smith,Amanda Smith,27,Marketing,Associate,Chicago,58394.73,7382.02,2020-05-22,0,81.8,amanda.smith@company.com,(345) 958-1502,Active
+EMP000136,Matthew,Miller,Matthew Miller,36,IT,Lead,Los Angeles,86295.06,19919.92,2021-11-29,10,48.8,matthew.miller@company.com,(361) 578-6105,Active
+EMP000137,Anthony,Martin,Anthony Martin,65,Sales,Analyst,New York,78354.61,6038.71,2020-11-18,40,84.6,anthony.martin@company.com,(972) 832-1815,Active
+EMP000138,William,Anderson,William Anderson,47,IT,Lead,Miami,87599.1,9366.57,2022-04-28,20,71.8,william.anderson@company.com,(479) 420-9394,Active
+EMP000139,Stephanie,Brown,Stephanie Brown,32,Finance,Specialist,Miami,68893.61,6377.65,2020-04-03,8,82.2,stephanie.brown@company.com,(425) 604-1897,Active
+EMP000140,Ashley,Miller,Ashley Miller,31,Marketing,Specialist,Seattle,55753.69,11106.11,2021-11-02,8,100.0,ashley.miller@company.com,(322) 207-9149,Active
+EMP000141,Emily,Jones,Emily Jones,34,IT,Coordinator,Austin,70153.54,10896.0,2020-05-27,6,78.9,emily.jones@company.com,(606) 959-1693,Active
+EMP000142,Daniel,Williams,Daniel Williams,32,Operations,Associate,Los Angeles,65598.39,4577.41,2023-12-24,8,100.0,daniel.williams@company.com,(855) 627-5743,Active
+EMP000143,John,Hernandez,John Hernandez,51,Marketing,Coordinator,Miami,68783.68,7462.1,2020-06-29,25,97.6,john.hernandez@company.com,(647) 308-4986,Active
+EMP000144,Christopher,Taylor,Christopher Taylor,33,Sales,Specialist,Los Angeles,67740.91,6133.24,2024-03-07,4,85.0,christopher.taylor@company.com,(547) 426-6456,Active
+EMP000145,Michael,Taylor,Michael Taylor,43,Sales,Coordinator,Austin,82378.75,6926.08,2021-12-20,18,85.4,michael.taylor@company.com,(944) 860-3419,Active
+EMP000146,David,Rodriguez,David Rodriguez,26,HR,Analyst,Chicago,50412.73,1786.82,2024-04-05,0,84.8,david.rodriguez@company.com,(977) 871-2234,Active
+EMP000147,Melissa,Anderson,Melissa Anderson,25,Legal,Coordinator,Boston,90379.61,7907.66,2020-11-05,2,49.4,melissa.anderson@company.com,(650) 269-8682,Active
+EMP000148,Ashley,Rodriguez,Ashley Rodriguez,35,Engineering,Senior Developer,Boston,113770.52,15960.5,2021-09-27,13,78.8,ashley.rodriguez@company.com,(672) 662-1616,Active
+EMP000149,Ashley,Williams,Ashley Williams,44,Sales,Lead,Los Angeles,105170.74,9259.34,2023-04-03,22,51.3,ashley.williams@company.com,(767) 956-1672,Active
+EMP000150,Anthony,Miller,Anthony Miller,35,Operations,Analyst,Miami,68294.59,11721.0,2020-05-06,11,40.7,anthony.miller@company.com,(661) 305-6626,On Leave
+EMP000151,Michael,Taylor,Michael Taylor,28,Marketing,Director,New York,72335.44,9075.85,2023-12-20,3,91.4,michael.taylor@company.com,(648) 649-9586,Active
+EMP000152,Emily,Lopez,Emily Lopez,51,Operations,Associate,Seattle,84583.42,9508.11,2022-04-17,24,77.7,emily.lopez@company.com,(993) 546-1857,Active
+EMP000153,James,Williams,James Williams,54,Operations,Associate,San Francisco,83088.49,8606.17,2021-08-04,32,85.8,james.williams@company.com,(458) 941-3463,Active
+EMP000154,Anthony,Jones,Anthony Jones,31,Operations,Associate,Seattle,48989.87,4803.92,2020-09-21,4,99.6,anthony.jones@company.com,(809) 925-2388,Active
+EMP000155,Christopher,Hernandez,Christopher Hernandez,59,Marketing,Associate,San Francisco,50851.56,4398.98,2022-11-07,33,85.1,christopher.hernandez@company.com,(570) 218-6940,Active
+EMP000156,Robert,Hernandez,Robert Hernandez,50,Legal,Director,Austin,81648.18,20314.87,2020-10-08,25,59.7,robert.hernandez@company.com,(358) 279-5846,Active
+EMP000157,Sarah,Taylor,Sarah Taylor,33,Engineering,Analyst,Boston,112263.55,6882.94,2023-05-08,10,100.0,sarah.taylor@company.com,(585) 357-3658,Active
+EMP000158,Lisa,Garcia,Lisa Garcia,32,Legal,Associate,New York,58662.72,6823.72,2022-01-16,5,73.3,lisa.garcia@company.com,(892) 936-4891,On Leave
+EMP000159,Lisa,Martinez,Lisa Martinez,29,Legal,Director,Austin,47510.14,5416.08,2021-09-25,5,65.9,lisa.martinez@company.com,(680) 398-7026,Active
+EMP000160,Anthony,Anderson,Anthony Anderson,39,Legal,Associate,Seattle,67897.08,6948.98,2022-10-26,14,72.0,anthony.anderson@company.com,(740) 628-3655,Active
+EMP000161,Lisa,Jones,Lisa Jones,64,Finance,Lead,New York,102125.01,16365.38,2024-11-25,39,85.9,lisa.jones@company.com,(580) 767-2680,Active
+EMP000162,Matthew,Brown,Matthew Brown,52,Finance,Analyst,San Francisco,100855.01,19600.3,2021-07-12,26,54.9,matthew.brown@company.com,(660) 725-3414,Active
+EMP000163,Michael,Davis,Michael Davis,35,Legal,Manager,Boston,66444.91,5307.45,2022-04-29,9,73.1,michael.davis@company.com,(254) 605-9224,Active
+EMP000164,Christopher,Williams,Christopher Williams,44,Operations,Manager,Austin,58448.49,7376.06,2021-10-14,18,100.0,christopher.williams@company.com,(301) 931-6493,Active
+EMP000165,David,Johnson,David Johnson,30,Finance,Analyst,Miami,57257.7,8165.65,2024-04-03,8,84.9,david.johnson@company.com,(922) 680-8349,Active
+EMP000166,Michael,Smith,Michael Smith,32,Finance,Analyst,Austin,33867.83,4754.06,2023-01-28,8,74.0,michael.smith@company.com,(944) 823-9647,Active
+EMP000167,Ashley,Davis,Ashley Davis,55,Finance,Manager,San Francisco,95062.33,4156.99,2021-05-03,31,86.6,ashley.davis@company.com,(629) 854-8489,Active
+EMP000168,Melissa,Martin,Melissa Martin,45,Engineering,Analyst,Austin,95893.78,10918.38,2021-08-19,19,57.1,melissa.martin@company.com,(639) 201-6780,Active
+EMP000169,Stephanie,Garcia,Stephanie Garcia,45,Sales,Senior Developer,Boston,91582.39,4500.39,2022-12-13,21,64.5,stephanie.garcia@company.com,(757) 719-9316,Active
+EMP000170,Christopher,Thomas,Christopher Thomas,41,Engineering,Coordinator,Los Angeles,104715.05,1940.88,2021-06-03,14,100.0,christopher.thomas@company.com,(965) 216-6850,Active
+EMP000171,Amanda,Davis,Amanda Davis,49,Sales,Analyst,Boston,59105.57,3908.16,2020-03-31,21,77.2,amanda.davis@company.com,(560) 759-6546,Active
+EMP000172,Emily,Anderson,Emily Anderson,44,Legal,Analyst,Chicago,96799.12,8084.58,2020-05-09,17,95.2,emily.anderson@company.com,(933) 994-8498,Active
+EMP000173,Robert,Johnson,Robert Johnson,53,HR,Coordinator,New York,104622.53,23905.87,2021-09-27,27,66.4,robert.johnson@company.com,(727) 607-9897,Active
+EMP000174,Jane,Miller,Jane Miller,39,Finance,Manager,Boston,60052.78,3000.78,2024-11-08,16,90.6,jane.miller@company.com,(871) 539-5476,Active
+EMP000175,Amanda,Wilson,Amanda Wilson,23,IT,Associate,Miami,42455.79,1745.93,2021-11-25,0,100.0,amanda.wilson@company.com,(391) 708-9151,Active
+EMP000176,Matthew,Rodriguez,Matthew Rodriguez,22,Sales,Senior Developer,Los Angeles,60655.53,5393.73,2022-05-31,0,66.5,matthew.rodriguez@company.com,(816) 384-9937,Active
+EMP000177,Sarah,Williams,Sarah Williams,53,Operations,Specialist,Seattle,76590.89,6273.21,2022-07-02,30,70.6,sarah.williams@company.com,(817) 934-7981,Active
+EMP000178,Daniel,Lopez,Daniel Lopez,49,Legal,Coordinator,New York,97695.19,0.0,2023-06-13,25,93.3,daniel.lopez@company.com,(645) 481-1939,Active
+EMP000179,Christopher,Lopez,Christopher Lopez,45,Marketing,Analyst,New York,72564.39,7614.71,2024-10-04,16,53.8,christopher.lopez@company.com,(822) 894-8179,Active
+EMP000180,Michael,Davis,Michael Davis,24,Operations,Associate,Boston,48658.1,7245.9,2023-03-07,0,77.1,michael.davis@company.com,(233) 819-3513,Active
+EMP000181,Amanda,Lopez,Amanda Lopez,55,Legal,Analyst,San Francisco,128433.85,23416.04,2022-12-20,26,81.3,amanda.lopez@company.com,(575) 607-6150,Active
+EMP000182,Jessica,Brown,Jessica Brown,42,Engineering,Lead,Chicago,76041.76,4180.27,2022-11-26,19,49.6,jessica.brown@company.com,(596) 775-2929,Active
+EMP000183,William,Anderson,William Anderson,28,HR,Lead,Seattle,74562.57,1231.11,2021-02-13,2,86.5,william.anderson@company.com,(325) 338-2213,Active
+EMP000184,Daniel,Williams,Daniel Williams,23,Operations,Senior Developer,Boston,72139.76,9911.93,2023-01-31,0,78.4,daniel.williams@company.com,(755) 497-5914,Inactive
+EMP000185,Emily,Lopez,Emily Lopez,63,HR,Director,San Francisco,75170.09,10359.76,2024-06-10,35,91.3,emily.lopez@company.com,(342) 442-9094,Active
+EMP000186,Nicole,Jackson,Nicole Jackson,59,Operations,Analyst,Miami,56103.94,9121.52,2023-06-07,33,65.6,nicole.jackson@company.com,(288) 267-6067,Active
+EMP000187,Melissa,Taylor,Melissa Taylor,65,IT,Senior Developer,Los Angeles,104009.42,15454.88,2020-09-13,38,78.9,melissa.taylor@company.com,(524) 857-2215,Active
+EMP000188,Matthew,Lopez,Matthew Lopez,53,Marketing,Analyst,Chicago,77838.84,7562.25,2022-06-05,26,69.5,matthew.lopez@company.com,(714) 256-3034,Active
+EMP000189,Ashley,Garcia,Ashley Garcia,30,Marketing,Director,Boston,91512.16,11976.15,2021-12-09,2,85.1,ashley.garcia@company.com,(731) 490-2292,Active
+EMP000190,Nicole,Rodriguez,Nicole Rodriguez,25,Marketing,Senior Developer,Seattle,39897.58,6286.71,2022-10-26,0,91.5,nicole.rodriguez@company.com,(856) 372-3526,Active
+EMP000191,Lisa,Martin,Lisa Martin,39,Operations,Manager,New York,77691.01,9354.98,2020-06-15,17,76.9,lisa.martin@company.com,(246) 856-5336,Active
+EMP000192,Anthony,Wilson,Anthony Wilson,46,Engineering,Specialist,Miami,66639.62,6594.49,2023-08-07,20,100.0,anthony.wilson@company.com,(509) 694-5012,Active
+EMP000193,Christopher,Martinez,Christopher Martinez,63,Legal,Manager,San Francisco,105045.96,11849.34,2020-11-19,35,65.3,christopher.martinez@company.com,(650) 625-8933,Active
+EMP000194,James,Martin,James Martin,33,Marketing,Coordinator,Boston,77083.35,16565.05,2024-02-12,10,73.5,james.martin@company.com,(553) 608-3142,Active
+EMP000195,Matthew,Moore,Matthew Moore,38,Sales,Director,Boston,42786.89,310.66,2022-08-13,15,55.8,matthew.moore@company.com,(325) 473-8366,Active
+EMP000196,Sarah,Johnson,Sarah Johnson,64,Finance,Associate,Los Angeles,83991.88,13470.58,2021-05-23,39,71.6,sarah.johnson@company.com,(363) 535-6123,Active
+EMP000197,Emily,Thomas,Emily Thomas,60,Legal,Specialist,Miami,120143.79,14977.83,2022-10-15,32,77.0,emily.thomas@company.com,(223) 292-7442,Active
+EMP000198,Jessica,Miller,Jessica Miller,26,Operations,Manager,New York,54036.66,5068.93,2021-07-30,0,48.7,jessica.miller@company.com,(706) 811-8710,Active
+EMP000199,John,Brown,John Brown,41,IT,Specialist,Chicago,92464.05,21082.19,2024-01-29,19,70.8,john.brown@company.com,(574) 982-7606,Active
+EMP000200,Christopher,Johnson,Christopher Johnson,55,HR,Specialist,Boston,74303.19,15969.5,2020-05-30,33,67.8,christopher.johnson@company.com,(595) 716-8378,Active
+EMP000201,William,Martin,William Martin,30,Sales,Senior Developer,Chicago,48311.31,3316.65,2022-03-17,4,48.3,william.martin@company.com,(582) 547-6990,Active
+EMP000202,Robert,Martin,Robert Martin,60,IT,Manager,New York,138224.07,9713.94,2020-03-20,38,89.8,robert.martin@company.com,(340) 930-6456,Active
+EMP000203,Matthew,Anderson,Matthew Anderson,38,Marketing,Coordinator,Chicago,65819.32,8858.03,2023-06-09,10,84.3,matthew.anderson@company.com,(526) 366-7438,On Leave
+EMP000204,Ashley,Jackson,Ashley Jackson,38,Operations,Specialist,Miami,76238.39,11672.9,2022-08-30,11,94.3,ashley.jackson@company.com,(217) 577-6427,Active
+EMP000205,Stephanie,Jackson,Stephanie Jackson,29,Finance,Lead,New York,68362.27,5867.82,2021-06-27,1,50.1,stephanie.jackson@company.com,(871) 994-4728,Active
+EMP000206,Anthony,Thomas,Anthony Thomas,47,Marketing,Analyst,Los Angeles,75459.27,8050.93,2024-08-09,20,87.3,anthony.thomas@company.com,(897) 448-1517,Active
+EMP000207,Sarah,Miller,Sarah Miller,36,Engineering,Coordinator,Miami,68359.4,6166.01,2022-05-07,7,90.8,sarah.miller@company.com,(355) 622-4340,Active
+EMP000208,Lisa,Thomas,Lisa Thomas,50,Engineering,Director,Chicago,85205.75,8177.98,2023-02-22,22,91.9,lisa.thomas@company.com,(532) 878-8837,Active
+EMP000209,James,Garcia,James Garcia,56,Legal,Coordinator,Boston,123592.82,4485.99,2023-10-16,34,67.3,james.garcia@company.com,(990) 938-5331,Active
+EMP000210,Robert,Davis,Robert Davis,65,Finance,Director,Seattle,124531.67,20410.29,2021-09-01,37,59.4,robert.davis@company.com,(989) 495-4396,Active
+EMP000211,Melissa,Hernandez,Melissa Hernandez,44,Legal,Specialist,Boston,90496.16,18291.07,2021-08-12,22,68.4,melissa.hernandez@company.com,(324) 787-9899,Active
+EMP000212,Christopher,Lopez,Christopher Lopez,34,Marketing,Manager,Seattle,70753.75,8076.65,2021-08-12,11,88.0,christopher.lopez@company.com,(931) 280-6674,Inactive
+EMP000213,William,Thomas,William Thomas,65,HR,Specialist,Austin,83910.83,19289.86,2023-02-25,36,91.0,william.thomas@company.com,(912) 478-3249,Active
+EMP000214,Anthony,Davis,Anthony Davis,65,HR,Director,New York,74019.99,893.42,2023-07-30,39,49.8,anthony.davis@company.com,(438) 253-2641,Active
+EMP000215,Melissa,Brown,Melissa Brown,22,Marketing,Analyst,New York,48732.34,6788.84,2022-04-13,0,70.8,melissa.brown@company.com,(868) 687-8822,Active
+EMP000216,Ashley,Hernandez,Ashley Hernandez,39,Finance,Senior Developer,New York,70856.59,2808.06,2023-08-28,10,46.0,ashley.hernandez@company.com,(787) 437-9767,Active
+EMP000217,Jane,Garcia,Jane Garcia,25,IT,Manager,Chicago,89717.8,12701.99,2024-09-08,0,71.8,jane.garcia@company.com,(606) 707-4052,Inactive
+EMP000218,Ashley,Johnson,Ashley Johnson,55,Engineering,Senior Developer,Seattle,113248.45,20504.25,2021-11-17,29,92.5,ashley.johnson@company.com,(491) 665-9901,Active
+EMP000219,David,Taylor,David Taylor,31,Legal,Director,Seattle,78596.03,10042.12,2024-07-14,9,67.5,david.taylor@company.com,(315) 538-3662,Active
+EMP000220,William,Garcia,William Garcia,27,Engineering,Specialist,Boston,67934.03,10849.68,2023-03-08,0,82.7,william.garcia@company.com,(890) 975-4164,Active
+EMP000221,Christopher,Wilson,Christopher Wilson,30,Operations,Associate,San Francisco,49639.16,5384.99,2023-10-02,7,57.4,christopher.wilson@company.com,(297) 389-3303,Active
+EMP000222,Jessica,Smith,Jessica Smith,24,Finance,Director,Los Angeles,65070.29,8566.28,2022-07-03,0,66.7,jessica.smith@company.com,(971) 473-6400,Active
+EMP000223,Anthony,Smith,Anthony Smith,46,Finance,Director,Boston,110013.84,0.0,2020-05-07,23,100.0,anthony.smith@company.com,(883) 321-8625,Active
+EMP000224,Christopher,Taylor,Christopher Taylor,49,Finance,Specialist,San Francisco,72626.88,7150.3,2022-01-22,26,65.9,christopher.taylor@company.com,(829) 426-4590,On Leave
+EMP000225,Melissa,Jones,Melissa Jones,33,Legal,Associate,Boston,81705.83,4695.81,2023-12-08,11,72.2,melissa.jones@company.com,(762) 682-9806,Active
+EMP000226,Robert,Davis,Robert Davis,45,Sales,Coordinator,Miami,77571.03,8153.22,2020-06-08,22,71.5,robert.davis@company.com,(777) 314-2011,Active
+EMP000227,Matthew,Miller,Matthew Miller,27,Marketing,Coordinator,Chicago,71451.8,11874.84,2024-10-15,3,75.5,matthew.miller@company.com,(732) 652-2904,Active
+EMP000228,Anthony,Thomas,Anthony Thomas,48,Sales,Manager,Miami,61422.76,8101.58,2022-07-17,19,81.1,anthony.thomas@company.com,(335) 725-7806,Active
+EMP000229,Jane,Moore,Jane Moore,40,Legal,Manager,Seattle,82907.01,9972.13,2022-03-21,16,83.2,jane.moore@company.com,(460) 203-4570,Active
+EMP000230,Jane,Wilson,Jane Wilson,64,Operations,Manager,San Francisco,86636.34,5936.68,2020-05-21,39,79.8,jane.wilson@company.com,(683) 232-5703,Active
+EMP000231,David,Wilson,David Wilson,28,Operations,Lead,Los Angeles,66302.63,5402.59,2024-11-15,5,73.6,david.wilson@company.com,(586) 584-2314,Active
+EMP000232,Nicole,Jones,Nicole Jones,51,Operations,Analyst,San Francisco,58052.12,6801.12,2023-01-05,26,98.5,nicole.jones@company.com,(602) 741-3086,Active
+EMP000233,Jessica,Smith,Jessica Smith,60,Engineering,Lead,Seattle,127124.43,17500.61,2023-10-11,31,46.6,jessica.smith@company.com,(936) 757-7948,Active
+EMP000234,Jessica,Davis,Jessica Davis,45,Legal,Analyst,Boston,69682.84,7629.3,2021-07-18,21,71.7,jessica.davis@company.com,(393) 942-2848,Active
+EMP000235,Stephanie,Martin,Stephanie Martin,51,Engineering,Director,Austin,104134.8,16708.33,2020-05-17,28,70.1,stephanie.martin@company.com,(303) 808-1550,Active
+EMP000236,Jane,Davis,Jane Davis,51,Engineering,Lead,Los Angeles,76930.86,10296.31,2021-04-24,26,86.6,jane.davis@company.com,(752) 422-1924,Active
+EMP000237,Ashley,Davis,Ashley Davis,53,Operations,Director,Boston,76292.85,724.94,2021-09-10,31,65.9,ashley.davis@company.com,(346) 876-9540,Active
+EMP000238,Ashley,Rodriguez,Ashley Rodriguez,47,Engineering,Associate,Chicago,119697.79,7541.71,2023-02-12,22,100.0,ashley.rodriguez@company.com,(707) 248-6642,Inactive
+EMP000239,Christopher,Taylor,Christopher Taylor,33,Operations,Associate,Los Angeles,54769.26,5167.5,2020-11-01,9,44.5,christopher.taylor@company.com,(507) 585-4012,Active
+EMP000240,Melissa,Davis,Melissa Davis,25,HR,Analyst,Seattle,37463.38,0.0,2024-07-08,0,53.3,melissa.davis@company.com,(674) 259-7761,On Leave
+EMP000241,Nicole,Taylor,Nicole Taylor,36,Marketing,Director,Los Angeles,74603.07,9190.07,2021-06-06,11,89.8,nicole.taylor@company.com,(408) 538-2295,Inactive
+EMP000242,Amanda,Williams,Amanda Williams,41,HR,Specialist,New York,73320.53,10530.5,2022-02-11,19,55.8,amanda.williams@company.com,(889) 819-1647,Inactive
+EMP000243,Robert,Jackson,Robert Jackson,65,HR,Director,Miami,57868.57,5088.86,2024-11-15,42,66.5,robert.jackson@company.com,(540) 510-1251,Active
+EMP000244,Robert,Brown,Robert Brown,56,Legal,Director,Austin,112601.04,9968.56,2022-03-23,31,76.1,robert.brown@company.com,(445) 765-6269,Active
+EMP000245,Christopher,Anderson,Christopher Anderson,39,Operations,Specialist,Seattle,59472.57,4701.54,2022-01-06,10,91.8,christopher.anderson@company.com,(725) 709-8635,Active
+EMP000246,Melissa,Hernandez,Melissa Hernandez,50,HR,Coordinator,Boston,65496.06,8915.78,2022-04-27,23,85.6,melissa.hernandez@company.com,(246) 776-4625,Active
+EMP000247,John,Rodriguez,John Rodriguez,28,IT,Analyst,Seattle,57881.36,5320.38,2021-02-05,2,79.8,john.rodriguez@company.com,(537) 435-7223,Active
+EMP000248,Jessica,Thomas,Jessica Thomas,51,Operations,Lead,Seattle,51578.75,9802.39,2024-01-21,24,64.9,jessica.thomas@company.com,(857) 957-9037,Active
+EMP000249,Amanda,Garcia,Amanda Garcia,43,Marketing,Analyst,Miami,48002.48,5511.79,2024-12-26,14,83.5,amanda.garcia@company.com,(755) 857-1962,Active
+EMP000250,Michael,Johnson,Michael Johnson,38,Engineering,Analyst,Los Angeles,90723.27,0.0,2024-09-21,10,68.2,michael.johnson@company.com,(845) 436-2113,Active
+EMP000251,John,Miller,John Miller,59,Legal,Manager,Boston,128191.03,18843.11,2023-06-19,37,58.6,john.miller@company.com,(853) 882-8916,Active
+EMP000252,John,Smith,John Smith,62,IT,Manager,New York,122748.24,5165.46,2022-12-20,35,74.9,john.smith@company.com,(939) 481-9777,On Leave
+EMP000253,John,Taylor,John Taylor,49,IT,Senior Developer,Chicago,104488.0,15794.1,2020-07-16,20,100.0,john.taylor@company.com,(736) 352-4948,Active
+EMP000254,Matthew,Rodriguez,Matthew Rodriguez,51,Operations,Associate,Seattle,69847.72,6003.06,2020-06-10,23,60.0,matthew.rodriguez@company.com,(582) 615-8520,Active
+EMP000255,Jessica,Martinez,Jessica Martinez,47,Sales,Senior Developer,New York,92433.24,9713.64,2022-04-10,24,84.3,jessica.martinez@company.com,(588) 586-8798,Active
+EMP000256,John,Garcia,John Garcia,61,Sales,Associate,Miami,84689.52,12384.29,2023-08-13,34,96.0,john.garcia@company.com,(539) 779-2562,Inactive
+EMP000257,Jane,Davis,Jane Davis,30,HR,Specialist,Miami,82061.73,8806.24,2020-04-05,1,80.4,jane.davis@company.com,(276) 900-5593,Inactive
+EMP000258,Anthony,Johnson,Anthony Johnson,41,Marketing,Manager,Boston,76600.22,5610.07,2021-02-28,13,90.7,anthony.johnson@company.com,(801) 347-7525,Inactive
+EMP000259,Ashley,Garcia,Ashley Garcia,32,HR,Coordinator,Los Angeles,60586.2,5753.2,2022-02-25,9,89.3,ashley.garcia@company.com,(973) 957-3292,Active
+EMP000260,Michael,Taylor,Michael Taylor,62,Operations,Senior Developer,New York,95266.7,3741.51,2022-06-14,39,71.7,michael.taylor@company.com,(437) 277-6580,Active
+EMP000261,Lisa,Martin,Lisa Martin,33,IT,Manager,Boston,67954.48,1503.21,2023-07-22,7,67.7,lisa.martin@company.com,(479) 661-9038,Active
+EMP000262,Nicole,Gonzalez,Nicole Gonzalez,57,IT,Associate,Chicago,121698.54,14453.23,2020-06-24,31,83.6,nicole.gonzalez@company.com,(990) 833-5839,Active
+EMP000263,Michael,Williams,Michael Williams,53,Finance,Associate,Chicago,139562.67,4806.39,2023-12-28,30,73.6,michael.williams@company.com,(849) 357-7383,Active
+EMP000264,Sarah,Williams,Sarah Williams,62,Engineering,Lead,Seattle,139849.68,13890.22,2022-01-07,38,62.3,sarah.williams@company.com,(979) 476-2674,Active
+EMP000265,Emily,Wilson,Emily Wilson,56,Legal,Senior Developer,Los Angeles,98269.13,8562.3,2020-02-23,28,53.8,emily.wilson@company.com,(291) 562-2524,Active
+EMP000266,James,Gonzalez,James Gonzalez,51,Engineering,Associate,Seattle,72502.61,9072.94,2022-03-05,22,73.6,james.gonzalez@company.com,(997) 286-4977,Active
+EMP000267,Emily,Gonzalez,Emily Gonzalez,41,Marketing,Specialist,Chicago,88888.3,9886.39,2021-09-08,14,86.4,emily.gonzalez@company.com,(474) 704-3390,Active
+EMP000268,Stephanie,Rodriguez,Stephanie Rodriguez,57,IT,Lead,Seattle,121567.77,9888.53,2024-05-21,32,73.8,stephanie.rodriguez@company.com,(278) 569-5123,Inactive
+EMP000269,Melissa,Martin,Melissa Martin,23,HR,Senior Developer,Miami,70338.74,9328.05,2020-10-04,0,81.6,melissa.martin@company.com,(511) 206-7483,Active
+EMP000270,Lisa,Gonzalez,Lisa Gonzalez,33,Operations,Coordinator,Miami,36341.0,0.0,2022-05-31,7,64.9,lisa.gonzalez@company.com,(866) 808-3230,Active
+EMP000271,Lisa,Miller,Lisa Miller,36,Legal,Analyst,Boston,100049.42,11624.74,2022-03-26,11,64.2,lisa.miller@company.com,(526) 498-9044,On Leave
+EMP000272,Jessica,Hernandez,Jessica Hernandez,62,IT,Associate,Seattle,102273.18,8332.12,2022-01-17,34,83.2,jessica.hernandez@company.com,(316) 777-4273,Active
+EMP000273,Nicole,Garcia,Nicole Garcia,35,Engineering,Director,Miami,44828.68,5084.06,2022-06-16,12,78.5,nicole.garcia@company.com,(498) 909-2133,Active
+EMP000274,Stephanie,Thomas,Stephanie Thomas,46,Marketing,Director,Seattle,62790.96,9923.57,2021-06-01,17,55.6,stephanie.thomas@company.com,(874) 357-7932,Active
+EMP000275,Michael,Anderson,Michael Anderson,33,Legal,Associate,Los Angeles,53826.9,218.87,2023-01-18,9,70.9,michael.anderson@company.com,(237) 568-9796,Active
+EMP000276,Michael,Brown,Michael Brown,50,HR,Analyst,Boston,63120.07,4753.71,2023-08-18,28,89.9,michael.brown@company.com,(827) 245-7547,On Leave
+EMP000277,James,Wilson,James Wilson,26,Sales,Senior Developer,New York,70533.86,4436.51,2021-06-13,4,54.1,james.wilson@company.com,(427) 722-9499,Active
+EMP000278,Anthony,Davis,Anthony Davis,49,Legal,Associate,Boston,74537.71,15193.57,2022-08-06,27,70.2,anthony.davis@company.com,(990) 895-9199,Active
+EMP000279,John,Thomas,John Thomas,65,Sales,Associate,Seattle,108421.76,9437.89,2020-06-24,38,72.6,john.thomas@company.com,(318) 947-3321,Active
+EMP000280,James,Anderson,James Anderson,35,HR,Coordinator,Miami,58549.28,3842.17,2022-09-02,10,75.7,james.anderson@company.com,(299) 648-8412,Active
+EMP000281,Ashley,Johnson,Ashley Johnson,47,Sales,Coordinator,New York,88589.6,9704.71,2023-08-20,21,73.8,ashley.johnson@company.com,(311) 893-3692,Inactive
+EMP000282,Jessica,Taylor,Jessica Taylor,33,Marketing,Coordinator,Chicago,50332.47,6172.11,2023-02-20,11,77.1,jessica.taylor@company.com,(636) 673-4798,Active
+EMP000283,Emily,Garcia,Emily Garcia,60,IT,Manager,Los Angeles,123564.18,14999.89,2024-02-19,37,31.6,emily.garcia@company.com,(828) 402-8365,Active
+EMP000284,Christopher,Smith,Christopher Smith,44,HR,Specialist,Austin,39493.5,5221.57,2024-03-20,16,60.9,christopher.smith@company.com,(920) 264-2667,Active
+EMP000285,Nicole,Garcia,Nicole Garcia,29,Operations,Director,Boston,45766.95,4341.35,2022-07-26,3,100.0,nicole.garcia@company.com,(316) 468-9019,Active
+EMP000286,James,Martin,James Martin,39,IT,Senior Developer,Los Angeles,84957.7,9802.51,2021-12-13,10,89.4,james.martin@company.com,(560) 668-3826,Active
+EMP000287,Ashley,Martin,Ashley Martin,33,Sales,Coordinator,Chicago,69374.34,3202.8,2020-08-29,8,71.1,ashley.martin@company.com,(444) 512-2916,Active
+EMP000288,David,Taylor,David Taylor,37,IT,Analyst,Los Angeles,95551.34,14286.61,2023-03-23,15,82.6,david.taylor@company.com,(592) 633-4043,Active
+EMP000289,Nicole,Garcia,Nicole Garcia,47,Marketing,Specialist,Miami,59612.13,8957.15,2020-10-14,18,68.4,nicole.garcia@company.com,(391) 522-8389,Active
+EMP000290,Amanda,Smith,Amanda Smith,30,Legal,Director,Chicago,75267.87,5616.19,2024-07-27,6,71.1,amanda.smith@company.com,(593) 775-9281,Active
+EMP000291,Stephanie,Thomas,Stephanie Thomas,25,IT,Lead,Miami,94017.42,14323.18,2020-12-08,0,85.4,stephanie.thomas@company.com,(284) 778-1505,Active
+EMP000292,Jessica,Martinez,Jessica Martinez,39,Engineering,Director,Seattle,103674.03,14270.09,2023-01-06,13,69.5,jessica.martinez@company.com,(495) 372-8492,Active
+EMP000293,Melissa,Moore,Melissa Moore,32,Sales,Specialist,San Francisco,43563.81,1572.6,2024-05-06,4,61.5,melissa.moore@company.com,(756) 575-9880,Active
+EMP000294,Jane,Anderson,Jane Anderson,42,HR,Senior Developer,Los Angeles,44049.5,0.0,2024-02-16,20,88.1,jane.anderson@company.com,(869) 969-5055,Active
+EMP000295,Jane,Anderson,Jane Anderson,53,Finance,Senior Developer,Boston,69303.1,2812.02,2022-06-18,30,66.0,jane.anderson@company.com,(320) 994-4882,Active
+EMP000296,Anthony,Lopez,Anthony Lopez,35,IT,Analyst,Chicago,87217.43,18544.33,2024-05-26,11,64.7,anthony.lopez@company.com,(411) 411-1972,Active
+EMP000297,Nicole,Rodriguez,Nicole Rodriguez,42,Marketing,Specialist,Boston,70762.78,1306.73,2021-08-15,15,91.9,nicole.rodriguez@company.com,(786) 473-9428,On Leave
+EMP000298,Sarah,Jones,Sarah Jones,57,IT,Specialist,New York,105797.48,13562.76,2024-11-10,30,95.8,sarah.jones@company.com,(871) 329-3174,Active
+EMP000299,James,Davis,James Davis,65,IT,Analyst,Miami,124060.71,5044.95,2023-03-28,43,79.2,james.davis@company.com,(847) 475-7786,Active
+EMP000300,Michael,Williams,Michael Williams,25,IT,Coordinator,Seattle,99553.18,12708.33,2022-07-20,2,72.2,michael.williams@company.com,(699) 535-1040,Inactive
+EMP000301,Michael,Anderson,Michael Anderson,35,Operations,Associate,San Francisco,36214.8,4567.44,2021-03-22,10,73.5,michael.anderson@company.com,(639) 416-9105,Active
+EMP000302,Ashley,Hernandez,Ashley Hernandez,49,Marketing,Coordinator,Miami,78187.52,9370.14,2023-10-29,24,46.3,ashley.hernandez@company.com,(980) 249-1752,Active
+EMP000303,Daniel,Smith,Daniel Smith,51,Sales,Lead,Chicago,65955.58,6897.09,2022-07-23,26,89.1,daniel.smith@company.com,(200) 638-4314,On Leave
+EMP000304,David,Martinez,David Martinez,28,Marketing,Senior Developer,Seattle,78010.23,9950.35,2023-09-02,2,60.5,david.martinez@company.com,(569) 456-2350,Active
+EMP000305,Emily,Johnson,Emily Johnson,52,IT,Director,Seattle,87095.38,5127.21,2022-05-29,29,79.8,emily.johnson@company.com,(871) 293-2559,Active
+EMP000306,Melissa,Williams,Melissa Williams,22,Marketing,Lead,Austin,52577.63,0.0,2020-01-20,0,82.2,melissa.williams@company.com,(208) 912-6629,Active
+EMP000307,Stephanie,Jones,Stephanie Jones,34,Legal,Director,San Francisco,106615.38,17726.24,2022-02-23,7,80.8,stephanie.jones@company.com,(291) 948-2678,Active
+EMP000308,Amanda,Martinez,Amanda Martinez,36,Marketing,Analyst,Los Angeles,71373.69,13381.06,2023-08-06,10,54.0,amanda.martinez@company.com,(893) 346-2120,Active
+EMP000309,John,Martin,John Martin,63,Marketing,Coordinator,Miami,81956.64,4682.7,2024-01-19,40,86.3,john.martin@company.com,(418) 843-3480,Inactive
+EMP000310,Lisa,Anderson,Lisa Anderson,45,HR,Senior Developer,San Francisco,54112.96,8787.25,2020-10-13,22,70.6,lisa.anderson@company.com,(970) 326-7291,Active
+EMP000311,Stephanie,Hernandez,Stephanie Hernandez,46,Marketing,Specialist,Austin,76372.55,3275.9,2023-08-13,24,63.3,stephanie.hernandez@company.com,(286) 454-5668,Active
+EMP000312,John,Martinez,John Martinez,56,HR,Associate,Austin,72940.7,11281.27,2021-08-28,30,73.8,john.martinez@company.com,(861) 255-4921,Active
+EMP000313,Sarah,Davis,Sarah Davis,38,Legal,Manager,San Francisco,77734.56,11519.79,2022-01-09,14,60.9,sarah.davis@company.com,(524) 335-7337,Inactive
+EMP000314,Anthony,Wilson,Anthony Wilson,31,Operations,Lead,Chicago,83264.17,2697.07,2024-04-26,9,86.0,anthony.wilson@company.com,(274) 217-2106,Active
+EMP000315,Robert,Johnson,Robert Johnson,46,Engineering,Specialist,Los Angeles,84168.35,15607.11,2023-07-11,19,99.6,robert.johnson@company.com,(929) 713-7806,Active
+EMP000316,Christopher,Williams,Christopher Williams,32,Marketing,Senior Developer,Seattle,56441.52,4136.74,2021-09-26,9,79.5,christopher.williams@company.com,(280) 723-4329,On Leave
+EMP000317,David,Moore,David Moore,53,Operations,Senior Developer,Los Angeles,65206.12,10207.05,2021-09-27,24,71.9,david.moore@company.com,(915) 647-4909,Active
+EMP000318,Michael,Wilson,Michael Wilson,30,Sales,Manager,Miami,89735.53,5782.12,2021-09-25,8,58.5,michael.wilson@company.com,(882) 959-3877,Active
+EMP000319,David,Smith,David Smith,60,Marketing,Coordinator,Miami,84085.69,6218.5,2022-12-07,37,63.5,david.smith@company.com,(729) 938-5247,Active
+EMP000320,David,Rodriguez,David Rodriguez,53,Sales,Coordinator,New York,85481.43,9012.06,2024-07-10,30,90.5,david.rodriguez@company.com,(639) 478-9582,Active
+EMP000321,Anthony,Williams,Anthony Williams,24,Legal,Coordinator,Miami,37500.0,938.27,2020-04-23,0,80.6,anthony.williams@company.com,(711) 780-3734,Active
+EMP000322,William,Brown,William Brown,56,Sales,Manager,Austin,64855.35,12085.26,2020-03-31,27,71.1,william.brown@company.com,(212) 450-1753,Active
+EMP000323,Christopher,Jones,Christopher Jones,43,Marketing,Associate,New York,78636.16,13019.04,2021-04-04,17,76.1,christopher.jones@company.com,(529) 454-7819,Inactive
+EMP000324,James,Rodriguez,James Rodriguez,37,Sales,Senior Developer,Boston,80016.09,712.52,2022-10-25,9,51.7,james.rodriguez@company.com,(889) 253-3938,Active
+EMP000325,Matthew,Johnson,Matthew Johnson,37,IT,Lead,San Francisco,83159.66,6095.98,2024-11-08,10,80.8,matthew.johnson@company.com,(489) 992-6090,Active
+EMP000326,Nicole,Anderson,Nicole Anderson,61,Engineering,Director,Boston,88000.69,12273.08,2021-08-20,34,63.7,nicole.anderson@company.com,(777) 511-4974,Active
+EMP000327,Anthony,Thomas,Anthony Thomas,42,HR,Analyst,Austin,63046.17,4641.87,2020-01-14,13,69.1,anthony.thomas@company.com,(619) 224-4817,Active
+EMP000328,John,Hernandez,John Hernandez,37,Engineering,Specialist,Los Angeles,97532.69,9874.46,2020-07-31,11,56.4,john.hernandez@company.com,(410) 742-4902,Active
+EMP000329,Jane,Jones,Jane Jones,35,Finance,Manager,San Francisco,70001.7,4535.1,2021-04-19,9,68.9,jane.jones@company.com,(732) 622-7102,Active
+EMP000330,Michael,Jackson,Michael Jackson,48,Sales,Associate,Chicago,74816.79,1455.77,2020-06-02,24,75.9,michael.jackson@company.com,(806) 781-2020,Active
+EMP000331,David,Davis,David Davis,44,Finance,Coordinator,Seattle,90128.68,9381.63,2024-06-28,16,67.0,david.davis@company.com,(602) 917-6345,Active
+EMP000332,William,Davis,William Davis,56,Sales,Analyst,Austin,83316.66,16671.44,2024-05-16,29,80.6,william.davis@company.com,(988) 798-2785,Active
+EMP000333,Emily,Anderson,Emily Anderson,27,Legal,Associate,Boston,70224.02,6408.08,2020-09-04,0,68.2,emily.anderson@company.com,(748) 566-4401,Active
+EMP000334,Daniel,Rodriguez,Daniel Rodriguez,23,Sales,Analyst,San Francisco,47063.82,3426.77,2024-07-11,0,68.5,daniel.rodriguez@company.com,(902) 511-1660,Active
+EMP000335,James,Jones,James Jones,41,Sales,Coordinator,Austin,83484.07,8243.94,2022-03-22,18,76.8,james.jones@company.com,(725) 250-5896,Active
+EMP000336,Emily,Smith,Emily Smith,37,IT,Director,Miami,98239.79,12425.83,2020-07-12,13,65.2,emily.smith@company.com,(673) 304-3290,Active
+EMP000337,Jane,Davis,Jane Davis,56,Marketing,Associate,Austin,65382.13,6340.36,2022-02-01,30,70.4,jane.davis@company.com,(902) 845-2376,Active
+EMP000338,William,Williams,William Williams,25,Engineering,Director,San Francisco,57491.95,5904.39,2023-08-15,0,82.6,william.williams@company.com,(654) 331-2506,Inactive
+EMP000339,James,Brown,James Brown,49,Engineering,Manager,Miami,104217.25,14203.6,2020-12-10,26,45.4,james.brown@company.com,(787) 643-7471,Active
+EMP000340,Christopher,Wilson,Christopher Wilson,53,Marketing,Director,Boston,71739.86,2573.67,2021-01-18,28,83.1,christopher.wilson@company.com,(481) 486-8307,Inactive
+EMP000341,Jane,Martin,Jane Martin,44,HR,Lead,Seattle,64798.52,11791.67,2022-04-23,21,97.4,jane.martin@company.com,(763) 690-1999,Active
+EMP000342,Christopher,Jones,Christopher Jones,52,IT,Director,Austin,96132.73,7638.08,2023-07-15,30,66.5,christopher.jones@company.com,(756) 219-7266,Active
+EMP000343,Amanda,Thomas,Amanda Thomas,49,Legal,Coordinator,Boston,87498.7,12850.31,2022-03-06,20,70.5,amanda.thomas@company.com,(476) 384-1427,Active
+EMP000344,Jessica,Smith,Jessica Smith,25,Finance,Lead,New York,91101.95,13266.43,2022-12-20,0,52.0,jessica.smith@company.com,(566) 985-4813,On Leave
+EMP000345,Sarah,Davis,Sarah Davis,57,HR,Manager,Seattle,42562.06,3335.73,2024-04-13,29,89.0,sarah.davis@company.com,(424) 789-7363,Active
+EMP000346,Emily,Garcia,Emily Garcia,56,HR,Coordinator,Boston,94235.55,933.02,2023-04-26,29,57.4,emily.garcia@company.com,(228) 920-6761,Inactive
+EMP000347,Anthony,Jones,Anthony Jones,28,HR,Specialist,Miami,68021.69,4873.1,2020-12-25,1,86.4,anthony.jones@company.com,(702) 238-2478,Active
+EMP000348,Lisa,Davis,Lisa Davis,42,Engineering,Manager,Miami,88086.35,10534.26,2021-11-10,14,66.8,lisa.davis@company.com,(828) 406-3137,Active
+EMP000349,Emily,Hernandez,Emily Hernandez,26,Engineering,Analyst,New York,59654.93,5935.32,2023-04-16,1,74.5,emily.hernandez@company.com,(921) 345-2817,Active
+EMP000350,Amanda,Williams,Amanda Williams,47,Operations,Senior Developer,Los Angeles,94244.87,3589.34,2021-11-20,23,86.0,amanda.williams@company.com,(509) 530-3235,On Leave
+EMP000351,Stephanie,Thomas,Stephanie Thomas,62,Operations,Coordinator,Chicago,89061.77,10174.82,2021-04-02,39,79.8,stephanie.thomas@company.com,(881) 803-3872,Active
+EMP000352,Ashley,Jones,Ashley Jones,62,Marketing,Associate,New York,88071.09,5589.51,2024-10-08,40,79.4,ashley.jones@company.com,(989) 781-1530,Active
+EMP000353,James,Martin,James Martin,22,HR,Lead,San Francisco,56229.89,5374.61,2020-10-15,0,72.5,james.martin@company.com,(539) 963-2274,Active
+EMP000354,James,Garcia,James Garcia,32,Sales,Lead,Boston,79420.24,7555.61,2020-01-24,5,38.5,james.garcia@company.com,(471) 414-5088,Active
+EMP000355,Amanda,Rodriguez,Amanda Rodriguez,29,Sales,Manager,New York,68696.86,2777.79,2022-03-01,1,71.1,amanda.rodriguez@company.com,(648) 950-7875,On Leave
+EMP000356,Stephanie,Thomas,Stephanie Thomas,53,IT,Associate,Boston,100008.34,11297.03,2020-07-26,24,74.5,stephanie.thomas@company.com,(690) 791-4695,Active
+EMP000357,Michael,Johnson,Michael Johnson,34,Finance,Coordinator,New York,91955.63,5505.88,2021-06-18,10,83.6,michael.johnson@company.com,(307) 275-6600,Active
+EMP000358,Christopher,Garcia,Christopher Garcia,57,Sales,Coordinator,San Francisco,105082.17,7056.82,2023-05-01,29,93.0,christopher.garcia@company.com,(828) 694-1507,Active
+EMP000359,Emily,Martin,Emily Martin,49,IT,Manager,Chicago,75660.1,12051.53,2020-07-26,23,48.3,emily.martin@company.com,(539) 410-4112,Active
+EMP000360,Nicole,Moore,Nicole Moore,31,Finance,Specialist,Seattle,83142.73,13764.94,2021-05-01,8,84.1,nicole.moore@company.com,(298) 250-7437,Active
+EMP000361,Melissa,Jones,Melissa Jones,36,Engineering,Manager,Boston,83147.74,7436.17,2022-05-25,9,71.2,melissa.jones@company.com,(289) 501-8869,Active
+EMP000362,John,Miller,John Miller,46,Marketing,Senior Developer,Seattle,71287.04,7266.26,2022-08-27,23,66.2,john.miller@company.com,(318) 515-7512,Active
+EMP000363,William,Williams,William Williams,31,IT,Coordinator,Chicago,66176.67,6495.98,2024-12-18,2,88.9,william.williams@company.com,(590) 578-4056,Active
+EMP000364,William,Anderson,William Anderson,53,Legal,Director,Seattle,83964.75,10887.83,2024-09-10,28,86.2,william.anderson@company.com,(475) 777-2009,Active
+EMP000365,Sarah,Williams,Sarah Williams,55,Operations,Director,Los Angeles,66746.85,3907.9,2023-02-07,26,62.4,sarah.williams@company.com,(262) 596-9561,Active
+EMP000366,Nicole,Thomas,Nicole Thomas,61,HR,Specialist,Miami,82642.96,215.35,2020-06-10,39,48.9,nicole.thomas@company.com,(604) 931-1568,Active
+EMP000367,Matthew,Jackson,Matthew Jackson,43,Marketing,Lead,San Francisco,75169.33,8307.98,2020-12-20,18,72.5,matthew.jackson@company.com,(371) 416-4157,Active
+EMP000368,Stephanie,Williams,Stephanie Williams,42,IT,Analyst,Austin,85357.86,6047.27,2024-09-04,14,87.9,stephanie.williams@company.com,(809) 464-6238,Inactive
+EMP000369,Michael,Williams,Michael Williams,60,IT,Coordinator,Los Angeles,120676.13,4262.53,2024-10-20,34,62.8,michael.williams@company.com,(482) 732-8506,Inactive
+EMP000370,John,Martin,John Martin,53,IT,Associate,San Francisco,103094.48,3624.64,2020-11-02,29,77.7,john.martin@company.com,(351) 780-2641,Inactive
+EMP000371,Anthony,Brown,Anthony Brown,46,Finance,Associate,Boston,82922.87,3333.1,2021-06-24,18,73.7,anthony.brown@company.com,(592) 870-8955,Active
+EMP000372,Melissa,Johnson,Melissa Johnson,65,Marketing,Associate,Seattle,86833.72,16073.85,2020-10-21,39,79.6,melissa.johnson@company.com,(833) 823-7581,Active
+EMP000373,James,Davis,James Davis,54,Engineering,Specialist,Miami,71126.06,10675.85,2022-02-01,30,76.2,james.davis@company.com,(220) 545-5965,Active
+EMP000374,Melissa,Brown,Melissa Brown,58,HR,Specialist,Chicago,80527.86,3123.28,2024-03-03,29,72.9,melissa.brown@company.com,(653) 992-6257,Active
+EMP000375,Stephanie,Martin,Stephanie Martin,29,Sales,Lead,Austin,75626.82,4327.7,2021-03-08,7,61.1,stephanie.martin@company.com,(616) 958-8937,Active
+EMP000376,Amanda,Johnson,Amanda Johnson,63,Marketing,Specialist,San Francisco,77032.96,11855.19,2023-12-24,37,55.6,amanda.johnson@company.com,(718) 613-3222,Active
+EMP000377,Matthew,Jackson,Matthew Jackson,60,Engineering,Director,Chicago,144518.26,16460.51,2024-11-27,31,89.2,matthew.jackson@company.com,(405) 259-5087,Active
+EMP000378,Jane,Lopez,Jane Lopez,43,HR,Coordinator,Seattle,86599.94,9683.71,2024-08-13,18,78.5,jane.lopez@company.com,(675) 717-7503,Active
+EMP000379,Sarah,Smith,Sarah Smith,38,HR,Lead,Boston,73806.74,5704.56,2023-05-01,9,91.8,sarah.smith@company.com,(656) 381-8775,Active
+EMP000380,Amanda,Lopez,Amanda Lopez,40,Marketing,Senior Developer,Seattle,56710.1,4537.84,2021-08-06,11,100.0,amanda.lopez@company.com,(228) 595-1813,Active
+EMP000381,Anthony,Miller,Anthony Miller,56,HR,Director,Austin,81637.81,1936.22,2021-07-05,29,61.9,anthony.miller@company.com,(867) 619-9409,Active
+EMP000382,John,Thomas,John Thomas,41,Marketing,Manager,Chicago,87151.82,7600.16,2021-04-03,15,89.7,john.thomas@company.com,(458) 822-6004,Active
+EMP000383,William,Wilson,William Wilson,35,IT,Lead,Boston,71921.59,13885.6,2021-05-31,12,79.6,william.wilson@company.com,(423) 677-5950,Active
+EMP000384,Lisa,Gonzalez,Lisa Gonzalez,45,Sales,Coordinator,New York,104299.22,13519.93,2023-02-23,17,90.4,lisa.gonzalez@company.com,(862) 808-5631,Active
+EMP000385,Sarah,Thomas,Sarah Thomas,40,Sales,Specialist,Boston,59727.02,9160.93,2023-08-04,13,74.9,sarah.thomas@company.com,(532) 483-5278,Active
+EMP000386,Ashley,Miller,Ashley Miller,59,Marketing,Manager,Austin,94928.7,7149.27,2024-07-07,35,83.3,ashley.miller@company.com,(814) 613-6236,Active
+EMP000387,John,Thomas,John Thomas,57,Finance,Associate,Seattle,100118.89,9597.99,2022-04-08,35,66.3,john.thomas@company.com,(597) 954-1578,Active
+EMP000388,Anthony,Miller,Anthony Miller,49,Operations,Lead,Austin,65767.72,8473.38,2023-10-07,27,77.8,anthony.miller@company.com,(567) 719-5918,Active
+EMP000389,Nicole,Garcia,Nicole Garcia,27,Finance,Lead,San Francisco,87907.06,12527.17,2020-09-19,3,83.7,nicole.garcia@company.com,(958) 464-3999,Inactive
+EMP000390,James,Williams,James Williams,47,HR,Director,Boston,81662.16,9589.77,2024-03-04,21,56.2,james.williams@company.com,(514) 630-6428,Active
+EMP000391,Anthony,Martinez,Anthony Martinez,31,Legal,Lead,San Francisco,83641.62,6643.57,2020-04-19,5,48.5,anthony.martinez@company.com,(849) 797-2166,Active
+EMP000392,Robert,Taylor,Robert Taylor,26,Sales,Specialist,Los Angeles,68731.23,8253.83,2022-04-26,4,69.5,robert.taylor@company.com,(255) 354-3250,On Leave
+EMP000393,James,Wilson,James Wilson,42,Legal,Coordinator,Chicago,70064.06,5301.2,2024-11-01,15,31.9,james.wilson@company.com,(932) 384-2324,Active
+EMP000394,Emily,Hernandez,Emily Hernandez,60,Engineering,Lead,New York,117165.79,10773.95,2021-07-14,38,31.9,emily.hernandez@company.com,(414) 979-3762,Active
+EMP000395,Emily,Thomas,Emily Thomas,57,Sales,Associate,Chicago,76566.82,6606.84,2023-07-21,32,82.0,emily.thomas@company.com,(639) 613-8029,On Leave
+EMP000396,Christopher,Smith,Christopher Smith,41,Engineering,Coordinator,Austin,75153.4,7971.92,2020-01-29,14,80.3,christopher.smith@company.com,(529) 975-9700,Active
+EMP000397,John,Davis,John Davis,45,HR,Specialist,Boston,67047.92,3506.4,2020-09-21,20,71.9,john.davis@company.com,(305) 592-9246,Active
+EMP000398,Emily,Williams,Emily Williams,35,Engineering,Specialist,Seattle,69804.71,3759.58,2022-07-22,8,62.4,emily.williams@company.com,(945) 732-9587,Active
+EMP000399,David,Hernandez,David Hernandez,52,Legal,Director,Boston,129987.91,14129.14,2020-12-03,27,70.9,david.hernandez@company.com,(613) 219-4742,Active
+EMP000400,David,Miller,David Miller,64,Engineering,Senior Developer,Chicago,115259.61,5007.88,2022-01-20,42,76.5,david.miller@company.com,(928) 866-1612,Active
+EMP000401,William,Moore,William Moore,48,Engineering,Senior Developer,New York,116288.46,13671.39,2023-08-31,25,70.8,william.moore@company.com,(220) 249-2897,Active
+EMP000402,Christopher,Brown,Christopher Brown,45,Finance,Analyst,Miami,111483.24,11687.62,2021-02-24,22,85.5,christopher.brown@company.com,(911) 902-1152,Active
+EMP000403,Sarah,Taylor,Sarah Taylor,47,Finance,Associate,Chicago,59577.99,7174.22,2024-08-28,25,67.1,sarah.taylor@company.com,(307) 723-2928,Active
+EMP000404,Sarah,Thomas,Sarah Thomas,26,HR,Specialist,Austin,54656.56,7015.32,2024-08-29,0,58.3,sarah.thomas@company.com,(735) 406-6864,Active
+EMP000405,Ashley,Garcia,Ashley Garcia,40,Engineering,Director,Miami,99587.76,5933.34,2023-11-10,15,73.0,ashley.garcia@company.com,(692) 538-4842,Active
+EMP000406,Michael,Brown,Michael Brown,25,Legal,Senior Developer,Chicago,69088.78,6341.73,2024-05-15,0,62.7,michael.brown@company.com,(723) 276-2659,Inactive
+EMP000407,Jessica,Anderson,Jessica Anderson,54,Finance,Lead,Seattle,74758.94,11258.95,2020-04-12,31,75.9,jessica.anderson@company.com,(302) 378-1646,Inactive
+EMP000408,Amanda,Hernandez,Amanda Hernandez,60,IT,Senior Developer,San Francisco,64485.34,12289.31,2024-10-09,33,80.7,amanda.hernandez@company.com,(976) 246-1158,Inactive
+EMP000409,Emily,Hernandez,Emily Hernandez,27,Operations,Specialist,Miami,49342.81,3828.06,2024-12-04,1,92.3,emily.hernandez@company.com,(950) 295-7105,Active
+EMP000410,Emily,Brown,Emily Brown,60,IT,Lead,Los Angeles,141780.17,14700.97,2021-07-10,31,64.3,emily.brown@company.com,(594) 906-8835,Active
+EMP000411,Emily,Brown,Emily Brown,59,Marketing,Analyst,New York,80233.73,7968.8,2020-07-31,30,95.6,emily.brown@company.com,(626) 804-8908,Active
+EMP000412,Daniel,Garcia,Daniel Garcia,53,IT,Manager,Boston,125112.45,9318.15,2024-11-01,25,64.4,daniel.garcia@company.com,(900) 944-3140,Active
+EMP000413,Melissa,Brown,Melissa Brown,25,IT,Manager,Miami,74208.07,8747.74,2020-05-09,0,99.4,melissa.brown@company.com,(467) 870-6148,Active
+EMP000414,Matthew,Jackson,Matthew Jackson,49,HR,Senior Developer,Boston,59976.19,7136.77,2022-06-05,27,98.7,matthew.jackson@company.com,(877) 944-5072,Active
+EMP000415,Christopher,Jones,Christopher Jones,23,Engineering,Analyst,New York,74729.65,4627.77,2022-11-01,0,64.0,christopher.jones@company.com,(680) 707-3709,Active
+EMP000416,Melissa,Hernandez,Melissa Hernandez,56,HR,Specialist,Boston,55852.17,3485.76,2020-04-13,34,79.5,melissa.hernandez@company.com,(719) 428-7203,Active
+EMP000417,Jessica,Williams,Jessica Williams,64,Legal,Lead,Miami,116123.82,18989.91,2020-06-29,35,53.4,jessica.williams@company.com,(710) 657-6178,Active
+EMP000418,Melissa,Smith,Melissa Smith,58,Sales,Associate,Los Angeles,75790.42,9613.04,2020-03-14,30,92.8,melissa.smith@company.com,(770) 762-1002,Active
+EMP000419,Lisa,Martin,Lisa Martin,36,Finance,Lead,Austin,76799.62,15436.1,2021-11-29,13,87.8,lisa.martin@company.com,(572) 255-4652,Active
+EMP000420,James,Moore,James Moore,23,Legal,Lead,Boston,38680.17,3040.73,2020-08-21,0,87.5,james.moore@company.com,(299) 977-4633,Active
+EMP000421,Amanda,Martinez,Amanda Martinez,48,Operations,Manager,San Francisco,62371.61,10466.2,2020-12-02,19,68.9,amanda.martinez@company.com,(704) 343-7704,Active
+EMP000422,Lisa,Miller,Lisa Miller,64,HR,Associate,San Francisco,71353.43,4895.14,2021-03-17,37,90.1,lisa.miller@company.com,(668) 395-6536,Active
+EMP000423,Stephanie,Johnson,Stephanie Johnson,40,Sales,Lead,Miami,74872.81,3527.57,2023-09-10,13,78.6,stephanie.johnson@company.com,(803) 716-3205,On Leave
+EMP000424,John,Taylor,John Taylor,51,Engineering,Lead,Los Angeles,104240.2,12656.36,2022-11-07,24,59.1,john.taylor@company.com,(999) 381-3845,Active
+EMP000425,David,Brown,David Brown,52,IT,Associate,Boston,82405.43,13132.9,2022-05-07,26,80.5,david.brown@company.com,(823) 909-5067,Active
+EMP000426,James,Martinez,James Martinez,46,Legal,Analyst,Chicago,144554.32,18493.49,2022-04-25,19,67.5,james.martinez@company.com,(816) 916-9393,Active
+EMP000427,Nicole,Hernandez,Nicole Hernandez,26,HR,Director,Austin,61250.93,3042.51,2023-07-02,0,71.5,nicole.hernandez@company.com,(931) 497-6657,Inactive
+EMP000428,David,Garcia,David Garcia,32,Operations,Coordinator,San Francisco,70293.45,9602.58,2023-02-25,10,79.2,david.garcia@company.com,(691) 796-7839,Active
+EMP000429,Nicole,Martinez,Nicole Martinez,42,IT,Senior Developer,New York,101581.64,5082.63,2020-02-21,17,66.5,nicole.martinez@company.com,(590) 348-1869,Active
+EMP000430,Robert,Rodriguez,Robert Rodriguez,42,Marketing,Specialist,Seattle,62726.96,11419.59,2020-10-26,19,66.0,robert.rodriguez@company.com,(263) 907-5835,Active
+EMP000431,Nicole,Johnson,Nicole Johnson,62,Operations,Senior Developer,Miami,66163.54,10642.93,2023-06-15,38,84.1,nicole.johnson@company.com,(891) 957-4675,Active
+EMP000432,Nicole,Gonzalez,Nicole Gonzalez,43,HR,Manager,Seattle,87497.77,11456.36,2022-02-20,16,86.9,nicole.gonzalez@company.com,(596) 626-6122,On Leave
+EMP000433,Jane,Smith,Jane Smith,36,Finance,Lead,Austin,67609.94,5190.36,2024-08-26,12,79.5,jane.smith@company.com,(430) 848-7025,Active
+EMP000434,Nicole,Martin,Nicole Martin,60,HR,Specialist,Austin,81915.66,4068.91,2022-07-08,38,82.0,nicole.martin@company.com,(381) 899-2220,Active
+EMP000435,Emily,Taylor,Emily Taylor,29,Sales,Manager,Los Angeles,76217.7,3809.62,2022-05-27,1,69.3,emily.taylor@company.com,(485) 769-5329,Active
+EMP000436,Anthony,Rodriguez,Anthony Rodriguez,56,Engineering,Lead,Boston,97023.97,16707.51,2023-12-24,31,67.5,anthony.rodriguez@company.com,(358) 240-3518,Inactive
+EMP000437,Lisa,Johnson,Lisa Johnson,35,Finance,Coordinator,Miami,71520.81,9421.87,2020-05-29,13,79.5,lisa.johnson@company.com,(924) 525-9608,Active
+EMP000438,Emily,Taylor,Emily Taylor,39,Sales,Associate,Chicago,87845.5,10305.06,2023-01-17,15,87.9,emily.taylor@company.com,(749) 613-2506,Active
+EMP000439,Robert,Hernandez,Robert Hernandez,44,Operations,Specialist,Boston,59083.54,9178.87,2021-03-23,17,57.9,robert.hernandez@company.com,(970) 833-9691,Active
+EMP000440,Nicole,Smith,Nicole Smith,29,Sales,Lead,Boston,61394.28,3027.54,2021-05-07,1,71.4,nicole.smith@company.com,(857) 828-4994,On Leave
+EMP000441,James,Gonzalez,James Gonzalez,35,Sales,Specialist,Los Angeles,62335.24,7268.23,2023-01-11,6,74.8,james.gonzalez@company.com,(941) 489-1404,Inactive
+EMP000442,Amanda,Taylor,Amanda Taylor,44,Legal,Manager,Miami,97571.87,6359.64,2021-08-30,17,80.8,amanda.taylor@company.com,(867) 397-6248,Active
+EMP000443,Sarah,Garcia,Sarah Garcia,24,Engineering,Director,San Francisco,91366.8,9314.23,2023-10-04,0,84.2,sarah.garcia@company.com,(844) 992-4492,Inactive
+EMP000444,Stephanie,Brown,Stephanie Brown,30,HR,Senior Developer,Los Angeles,59683.26,4396.4,2024-03-09,5,88.3,stephanie.brown@company.com,(902) 357-1389,Active
+EMP000445,James,Johnson,James Johnson,40,Sales,Manager,San Francisco,77509.31,1161.85,2020-12-30,11,100.0,james.johnson@company.com,(457) 771-2154,Active
+EMP000446,Jessica,Rodriguez,Jessica Rodriguez,35,IT,Lead,Los Angeles,91109.45,12660.72,2023-07-14,11,50.9,jessica.rodriguez@company.com,(614) 643-6183,Active
+EMP000447,Sarah,Moore,Sarah Moore,35,Engineering,Manager,San Francisco,106931.0,17315.51,2023-12-06,13,100.0,sarah.moore@company.com,(274) 566-9238,Active
+EMP000448,Ashley,Martin,Ashley Martin,51,Sales,Lead,Seattle,82520.66,6206.14,2022-02-20,24,50.6,ashley.martin@company.com,(604) 876-1504,Active
+EMP000449,Nicole,Davis,Nicole Davis,42,Marketing,Specialist,Los Angeles,59463.52,5758.38,2023-07-22,17,75.5,nicole.davis@company.com,(347) 505-7113,On Leave
+EMP000450,John,Moore,John Moore,30,Marketing,Manager,San Francisco,39118.23,5167.38,2020-01-11,8,79.0,john.moore@company.com,(786) 810-7456,Active
+EMP000451,Michael,Martinez,Michael Martinez,55,HR,Director,Boston,78159.35,5791.95,2022-04-25,29,90.0,michael.martinez@company.com,(861) 724-3333,Active
+EMP000452,Jessica,Martin,Jessica Martin,33,Finance,Senior Developer,Austin,77017.3,7278.37,2021-01-06,9,58.2,jessica.martin@company.com,(887) 780-1891,Inactive
+EMP000453,Nicole,Anderson,Nicole Anderson,47,Sales,Senior Developer,Seattle,72365.23,11657.32,2021-05-28,21,69.7,nicole.anderson@company.com,(300) 402-8982,On Leave
+EMP000454,Amanda,Jones,Amanda Jones,50,HR,Specialist,San Francisco,95619.35,14864.29,2023-06-22,25,96.0,amanda.jones@company.com,(271) 398-6206,Active
+EMP000455,James,Martin,James Martin,49,Finance,Coordinator,Chicago,99120.78,12014.6,2024-07-12,25,64.9,james.martin@company.com,(523) 638-3762,Active
+EMP000456,Jessica,Davis,Jessica Davis,55,IT,Coordinator,Seattle,103380.11,10235.74,2020-10-02,26,80.3,jessica.davis@company.com,(895) 950-6432,Inactive
+EMP000457,Daniel,Anderson,Daniel Anderson,44,Operations,Lead,Seattle,75482.44,5889.18,2023-02-03,21,71.8,daniel.anderson@company.com,(311) 379-2343,Active
+EMP000458,David,Moore,David Moore,47,HR,Senior Developer,Seattle,40035.36,4613.4,2024-01-29,24,72.1,david.moore@company.com,(277) 219-9309,Active
+EMP000459,Anthony,Jackson,Anthony Jackson,22,IT,Manager,Austin,43650.85,5351.67,2023-02-03,0,36.1,anthony.jackson@company.com,(466) 756-9842,Active
+EMP000460,David,Lopez,David Lopez,41,IT,Specialist,Austin,65038.91,1764.01,2020-10-01,14,76.2,david.lopez@company.com,(675) 713-9362,Active
+EMP000461,Amanda,Taylor,Amanda Taylor,29,Engineering,Analyst,Austin,103307.35,7787.56,2024-03-30,7,66.3,amanda.taylor@company.com,(726) 343-8310,Active
+EMP000462,Anthony,Jackson,Anthony Jackson,62,Marketing,Coordinator,Miami,65983.61,5957.23,2020-03-23,40,63.3,anthony.jackson@company.com,(424) 979-8989,Active
+EMP000463,William,Lopez,William Lopez,38,HR,Director,New York,59052.77,4618.43,2022-11-26,10,63.1,william.lopez@company.com,(569) 597-8695,Inactive
+EMP000464,Jane,Johnson,Jane Johnson,32,Operations,Specialist,San Francisco,56643.5,3992.59,2024-09-05,4,74.0,jane.johnson@company.com,(959) 469-9918,Active
+EMP000465,Christopher,Gonzalez,Christopher Gonzalez,22,Operations,Specialist,San Francisco,67837.24,7689.78,2022-02-09,0,64.4,christopher.gonzalez@company.com,(428) 728-7649,Active
+EMP000466,Amanda,Thomas,Amanda Thomas,33,Legal,Analyst,New York,92538.59,14016.0,2022-06-19,10,57.0,amanda.thomas@company.com,(369) 435-2263,Active
+EMP000467,William,Miller,William Miller,60,Marketing,Analyst,Chicago,95152.53,17185.6,2022-01-11,38,83.0,william.miller@company.com,(816) 934-2938,Active
+EMP000468,Stephanie,Hernandez,Stephanie Hernandez,23,Sales,Lead,Miami,71852.59,9313.36,2022-09-08,0,91.1,stephanie.hernandez@company.com,(415) 804-3641,Active
+EMP000469,Stephanie,Smith,Stephanie Smith,39,HR,Analyst,New York,66690.84,6231.4,2023-03-20,10,62.7,stephanie.smith@company.com,(806) 364-3207,Active
+EMP000470,Jane,Jackson,Jane Jackson,36,Marketing,Analyst,New York,66455.14,11648.98,2021-06-12,10,67.1,jane.jackson@company.com,(384) 729-7642,Active
+EMP000471,Anthony,Smith,Anthony Smith,62,Finance,Director,San Francisco,111908.26,12347.53,2022-07-08,36,79.6,anthony.smith@company.com,(821) 682-8891,Active
+EMP000472,Stephanie,Martin,Stephanie Martin,49,Marketing,Specialist,Chicago,86054.88,3980.47,2020-12-09,23,81.8,stephanie.martin@company.com,(941) 902-6614,Inactive
+EMP000473,Lisa,Jackson,Lisa Jackson,23,Sales,Associate,Austin,77631.48,1175.74,2022-02-28,0,76.8,lisa.jackson@company.com,(335) 311-1271,Active
+EMP000474,Matthew,Wilson,Matthew Wilson,22,Marketing,Analyst,San Francisco,45520.64,2802.51,2022-09-01,0,72.2,matthew.wilson@company.com,(829) 814-1639,Inactive
+EMP000475,Nicole,Taylor,Nicole Taylor,42,Sales,Lead,San Francisco,65047.81,9287.07,2023-09-12,20,84.3,nicole.taylor@company.com,(333) 817-9835,Active
+EMP000476,Stephanie,Taylor,Stephanie Taylor,49,IT,Manager,Boston,118211.84,9838.8,2023-11-29,24,90.7,stephanie.taylor@company.com,(742) 639-4759,Inactive
+EMP000477,Melissa,Gonzalez,Melissa Gonzalez,56,Operations,Associate,San Francisco,73113.55,6339.79,2020-10-01,29,62.9,melissa.gonzalez@company.com,(460) 688-4809,Inactive
+EMP000478,Michael,Martinez,Michael Martinez,55,IT,Director,Seattle,126601.6,0.0,2020-01-12,30,61.1,michael.martinez@company.com,(926) 961-1116,Active
+EMP000479,Sarah,Taylor,Sarah Taylor,36,Engineering,Director,Los Angeles,82439.06,677.41,2023-11-09,12,78.5,sarah.taylor@company.com,(523) 618-6935,Active
+EMP000480,Stephanie,Jackson,Stephanie Jackson,57,Finance,Associate,Seattle,113485.56,0.0,2023-03-02,34,83.7,stephanie.jackson@company.com,(574) 826-5514,On Leave
+EMP000481,Christopher,Miller,Christopher Miller,49,IT,Analyst,Miami,75137.32,8368.99,2022-01-28,20,71.8,christopher.miller@company.com,(772) 768-8925,Active
+EMP000482,Ashley,Jackson,Ashley Jackson,39,Operations,Analyst,Los Angeles,33542.02,5389.06,2024-10-17,11,53.8,ashley.jackson@company.com,(875) 321-4764,Active
+EMP000483,Emily,Brown,Emily Brown,48,HR,Coordinator,Los Angeles,47833.58,5039.65,2024-06-28,21,62.9,emily.brown@company.com,(763) 828-1852,Active
+EMP000484,John,Williams,John Williams,33,Marketing,Associate,Miami,80132.84,8581.67,2020-06-29,11,60.9,john.williams@company.com,(265) 469-4633,Active
+EMP000485,Lisa,Johnson,Lisa Johnson,26,IT,Specialist,Los Angeles,52894.54,2385.16,2023-12-28,3,76.5,lisa.johnson@company.com,(811) 258-3871,Active
+EMP000486,Daniel,Smith,Daniel Smith,27,HR,Director,Seattle,50555.55,9096.58,2020-03-09,0,71.1,daniel.smith@company.com,(813) 722-9451,Active
+EMP000487,Lisa,Garcia,Lisa Garcia,63,Engineering,Director,Boston,115698.04,12297.26,2023-09-03,35,78.4,lisa.garcia@company.com,(200) 361-2422,On Leave
+EMP000488,Christopher,Lopez,Christopher Lopez,30,IT,Director,Los Angeles,76544.44,9367.96,2022-11-26,4,73.4,christopher.lopez@company.com,(215) 954-2124,Inactive
+EMP000489,Nicole,Martinez,Nicole Martinez,53,Operations,Specialist,Boston,76784.21,17786.77,2021-04-08,27,44.4,nicole.martinez@company.com,(820) 399-8450,Inactive
+EMP000490,Anthony,Smith,Anthony Smith,43,Finance,Associate,Chicago,52047.51,3927.58,2022-11-02,19,84.8,anthony.smith@company.com,(309) 772-2185,Active
+EMP000491,James,Brown,James Brown,63,Finance,Lead,Seattle,108396.64,9928.35,2022-02-11,40,87.7,james.brown@company.com,(776) 695-4985,Active
+EMP000492,Daniel,Anderson,Daniel Anderson,65,Engineering,Senior Developer,Miami,110394.23,8231.45,2021-06-12,40,84.5,daniel.anderson@company.com,(269) 591-4610,Active
+EMP000493,Jessica,Hernandez,Jessica Hernandez,22,IT,Manager,Boston,49810.63,5788.99,2023-12-06,0,78.6,jessica.hernandez@company.com,(469) 454-5706,Active
+EMP000494,James,Williams,James Williams,57,Marketing,Coordinator,Miami,76219.77,11049.83,2021-12-25,35,79.4,james.williams@company.com,(423) 787-5408,Active
+EMP000495,Robert,Thomas,Robert Thomas,45,HR,Director,Austin,51801.08,5399.7,2024-11-22,19,82.5,robert.thomas@company.com,(471) 411-4755,Active
+EMP000496,Jessica,Martin,Jessica Martin,58,Operations,Senior Developer,Chicago,72360.68,8107.74,2020-09-02,29,52.1,jessica.martin@company.com,(280) 892-9071,Active
+EMP000497,Nicole,Johnson,Nicole Johnson,48,Legal,Coordinator,Boston,102757.62,7473.33,2022-10-05,22,82.0,nicole.johnson@company.com,(788) 481-9041,Active
+EMP000498,Matthew,Rodriguez,Matthew Rodriguez,32,IT,Analyst,Austin,77837.4,8078.25,2020-04-20,3,64.8,matthew.rodriguez@company.com,(738) 633-8836,Inactive
+EMP000499,Jane,Taylor,Jane Taylor,41,Operations,Analyst,Los Angeles,55204.81,5176.51,2022-07-25,14,74.4,jane.taylor@company.com,(323) 915-9490,Active
+EMP000500,John,Smith,John Smith,65,HR,Senior Developer,Los Angeles,66970.01,6524.91,2021-10-28,37,91.9,john.smith@company.com,(570) 827-5254,Active
+EMP000501,William,Davis,William Davis,57,Finance,Coordinator,Miami,79215.42,16169.25,2022-01-19,28,65.2,william.davis@company.com,(388) 710-7945,Active
+EMP000502,Amanda,Lopez,Amanda Lopez,38,IT,Lead,Seattle,63648.24,5292.68,2021-01-03,10,92.9,amanda.lopez@company.com,(785) 334-4744,Active
+EMP000503,William,Davis,William Davis,25,IT,Director,Los Angeles,70080.28,11093.03,2020-10-25,0,95.9,william.davis@company.com,(956) 353-8749,Active
+EMP000504,Emily,Wilson,Emily Wilson,53,Legal,Coordinator,Chicago,99166.47,4563.19,2024-05-27,29,63.3,emily.wilson@company.com,(698) 507-5111,Active
+EMP000505,Anthony,Johnson,Anthony Johnson,26,IT,Analyst,San Francisco,114958.4,16585.39,2020-05-02,0,77.9,anthony.johnson@company.com,(420) 460-8807,Active
+EMP000506,Sarah,Anderson,Sarah Anderson,43,Operations,Coordinator,Seattle,73301.46,10802.9,2022-01-07,16,91.9,sarah.anderson@company.com,(773) 770-5222,Active
+EMP000507,Stephanie,Brown,Stephanie Brown,31,Operations,Analyst,Austin,49853.0,3668.49,2024-05-17,2,63.8,stephanie.brown@company.com,(491) 563-6326,Active
+EMP000508,Melissa,Anderson,Melissa Anderson,56,Sales,Specialist,Los Angeles,100011.57,12566.88,2022-08-07,28,89.3,melissa.anderson@company.com,(846) 348-3745,Active
+EMP000509,James,Wilson,James Wilson,51,IT,Senior Developer,San Francisco,106230.77,13102.11,2020-11-27,25,85.7,james.wilson@company.com,(551) 433-6136,Active
+EMP000510,Ashley,Rodriguez,Ashley Rodriguez,22,IT,Lead,Seattle,77867.32,11953.22,2024-05-18,0,80.3,ashley.rodriguez@company.com,(571) 965-9535,On Leave
+EMP000511,Stephanie,Garcia,Stephanie Garcia,44,Marketing,Analyst,New York,59751.56,7380.28,2024-01-30,15,74.6,stephanie.garcia@company.com,(440) 877-5122,Inactive
+EMP000512,Michael,Miller,Michael Miller,35,Marketing,Senior Developer,Los Angeles,38154.31,4222.33,2020-07-14,6,46.6,michael.miller@company.com,(265) 684-9985,Active
+EMP000513,Christopher,Taylor,Christopher Taylor,38,Sales,Specialist,San Francisco,92225.32,3845.75,2023-06-19,9,75.0,christopher.taylor@company.com,(359) 286-7387,Active
+EMP000514,Jessica,Martinez,Jessica Martinez,47,Legal,Analyst,Chicago,95660.39,5917.91,2022-12-14,22,50.9,jessica.martinez@company.com,(374) 229-1575,Active
+EMP000515,James,Thomas,James Thomas,55,Legal,Lead,Seattle,121367.23,9289.0,2020-10-03,28,65.6,james.thomas@company.com,(914) 752-3900,Active
+EMP000516,Daniel,Jackson,Daniel Jackson,50,IT,Coordinator,Seattle,83440.79,9511.59,2022-09-13,28,92.3,daniel.jackson@company.com,(752) 432-2467,Active
+EMP000517,Amanda,Wilson,Amanda Wilson,62,Finance,Specialist,Chicago,91853.37,0.0,2020-01-22,40,54.3,amanda.wilson@company.com,(200) 735-3233,Active
+EMP000518,Melissa,Moore,Melissa Moore,31,Engineering,Lead,Miami,87825.07,14444.02,2021-09-05,6,78.3,melissa.moore@company.com,(209) 984-8052,Active
+EMP000519,Lisa,Davis,Lisa Davis,53,Engineering,Director,Boston,57911.99,7170.54,2022-04-23,26,100.0,lisa.davis@company.com,(774) 647-7467,Active
+EMP000520,Christopher,Gonzalez,Christopher Gonzalez,43,HR,Senior Developer,Seattle,73783.85,7997.16,2022-05-14,19,59.9,christopher.gonzalez@company.com,(840) 445-9464,Active
+EMP000521,Lisa,Rodriguez,Lisa Rodriguez,44,Finance,Associate,Seattle,71244.76,4649.74,2021-01-20,16,98.4,lisa.rodriguez@company.com,(270) 386-3238,Active
+EMP000522,Daniel,Martin,Daniel Martin,55,Legal,Lead,Seattle,97325.95,14286.87,2021-01-19,33,60.5,daniel.martin@company.com,(528) 219-3492,Active
+EMP000523,Nicole,Smith,Nicole Smith,36,Marketing,Specialist,San Francisco,75432.15,6306.52,2021-07-05,9,89.0,nicole.smith@company.com,(328) 932-8183,Active
+EMP000524,Jessica,Williams,Jessica Williams,29,Marketing,Lead,New York,62251.47,9728.62,2021-03-20,5,62.1,jessica.williams@company.com,(550) 630-6104,Active
+EMP000525,Melissa,Lopez,Melissa Lopez,22,Legal,Coordinator,New York,75466.89,11423.5,2020-06-13,0,59.2,melissa.lopez@company.com,(968) 349-1918,Active
+EMP000526,Christopher,Williams,Christopher Williams,36,Legal,Director,Chicago,73555.24,9713.89,2024-09-19,9,73.3,christopher.williams@company.com,(456) 590-1206,Active
+EMP000527,Jessica,Gonzalez,Jessica Gonzalez,33,Legal,Manager,Austin,68952.37,0.0,2021-02-11,5,80.1,jessica.gonzalez@company.com,(671) 952-2539,Active
+EMP000528,Robert,Thomas,Robert Thomas,48,IT,Coordinator,Seattle,91662.98,13307.08,2020-11-20,20,81.9,robert.thomas@company.com,(844) 945-1691,Active
+EMP000529,Nicole,Taylor,Nicole Taylor,44,Sales,Lead,Seattle,83451.43,8715.07,2023-07-31,18,69.6,nicole.taylor@company.com,(505) 403-6905,Inactive
+EMP000530,Robert,Brown,Robert Brown,51,HR,Coordinator,Los Angeles,75383.76,975.96,2020-01-31,27,72.2,robert.brown@company.com,(371) 482-2960,Active
+EMP000531,Jessica,Smith,Jessica Smith,33,Engineering,Analyst,Miami,39028.32,1085.27,2022-01-30,4,74.5,jessica.smith@company.com,(989) 291-5075,Active
+EMP000532,Michael,Martin,Michael Martin,39,Operations,Manager,New York,31243.69,4109.82,2021-12-29,17,94.1,michael.martin@company.com,(860) 357-9787,Active
+EMP000533,David,Thomas,David Thomas,28,HR,Coordinator,Boston,50041.15,9061.45,2024-07-07,2,96.8,david.thomas@company.com,(649) 950-4161,Active
+EMP000534,Christopher,Lopez,Christopher Lopez,30,Marketing,Manager,Seattle,51941.81,10657.96,2022-09-20,1,69.4,christopher.lopez@company.com,(923) 648-5828,Active
+EMP000535,Melissa,Miller,Melissa Miller,43,Marketing,Coordinator,Boston,80234.35,7628.53,2024-02-08,17,58.9,melissa.miller@company.com,(679) 481-3627,Active
+EMP000536,David,Anderson,David Anderson,29,Finance,Coordinator,Seattle,62359.56,8761.71,2022-07-18,4,94.1,david.anderson@company.com,(200) 994-9289,Active
+EMP000537,Emily,Smith,Emily Smith,27,Operations,Coordinator,Austin,37195.0,8307.88,2024-01-16,0,99.6,emily.smith@company.com,(264) 874-9830,Active
+EMP000538,Robert,Taylor,Robert Taylor,42,Legal,Specialist,Chicago,73393.28,2155.8,2021-10-22,20,61.8,robert.taylor@company.com,(619) 856-6276,Active
+EMP000539,Matthew,Williams,Matthew Williams,31,Engineering,Analyst,Chicago,66186.53,5862.14,2024-11-23,8,76.5,matthew.williams@company.com,(232) 406-2753,Active
+EMP000540,Sarah,Johnson,Sarah Johnson,46,IT,Specialist,Miami,74261.71,11864.56,2020-04-10,21,62.1,sarah.johnson@company.com,(575) 426-2161,Active
+EMP000541,Robert,Thomas,Robert Thomas,45,Sales,Manager,Miami,85255.45,17127.43,2022-01-09,22,80.5,robert.thomas@company.com,(771) 961-7814,Active
+EMP000542,Jane,Martin,Jane Martin,41,Finance,Senior Developer,New York,83649.23,6990.84,2024-09-04,19,49.6,jane.martin@company.com,(511) 279-4537,On Leave
+EMP000543,Sarah,Brown,Sarah Brown,61,HR,Director,Los Angeles,69617.49,6134.36,2021-01-30,33,77.0,sarah.brown@company.com,(738) 872-5075,Active
+EMP000544,Emily,Moore,Emily Moore,27,IT,Coordinator,San Francisco,77380.23,4932.47,2023-10-13,5,46.7,emily.moore@company.com,(669) 919-7997,Inactive
+EMP000545,Emily,Garcia,Emily Garcia,54,IT,Analyst,Boston,84600.99,12642.22,2022-12-29,32,86.0,emily.garcia@company.com,(814) 653-6772,Inactive
+EMP000546,Nicole,Hernandez,Nicole Hernandez,28,Operations,Associate,Los Angeles,35809.07,4956.9,2024-08-18,0,80.3,nicole.hernandez@company.com,(943) 531-4943,Active
+EMP000547,Robert,Gonzalez,Robert Gonzalez,32,Finance,Lead,Boston,78285.01,0.0,2022-07-05,3,92.3,robert.gonzalez@company.com,(606) 200-1567,On Leave
+EMP000548,Lisa,Smith,Lisa Smith,25,Marketing,Manager,Seattle,43657.89,5601.92,2021-09-07,0,79.5,lisa.smith@company.com,(427) 419-6159,Active
+EMP000549,William,Moore,William Moore,55,Marketing,Manager,San Francisco,70965.94,4630.37,2022-07-31,30,100.0,william.moore@company.com,(564) 359-3267,Active
+EMP000550,Anthony,Davis,Anthony Davis,47,HR,Specialist,Seattle,69284.21,8428.34,2020-07-07,23,100.0,anthony.davis@company.com,(784) 609-4562,Active
+EMP000551,James,Thomas,James Thomas,36,Marketing,Senior Developer,Miami,86312.07,5773.71,2023-05-04,14,79.9,james.thomas@company.com,(857) 507-1612,Active
+EMP000552,Anthony,Gonzalez,Anthony Gonzalez,63,Sales,Coordinator,New York,81432.87,4318.36,2021-12-13,37,57.9,anthony.gonzalez@company.com,(644) 626-2974,Inactive
+EMP000553,Jessica,Martin,Jessica Martin,29,Engineering,Manager,Los Angeles,56846.53,8876.2,2021-09-16,4,98.7,jessica.martin@company.com,(736) 242-6231,Active
+EMP000554,David,Hernandez,David Hernandez,59,HR,Manager,Chicago,85466.84,702.06,2023-10-11,31,71.1,david.hernandez@company.com,(949) 602-8300,Active
+EMP000555,Anthony,Taylor,Anthony Taylor,52,Sales,Associate,Austin,76802.29,7661.7,2021-08-16,30,77.3,anthony.taylor@company.com,(603) 351-3165,Active
+EMP000556,Melissa,Jackson,Melissa Jackson,62,Engineering,Specialist,Los Angeles,131553.76,12130.43,2020-06-23,39,58.7,melissa.jackson@company.com,(608) 713-8118,Active
+EMP000557,David,Jones,David Jones,59,Legal,Lead,Austin,78856.36,10466.82,2022-03-20,33,77.8,david.jones@company.com,(867) 785-4212,Active
+EMP000558,Matthew,Davis,Matthew Davis,39,HR,Specialist,San Francisco,66572.81,7295.25,2024-05-09,11,55.4,matthew.davis@company.com,(640) 531-2467,Active
+EMP000559,Stephanie,Wilson,Stephanie Wilson,51,Operations,Director,Boston,82541.74,10102.54,2021-10-18,22,77.7,stephanie.wilson@company.com,(552) 808-1396,Active
+EMP000560,Emily,Lopez,Emily Lopez,49,Legal,Lead,Chicago,105958.01,12237.5,2020-04-01,24,63.6,emily.lopez@company.com,(439) 404-7124,Active
+EMP000561,Michael,Brown,Michael Brown,56,Engineering,Analyst,Austin,59724.35,6115.66,2024-11-14,32,74.3,michael.brown@company.com,(494) 214-6624,Active
+EMP000562,Sarah,Martinez,Sarah Martinez,32,Legal,Manager,Miami,88222.07,8466.88,2021-11-10,4,87.3,sarah.martinez@company.com,(414) 957-9814,Active
+EMP000563,Nicole,Taylor,Nicole Taylor,59,Finance,Analyst,Miami,98605.28,12498.92,2023-11-24,34,75.6,nicole.taylor@company.com,(915) 884-1301,Active
+EMP000564,Matthew,Johnson,Matthew Johnson,55,Finance,Manager,Chicago,104929.9,18799.37,2021-08-04,26,62.5,matthew.johnson@company.com,(405) 913-5444,Active
+EMP000565,John,Williams,John Williams,23,IT,Coordinator,Seattle,68419.78,13014.63,2024-11-05,0,81.0,john.williams@company.com,(310) 219-5792,Inactive
+EMP000566,Christopher,Davis,Christopher Davis,51,IT,Coordinator,San Francisco,93523.73,14848.22,2022-09-19,27,95.9,christopher.davis@company.com,(811) 744-2442,Active
+EMP000567,Matthew,Anderson,Matthew Anderson,41,Engineering,Director,New York,123580.26,19387.93,2022-12-20,14,80.3,matthew.anderson@company.com,(512) 541-9027,Active
+EMP000568,Emily,Smith,Emily Smith,57,Operations,Coordinator,Boston,77217.34,6920.69,2023-07-04,34,84.3,emily.smith@company.com,(509) 441-9212,Active
+EMP000569,Jane,Rodriguez,Jane Rodriguez,64,IT,Specialist,New York,110525.79,10202.49,2021-04-06,35,55.2,jane.rodriguez@company.com,(355) 549-7436,Active
+EMP000570,Michael,Gonzalez,Michael Gonzalez,50,HR,Director,Los Angeles,60215.45,5277.81,2023-03-19,27,100.0,michael.gonzalez@company.com,(356) 636-6118,Inactive
+EMP000571,James,Anderson,James Anderson,57,Marketing,Analyst,Austin,70518.61,7026.47,2023-04-04,33,51.5,james.anderson@company.com,(754) 900-4314,Inactive
+EMP000572,Ashley,Taylor,Ashley Taylor,46,Marketing,Analyst,Los Angeles,81724.18,13571.54,2023-09-05,21,65.3,ashley.taylor@company.com,(778) 361-6201,Active
+EMP000573,Nicole,Brown,Nicole Brown,41,Marketing,Analyst,Boston,72687.04,1073.23,2024-01-29,19,77.3,nicole.brown@company.com,(230) 983-6221,Inactive
+EMP000574,Stephanie,Wilson,Stephanie Wilson,38,Finance,Specialist,Miami,70468.07,9832.5,2020-11-07,13,64.7,stephanie.wilson@company.com,(997) 392-2749,Active
+EMP000575,John,Martin,John Martin,48,Finance,Director,Austin,104822.3,10557.04,2021-04-17,26,70.9,john.martin@company.com,(903) 226-6886,Active
+EMP000576,Melissa,Jones,Melissa Jones,32,Legal,Analyst,Boston,64113.64,8803.09,2024-10-11,10,62.9,melissa.jones@company.com,(596) 703-8763,Active
+EMP000577,Robert,Davis,Robert Davis,38,Engineering,Manager,Los Angeles,100127.72,10542.92,2021-07-06,16,62.0,robert.davis@company.com,(622) 427-4323,Active
+EMP000578,Michael,Garcia,Michael Garcia,32,Legal,Coordinator,Miami,92957.74,17145.1,2024-11-10,7,46.0,michael.garcia@company.com,(668) 452-8005,Active
+EMP000579,Jane,Martin,Jane Martin,47,IT,Associate,Boston,89848.05,8135.2,2023-06-06,19,77.6,jane.martin@company.com,(960) 785-9784,Active
+EMP000580,Jane,Taylor,Jane Taylor,25,Sales,Lead,Miami,73824.75,8171.09,2024-08-20,0,53.7,jane.taylor@company.com,(243) 451-9498,Active
+EMP000581,Jane,Moore,Jane Moore,62,IT,Director,New York,120949.82,0.0,2021-08-19,35,50.6,jane.moore@company.com,(650) 607-5989,Active
+EMP000582,Ashley,Anderson,Ashley Anderson,45,Marketing,Specialist,Los Angeles,75035.01,10296.99,2023-06-09,16,88.5,ashley.anderson@company.com,(255) 906-9470,Inactive
+EMP000583,Daniel,Anderson,Daniel Anderson,63,Sales,Analyst,San Francisco,91347.69,1011.28,2024-05-13,41,94.7,daniel.anderson@company.com,(799) 912-9952,Active
+EMP000584,Stephanie,Hernandez,Stephanie Hernandez,44,Legal,Analyst,New York,99993.47,13329.96,2022-07-18,18,72.5,stephanie.hernandez@company.com,(804) 929-4308,Inactive
+EMP000585,Michael,Rodriguez,Michael Rodriguez,62,Operations,Senior Developer,Chicago,67544.72,4788.54,2020-07-05,39,75.5,michael.rodriguez@company.com,(316) 923-8362,Active
+EMP000586,Michael,Taylor,Michael Taylor,42,IT,Associate,Chicago,77735.31,4862.22,2023-02-01,18,59.6,michael.taylor@company.com,(589) 244-3799,Inactive
+EMP000587,Anthony,Jones,Anthony Jones,43,Marketing,Analyst,Chicago,80361.07,13993.73,2024-04-24,15,57.8,anthony.jones@company.com,(929) 252-7874,Active
+EMP000588,Daniel,Martinez,Daniel Martinez,51,Marketing,Analyst,San Francisco,69904.7,3561.07,2021-02-19,27,92.9,daniel.martinez@company.com,(203) 837-5146,Active
+EMP000589,Melissa,Thomas,Melissa Thomas,35,Engineering,Director,Miami,81407.12,5708.63,2021-03-20,7,62.6,melissa.thomas@company.com,(802) 875-8794,Active
+EMP000590,Daniel,Williams,Daniel Williams,42,Engineering,Specialist,Austin,123416.21,5935.28,2023-06-23,14,69.7,daniel.williams@company.com,(843) 770-4401,Active
+EMP000591,David,Johnson,David Johnson,52,Operations,Analyst,New York,71059.03,9416.92,2024-10-14,30,48.8,david.johnson@company.com,(233) 883-5889,Active
+EMP000592,Michael,Johnson,Michael Johnson,46,Sales,Analyst,Los Angeles,54253.8,2551.79,2020-11-26,24,77.6,michael.johnson@company.com,(888) 491-3906,On Leave
+EMP000593,Anthony,Lopez,Anthony Lopez,22,Engineering,Specialist,San Francisco,58355.12,8992.35,2021-10-23,0,83.1,anthony.lopez@company.com,(577) 588-2108,Active
+EMP000594,Nicole,Williams,Nicole Williams,27,Finance,Analyst,Miami,84186.29,10513.79,2020-09-06,0,78.5,nicole.williams@company.com,(911) 481-6393,Active
+EMP000595,Matthew,Miller,Matthew Miller,38,HR,Senior Developer,New York,58388.96,8928.28,2023-03-16,13,68.1,matthew.miller@company.com,(947) 844-9666,On Leave
+EMP000596,Melissa,Martin,Melissa Martin,22,Finance,Coordinator,Los Angeles,78829.74,137.56,2021-06-15,0,72.3,melissa.martin@company.com,(738) 788-6797,Inactive
+EMP000597,Lisa,Jackson,Lisa Jackson,53,Legal,Lead,Miami,117890.13,11433.64,2024-07-12,31,71.7,lisa.jackson@company.com,(384) 824-4812,Active
+EMP000598,Robert,Smith,Robert Smith,25,Sales,Lead,New York,66821.93,16449.41,2023-07-04,0,75.8,robert.smith@company.com,(320) 955-4396,Active
+EMP000599,Stephanie,Wilson,Stephanie Wilson,54,Engineering,Coordinator,Boston,143634.85,17383.73,2023-02-21,27,75.6,stephanie.wilson@company.com,(852) 417-1185,Active
+EMP000600,Ashley,Rodriguez,Ashley Rodriguez,46,Sales,Specialist,Seattle,72255.67,4108.54,2022-11-03,18,67.8,ashley.rodriguez@company.com,(763) 531-1100,Active
+EMP000601,James,Hernandez,James Hernandez,23,IT,Analyst,New York,76858.33,6897.47,2021-02-01,0,87.1,james.hernandez@company.com,(538) 546-8849,Inactive
+EMP000602,Jane,Jones,Jane Jones,24,Legal,Lead,Chicago,65179.83,8740.81,2024-12-31,0,54.8,jane.jones@company.com,(749) 543-8577,Active
+EMP000603,Stephanie,Johnson,Stephanie Johnson,54,Finance,Manager,Boston,62212.12,5081.17,2021-03-02,30,81.1,stephanie.johnson@company.com,(791) 901-6434,Active
+EMP000604,Amanda,Williams,Amanda Williams,27,Marketing,Manager,Seattle,40278.21,2278.86,2021-11-25,0,93.3,amanda.williams@company.com,(584) 841-9753,Active
+EMP000605,Anthony,Martin,Anthony Martin,26,IT,Senior Developer,Chicago,63315.57,4715.95,2024-11-05,2,49.4,anthony.martin@company.com,(969) 515-6152,Active
+EMP000606,William,Wilson,William Wilson,51,Sales,Director,Miami,83976.25,7753.17,2022-01-31,25,83.1,william.wilson@company.com,(662) 509-4541,Active
+EMP000607,Emily,Brown,Emily Brown,41,Operations,Director,New York,76126.83,10168.57,2020-07-08,14,96.7,emily.brown@company.com,(654) 718-1408,Active
+EMP000608,Matthew,Jones,Matthew Jones,50,HR,Lead,Boston,80929.21,5956.24,2024-02-09,27,70.6,matthew.jones@company.com,(736) 517-6363,Active
+EMP000609,Sarah,Taylor,Sarah Taylor,31,Marketing,Manager,Austin,67330.03,11828.53,2022-07-29,8,74.4,sarah.taylor@company.com,(596) 930-9558,Active
+EMP000610,Ashley,Johnson,Ashley Johnson,47,Sales,Lead,Boston,68399.59,8120.68,2024-12-26,25,54.8,ashley.johnson@company.com,(247) 305-9529,Active
+EMP000611,Ashley,Smith,Ashley Smith,33,Finance,Coordinator,Austin,75905.66,958.49,2021-02-14,10,64.5,ashley.smith@company.com,(397) 493-5532,Active
+EMP000612,Daniel,Brown,Daniel Brown,45,Finance,Analyst,Chicago,81487.31,8431.27,2021-07-14,21,78.1,daniel.brown@company.com,(317) 215-9422,Active
+EMP000613,Nicole,Lopez,Nicole Lopez,60,Operations,Analyst,Seattle,73312.97,13465.58,2023-12-13,35,64.2,nicole.lopez@company.com,(490) 787-5011,Active
+EMP000614,Ashley,Martin,Ashley Martin,23,Operations,Manager,Miami,66730.88,10055.26,2020-09-23,0,92.8,ashley.martin@company.com,(229) 682-1826,Active
+EMP000615,Jane,Williams,Jane Williams,27,IT,Analyst,Los Angeles,53714.19,5011.83,2023-12-14,2,61.2,jane.williams@company.com,(810) 806-8304,Active
+EMP000616,Ashley,Hernandez,Ashley Hernandez,36,HR,Lead,San Francisco,48325.78,8288.71,2023-03-08,10,53.3,ashley.hernandez@company.com,(334) 295-8672,Active
+EMP000617,Ashley,Anderson,Ashley Anderson,49,Legal,Director,Austin,73078.88,6112.62,2020-10-21,21,98.1,ashley.anderson@company.com,(831) 464-6954,Active
+EMP000618,James,Hernandez,James Hernandez,22,Legal,Manager,Miami,41558.34,2297.07,2020-05-13,0,85.8,james.hernandez@company.com,(686) 315-6758,Active
+EMP000619,Emily,Martinez,Emily Martinez,63,Operations,Senior Developer,Chicago,66239.66,3761.12,2022-04-10,36,85.5,emily.martinez@company.com,(931) 309-6339,Active
+EMP000620,Michael,Martinez,Michael Martinez,42,Legal,Associate,Los Angeles,89357.6,12626.44,2021-05-03,14,73.0,michael.martinez@company.com,(835) 449-9977,Active
+EMP000621,Melissa,Gonzalez,Melissa Gonzalez,25,Sales,Director,Boston,85161.94,16884.81,2024-07-24,2,67.6,melissa.gonzalez@company.com,(910) 805-8063,Active
+EMP000622,Stephanie,Jackson,Stephanie Jackson,41,Operations,Analyst,Austin,68762.2,2996.4,2023-09-19,15,83.8,stephanie.jackson@company.com,(885) 279-8972,Active
+EMP000623,Lisa,Anderson,Lisa Anderson,44,Operations,Lead,San Francisco,62974.88,3412.63,2020-12-26,17,71.4,lisa.anderson@company.com,(515) 615-2140,Active
+EMP000624,Lisa,Gonzalez,Lisa Gonzalez,61,Operations,Manager,Miami,64874.27,397.54,2020-07-04,34,60.4,lisa.gonzalez@company.com,(422) 342-1003,Active
+EMP000625,David,Anderson,David Anderson,54,Finance,Lead,Los Angeles,81949.12,11342.49,2021-02-04,25,78.6,david.anderson@company.com,(410) 897-6187,Active
+EMP000626,Ashley,Wilson,Ashley Wilson,40,Operations,Manager,San Francisco,56952.06,5539.13,2023-06-06,11,47.6,ashley.wilson@company.com,(722) 613-3089,Inactive
+EMP000627,Jane,Lopez,Jane Lopez,24,Engineering,Coordinator,New York,104591.9,8400.77,2020-08-12,0,85.2,jane.lopez@company.com,(488) 231-4854,Active
+EMP000628,Anthony,Gonzalez,Anthony Gonzalez,27,Operations,Associate,Los Angeles,71099.94,10929.01,2022-02-20,2,66.1,anthony.gonzalez@company.com,(645) 758-4460,Active
+EMP000629,Melissa,Jones,Melissa Jones,49,HR,Coordinator,Los Angeles,84770.95,5909.13,2024-09-16,25,71.4,melissa.jones@company.com,(627) 357-5726,On Leave
+EMP000630,David,Jones,David Jones,57,Engineering,Manager,San Francisco,144807.87,15303.47,2020-10-21,29,57.7,david.jones@company.com,(938) 698-8155,On Leave
+EMP000631,David,Williams,David Williams,49,Marketing,Lead,Los Angeles,75278.27,6070.7,2024-06-03,20,34.5,david.williams@company.com,(912) 818-7974,Active
+EMP000632,Daniel,Taylor,Daniel Taylor,25,IT,Associate,Miami,71182.6,12905.91,2021-12-28,1,50.0,daniel.taylor@company.com,(431) 390-7959,Active
+EMP000633,Anthony,Thomas,Anthony Thomas,45,HR,Associate,Seattle,61742.84,8450.41,2023-01-23,22,96.7,anthony.thomas@company.com,(790) 575-1548,On Leave
+EMP000634,Anthony,Thomas,Anthony Thomas,42,Operations,Lead,San Francisco,60537.64,2909.26,2023-11-15,14,83.1,anthony.thomas@company.com,(281) 345-9624,On Leave
+EMP000635,William,Anderson,William Anderson,24,Sales,Director,San Francisco,67759.19,6423.15,2022-08-25,0,89.5,william.anderson@company.com,(845) 959-2279,Active
+EMP000636,Nicole,Jackson,Nicole Jackson,63,Finance,Coordinator,New York,112305.97,14222.62,2022-12-31,35,42.8,nicole.jackson@company.com,(997) 211-8681,Active
+EMP000637,Melissa,Jackson,Melissa Jackson,45,Operations,Coordinator,Los Angeles,56082.1,7182.44,2024-06-22,16,90.1,melissa.jackson@company.com,(501) 496-3744,Active
+EMP000638,Lisa,Martinez,Lisa Martinez,63,Finance,Lead,New York,109446.06,6673.25,2023-03-30,34,53.8,lisa.martinez@company.com,(373) 786-1845,Active
+EMP000639,Ashley,Martin,Ashley Martin,54,Engineering,Lead,Seattle,120598.99,13116.42,2020-06-17,27,70.7,ashley.martin@company.com,(329) 717-2259,Inactive
+EMP000640,William,Rodriguez,William Rodriguez,43,Marketing,Specialist,Seattle,113219.94,11923.05,2024-10-22,15,96.7,william.rodriguez@company.com,(463) 214-2827,Active
+EMP000641,Anthony,Jones,Anthony Jones,38,Legal,Analyst,Boston,78440.15,15909.79,2021-06-19,11,43.9,anthony.jones@company.com,(917) 441-8944,Active
+EMP000642,Matthew,Johnson,Matthew Johnson,50,Operations,Analyst,San Francisco,53581.17,2503.05,2023-05-04,21,40.2,matthew.johnson@company.com,(357) 707-7765,Active
+EMP000643,Jessica,Anderson,Jessica Anderson,44,Marketing,Coordinator,Austin,94166.69,14011.14,2020-04-21,18,68.0,jessica.anderson@company.com,(857) 470-2900,Active
+EMP000644,Daniel,Gonzalez,Daniel Gonzalez,39,Legal,Lead,Seattle,106221.02,857.7,2024-03-08,12,80.6,daniel.gonzalez@company.com,(970) 745-4828,Active
+EMP000645,Christopher,Thomas,Christopher Thomas,38,Finance,Associate,Chicago,103382.0,6670.31,2020-01-25,14,66.3,christopher.thomas@company.com,(495) 659-7258,Active
+EMP000646,Matthew,Johnson,Matthew Johnson,57,Sales,Associate,Boston,66722.43,5546.21,2023-06-04,33,71.2,matthew.johnson@company.com,(867) 479-6488,Active
+EMP000647,Sarah,Rodriguez,Sarah Rodriguez,35,IT,Director,Miami,72448.99,4575.2,2024-02-12,7,65.1,sarah.rodriguez@company.com,(888) 802-4193,Active
+EMP000648,Emily,Hernandez,Emily Hernandez,49,Engineering,Senior Developer,New York,89339.47,9104.73,2020-01-25,27,78.9,emily.hernandez@company.com,(621) 300-9605,Active
+EMP000649,Daniel,Lopez,Daniel Lopez,54,HR,Specialist,Seattle,92992.96,16226.11,2021-01-30,31,40.0,daniel.lopez@company.com,(234) 224-2506,Active
+EMP000650,Lisa,Miller,Lisa Miller,50,Sales,Senior Developer,San Francisco,72233.7,7235.56,2024-10-19,23,35.5,lisa.miller@company.com,(819) 333-7159,Active
+EMP000651,Anthony,Garcia,Anthony Garcia,22,Sales,Specialist,Chicago,65833.18,6444.41,2021-08-26,0,100.0,anthony.garcia@company.com,(678) 876-2240,Active
+EMP000652,William,Wilson,William Wilson,50,Operations,Analyst,Seattle,92625.85,9054.39,2024-05-17,28,80.3,william.wilson@company.com,(275) 483-2022,Active
+EMP000653,James,Johnson,James Johnson,28,Finance,Analyst,Seattle,73454.06,7485.84,2022-06-21,4,68.6,james.johnson@company.com,(271) 703-4287,Active
+EMP000654,Emily,Thomas,Emily Thomas,22,Sales,Associate,Chicago,35871.13,2215.06,2021-03-23,0,74.3,emily.thomas@company.com,(828) 858-2740,Inactive
+EMP000655,William,Brown,William Brown,50,Engineering,Senior Developer,San Francisco,132551.46,15573.55,2023-03-16,25,90.0,william.brown@company.com,(945) 456-8305,Active
+EMP000656,Melissa,Jones,Melissa Jones,30,Engineering,Associate,New York,94452.0,10068.68,2021-06-29,8,93.7,melissa.jones@company.com,(355) 916-6403,Inactive
+EMP000657,Anthony,Smith,Anthony Smith,43,Legal,Associate,Miami,92003.99,10425.36,2022-04-07,19,93.4,anthony.smith@company.com,(945) 999-2148,Active
+EMP000658,John,Gonzalez,John Gonzalez,50,Legal,Coordinator,San Francisco,66085.99,5625.2,2021-11-13,24,80.0,john.gonzalez@company.com,(898) 510-7563,Active
+EMP000659,Michael,Lopez,Michael Lopez,36,Operations,Lead,San Francisco,48279.51,2662.5,2024-04-06,9,74.0,michael.lopez@company.com,(984) 496-4327,Active
+EMP000660,Jane,Gonzalez,Jane Gonzalez,29,HR,Associate,Seattle,47793.87,7027.36,2020-08-06,7,70.9,jane.gonzalez@company.com,(845) 905-6886,Active
+EMP000661,Daniel,Miller,Daniel Miller,61,Marketing,Director,New York,75714.52,8679.35,2020-02-21,38,78.2,daniel.miller@company.com,(937) 807-4907,Active
+EMP000662,Michael,Moore,Michael Moore,41,Finance,Lead,Miami,80211.95,5259.03,2020-02-03,14,58.8,michael.moore@company.com,(237) 547-1918,Active
+EMP000663,Jane,Gonzalez,Jane Gonzalez,35,Sales,Lead,Austin,58634.82,1604.26,2023-10-20,8,72.2,jane.gonzalez@company.com,(749) 352-4817,Inactive
+EMP000664,Jane,Jones,Jane Jones,32,Legal,Lead,New York,55803.29,8281.23,2023-06-20,8,94.3,jane.jones@company.com,(246) 448-3138,Active
+EMP000665,Jane,Martinez,Jane Martinez,51,Sales,Analyst,Miami,90572.83,15606.58,2024-09-06,29,57.9,jane.martinez@company.com,(805) 265-2742,Active
+EMP000666,Lisa,Martin,Lisa Martin,55,HR,Director,San Francisco,56849.96,9985.72,2022-05-22,33,79.0,lisa.martin@company.com,(545) 955-7586,Active
+EMP000667,Anthony,Moore,Anthony Moore,57,Marketing,Director,Boston,87836.25,0.0,2024-04-14,31,96.8,anthony.moore@company.com,(246) 807-3841,Active
+EMP000668,Sarah,Rodriguez,Sarah Rodriguez,53,Marketing,Analyst,Los Angeles,82621.07,8498.78,2023-11-27,27,57.8,sarah.rodriguez@company.com,(578) 766-3703,Active
+EMP000669,Anthony,Johnson,Anthony Johnson,40,Marketing,Associate,San Francisco,88398.02,3396.83,2024-05-11,12,85.5,anthony.johnson@company.com,(361) 216-8978,Active
+EMP000670,John,Garcia,John Garcia,27,Sales,Associate,Seattle,81212.26,9006.43,2023-11-21,0,80.3,john.garcia@company.com,(991) 687-3079,Active
+EMP000671,William,Taylor,William Taylor,52,Legal,Director,Los Angeles,133874.2,14306.31,2020-12-23,27,91.1,william.taylor@company.com,(825) 908-1616,Active
+EMP000672,Melissa,Martin,Melissa Martin,63,Sales,Coordinator,Seattle,107833.01,1616.36,2022-05-07,39,63.8,melissa.martin@company.com,(204) 771-4860,Active
+EMP000673,Matthew,Brown,Matthew Brown,37,Operations,Lead,Austin,51123.52,7755.25,2024-04-26,8,59.9,matthew.brown@company.com,(841) 875-4409,Active
+EMP000674,Robert,Brown,Robert Brown,51,Marketing,Lead,Miami,80826.16,11729.0,2020-12-27,23,75.2,robert.brown@company.com,(363) 886-1706,Active
+EMP000675,Amanda,Martinez,Amanda Martinez,37,HR,Specialist,Los Angeles,65640.59,596.54,2021-11-15,12,67.8,amanda.martinez@company.com,(831) 976-8424,Active
+EMP000676,Jane,Moore,Jane Moore,53,Marketing,Manager,Chicago,48729.12,0.0,2022-09-20,31,98.3,jane.moore@company.com,(727) 318-2160,Inactive
+EMP000677,Daniel,Jackson,Daniel Jackson,24,Operations,Director,Los Angeles,52510.95,8657.54,2024-03-10,2,83.3,daniel.jackson@company.com,(893) 533-4769,Active
+EMP000678,James,Davis,James Davis,42,Sales,Associate,Austin,75315.2,10172.02,2024-11-16,17,59.8,james.davis@company.com,(404) 584-4615,Active
+EMP000679,Anthony,Thomas,Anthony Thomas,28,Engineering,Analyst,Los Angeles,97659.4,9001.72,2021-03-18,0,56.5,anthony.thomas@company.com,(824) 665-3917,Active
+EMP000680,David,Anderson,David Anderson,27,HR,Specialist,Boston,73102.26,9858.98,2021-02-18,2,85.0,david.anderson@company.com,(543) 330-1525,Active
+EMP000681,Jane,Rodriguez,Jane Rodriguez,33,Marketing,Lead,San Francisco,57228.46,4771.03,2022-07-28,7,67.4,jane.rodriguez@company.com,(628) 375-6629,Active
+EMP000682,Ashley,Martin,Ashley Martin,26,Marketing,Director,Chicago,64764.48,7628.9,2020-06-26,0,89.7,ashley.martin@company.com,(621) 734-9015,Inactive
+EMP000683,Robert,Jackson,Robert Jackson,27,Legal,Specialist,Miami,51540.83,6882.61,2020-01-30,0,70.2,robert.jackson@company.com,(947) 638-5041,Active
+EMP000684,Stephanie,Jackson,Stephanie Jackson,61,HR,Manager,Chicago,75974.49,8642.94,2022-05-05,32,65.0,stephanie.jackson@company.com,(245) 241-8711,Active
+EMP000685,Matthew,Johnson,Matthew Johnson,32,IT,Lead,Los Angeles,89375.72,14127.61,2024-07-16,5,88.4,matthew.johnson@company.com,(913) 300-8412,Active
+EMP000686,Michael,Moore,Michael Moore,53,Engineering,Director,Los Angeles,91300.49,3760.2,2020-09-28,24,100.0,michael.moore@company.com,(567) 502-4916,Active
+EMP000687,Michael,Smith,Michael Smith,34,Legal,Analyst,Seattle,106777.44,5169.45,2023-12-11,10,66.0,michael.smith@company.com,(670) 784-1399,On Leave
+EMP000688,Daniel,Jones,Daniel Jones,36,IT,Coordinator,Chicago,102600.49,10284.74,2023-07-07,12,71.9,daniel.jones@company.com,(675) 920-1022,Inactive
+EMP000689,Michael,Gonzalez,Michael Gonzalez,37,Operations,Specialist,New York,36830.03,3949.81,2022-05-22,13,52.1,michael.gonzalez@company.com,(970) 476-9887,Active
+EMP000690,Robert,Williams,Robert Williams,40,Operations,Coordinator,New York,61504.76,4637.02,2024-12-23,16,100.0,robert.williams@company.com,(252) 313-7274,Active
+EMP000691,Lisa,Johnson,Lisa Johnson,46,Operations,Analyst,Boston,71653.27,1838.14,2023-08-20,17,54.0,lisa.johnson@company.com,(772) 921-2097,Active
+EMP000692,Robert,Jones,Robert Jones,49,Operations,Senior Developer,Austin,49488.87,5298.2,2023-08-22,25,52.9,robert.jones@company.com,(689) 955-4437,Active
+EMP000693,Jessica,Hernandez,Jessica Hernandez,42,Operations,Associate,Seattle,70535.23,9361.76,2021-07-21,20,88.3,jessica.hernandez@company.com,(255) 264-7108,Active
+EMP000694,Melissa,Taylor,Melissa Taylor,39,Sales,Specialist,Miami,71287.5,5863.62,2022-07-14,10,89.1,melissa.taylor@company.com,(835) 576-2075,Active
+EMP000695,Daniel,Williams,Daniel Williams,44,Sales,Analyst,Los Angeles,78230.82,12176.42,2021-08-13,16,84.8,daniel.williams@company.com,(278) 311-3699,Active
+EMP000696,David,Thomas,David Thomas,62,Marketing,Manager,Austin,100476.53,6287.09,2021-08-23,40,76.4,david.thomas@company.com,(626) 898-9870,Inactive
+EMP000697,Melissa,Lopez,Melissa Lopez,28,IT,Manager,Miami,53172.0,5564.66,2021-08-20,3,80.6,melissa.lopez@company.com,(393) 264-1361,Inactive
+EMP000698,Jessica,Taylor,Jessica Taylor,38,Operations,Coordinator,Los Angeles,53027.51,6210.42,2023-09-04,13,70.0,jessica.taylor@company.com,(861) 534-8965,Active
+EMP000699,Matthew,Moore,Matthew Moore,54,Legal,Specialist,Miami,133140.51,26001.95,2023-03-07,29,87.8,matthew.moore@company.com,(335) 513-3813,Active
+EMP000700,Jessica,Thomas,Jessica Thomas,59,Operations,Manager,Seattle,68214.61,17264.94,2020-10-30,32,60.3,jessica.thomas@company.com,(561) 491-8469,On Leave
+EMP000701,Lisa,Garcia,Lisa Garcia,34,Finance,Analyst,Chicago,77901.81,5268.83,2024-09-14,7,57.7,lisa.garcia@company.com,(925) 909-3514,Active
+EMP000702,Sarah,Johnson,Sarah Johnson,32,Operations,Lead,Chicago,58552.15,9113.37,2021-06-17,5,48.9,sarah.johnson@company.com,(578) 388-4361,Active
+EMP000703,Jane,Hernandez,Jane Hernandez,41,Operations,Coordinator,Chicago,60937.17,6723.34,2022-07-07,14,68.2,jane.hernandez@company.com,(752) 366-9743,Active
+EMP000704,John,Gonzalez,John Gonzalez,37,Legal,Lead,Chicago,100846.7,18372.71,2021-10-17,8,87.5,john.gonzalez@company.com,(359) 204-9948,On Leave
+EMP000705,James,Martinez,James Martinez,48,Legal,Analyst,Seattle,81208.32,7089.26,2024-06-25,20,89.9,james.martinez@company.com,(778) 946-8243,Active
+EMP000706,Sarah,Thomas,Sarah Thomas,58,Engineering,Senior Developer,Chicago,106119.59,14964.69,2021-09-22,30,78.8,sarah.thomas@company.com,(225) 611-4610,Active
+EMP000707,Michael,Hernandez,Michael Hernandez,29,Engineering,Director,Austin,75255.8,6750.97,2024-05-19,3,62.0,michael.hernandez@company.com,(985) 484-4206,Active
+EMP000708,Nicole,Anderson,Nicole Anderson,28,Sales,Director,Los Angeles,51201.32,3315.62,2022-10-01,3,65.1,nicole.anderson@company.com,(525) 817-9381,Inactive
+EMP000709,Amanda,Gonzalez,Amanda Gonzalez,59,Marketing,Coordinator,Los Angeles,100395.78,1494.83,2022-03-01,33,36.9,amanda.gonzalez@company.com,(581) 212-5663,Active
+EMP000710,Ashley,Anderson,Ashley Anderson,61,Sales,Lead,Austin,81857.76,3200.95,2024-02-27,35,83.1,ashley.anderson@company.com,(625) 653-5728,Active
+EMP000711,Stephanie,Wilson,Stephanie Wilson,51,Marketing,Analyst,San Francisco,56596.59,4586.01,2021-03-01,25,55.5,stephanie.wilson@company.com,(510) 686-9606,On Leave
+EMP000712,Michael,Jackson,Michael Jackson,59,IT,Manager,San Francisco,110617.17,6369.18,2022-04-18,31,74.5,michael.jackson@company.com,(854) 479-7791,Active
+EMP000713,Daniel,Jackson,Daniel Jackson,32,Marketing,Analyst,Austin,81586.41,14326.64,2024-08-31,6,79.2,daniel.jackson@company.com,(590) 496-9037,Active
+EMP000714,Ashley,Jackson,Ashley Jackson,45,Finance,Lead,Miami,81687.78,11360.17,2021-04-04,18,53.6,ashley.jackson@company.com,(227) 202-3523,Active
+EMP000715,Melissa,Brown,Melissa Brown,44,Finance,Analyst,Los Angeles,81390.1,14429.29,2022-10-04,16,62.5,melissa.brown@company.com,(904) 860-5009,Active
+EMP000716,William,Thomas,William Thomas,55,Sales,Lead,Boston,72762.85,6107.56,2023-03-04,26,100.0,william.thomas@company.com,(646) 464-8799,On Leave
+EMP000717,Sarah,Lopez,Sarah Lopez,39,Engineering,Analyst,Seattle,114584.73,12455.14,2023-04-06,11,85.2,sarah.lopez@company.com,(259) 349-6237,Active
+EMP000718,David,Lopez,David Lopez,53,Marketing,Specialist,New York,63473.2,9029.56,2022-01-09,29,70.8,david.lopez@company.com,(629) 851-6832,Active
+EMP000719,Ashley,Taylor,Ashley Taylor,42,Sales,Analyst,Austin,99140.45,19048.11,2024-04-15,14,73.9,ashley.taylor@company.com,(296) 813-3738,Active
+EMP000720,James,Martinez,James Martinez,28,Finance,Senior Developer,Boston,78324.71,6805.26,2022-12-30,0,78.1,james.martinez@company.com,(793) 560-3354,Active
+EMP000721,Matthew,Martinez,Matthew Martinez,60,Operations,Associate,Miami,94726.83,9676.02,2021-11-27,33,70.9,matthew.martinez@company.com,(366) 304-4569,Active
+EMP000722,Jessica,Miller,Jessica Miller,34,Sales,Lead,Los Angeles,87370.14,20465.03,2020-06-05,6,69.7,jessica.miller@company.com,(319) 334-1284,Active
+EMP000723,Ashley,Lopez,Ashley Lopez,25,Marketing,Coordinator,Miami,44484.65,1575.81,2020-12-18,0,89.4,ashley.lopez@company.com,(926) 511-1471,Active
+EMP000724,Sarah,Davis,Sarah Davis,51,Marketing,Director,Chicago,80904.65,12835.65,2021-09-21,24,74.5,sarah.davis@company.com,(328) 414-3133,On Leave
+EMP000725,Stephanie,Brown,Stephanie Brown,55,Sales,Lead,New York,87201.8,9014.46,2024-03-31,28,87.4,stephanie.brown@company.com,(641) 243-4217,Active
+EMP000726,Matthew,Jackson,Matthew Jackson,27,Engineering,Senior Developer,Miami,88759.19,6598.37,2021-06-02,3,93.3,matthew.jackson@company.com,(244) 267-5942,Active
+EMP000727,Sarah,Brown,Sarah Brown,33,HR,Analyst,Austin,75686.29,16951.42,2023-10-05,5,77.9,sarah.brown@company.com,(559) 229-2487,Active
+EMP000728,William,Jackson,William Jackson,43,Operations,Analyst,Boston,92146.55,15507.42,2024-10-17,20,85.1,william.jackson@company.com,(712) 999-4962,Active
+EMP000729,Michael,Brown,Michael Brown,41,Engineering,Director,Austin,68913.22,0.0,2021-07-31,16,65.9,michael.brown@company.com,(375) 972-9800,Active
+EMP000730,Sarah,Miller,Sarah Miller,38,Legal,Analyst,Boston,77038.42,4685.78,2022-06-19,14,60.0,sarah.miller@company.com,(889) 309-3963,Active
+EMP000731,Christopher,Wilson,Christopher Wilson,44,HR,Associate,Austin,55037.16,6685.98,2020-08-19,21,65.0,christopher.wilson@company.com,(979) 521-3025,Active
+EMP000732,Matthew,Jones,Matthew Jones,58,Legal,Specialist,Boston,133596.54,11985.16,2023-02-15,29,98.9,matthew.jones@company.com,(939) 241-2347,Active
+EMP000733,Sarah,Gonzalez,Sarah Gonzalez,23,Finance,Specialist,Miami,65559.61,10396.65,2023-11-08,0,99.2,sarah.gonzalez@company.com,(654) 431-7672,Active
+EMP000734,Stephanie,Miller,Stephanie Miller,34,Sales,Coordinator,Miami,61719.96,8487.35,2021-01-02,5,92.0,stephanie.miller@company.com,(213) 890-9055,Active
+EMP000735,Christopher,Anderson,Christopher Anderson,38,Sales,Analyst,San Francisco,106550.73,18829.45,2022-03-19,16,78.3,christopher.anderson@company.com,(610) 911-2666,Active
+EMP000736,Emily,Williams,Emily Williams,44,Operations,Coordinator,Austin,61655.13,8671.53,2021-02-14,22,53.6,emily.williams@company.com,(809) 613-3011,Active
+EMP000737,Stephanie,Thomas,Stephanie Thomas,30,Finance,Associate,Seattle,65657.12,4013.65,2021-12-30,6,79.3,stephanie.thomas@company.com,(687) 882-7626,On Leave
+EMP000738,Matthew,Rodriguez,Matthew Rodriguez,53,Marketing,Senior Developer,Miami,88159.88,4877.48,2020-09-07,24,78.7,matthew.rodriguez@company.com,(456) 701-9147,Active
+EMP000739,David,Smith,David Smith,48,Sales,Senior Developer,New York,72157.08,14115.4,2022-10-17,19,58.0,david.smith@company.com,(894) 227-3934,Active
+EMP000740,James,Jones,James Jones,54,Finance,Senior Developer,San Francisco,105778.54,4663.38,2023-09-15,28,86.3,james.jones@company.com,(969) 732-9064,Active
+EMP000741,Robert,Martinez,Robert Martinez,61,Legal,Specialist,Miami,107708.18,16812.74,2023-01-15,38,85.0,robert.martinez@company.com,(551) 753-9955,Active
+EMP000742,Jane,Wilson,Jane Wilson,29,Sales,Lead,Los Angeles,50923.94,6989.32,2021-10-06,5,64.2,jane.wilson@company.com,(585) 653-8531,Active
+EMP000743,Emily,Moore,Emily Moore,45,Finance,Lead,Chicago,91939.17,17006.42,2022-06-01,20,77.9,emily.moore@company.com,(337) 519-7374,Active
+EMP000744,Sarah,Jackson,Sarah Jackson,59,Legal,Lead,Miami,129212.56,3280.26,2023-02-25,33,88.1,sarah.jackson@company.com,(360) 718-1913,Active
+EMP000745,Melissa,Jackson,Melissa Jackson,25,IT,Specialist,Boston,84188.64,12591.5,2021-10-18,0,71.3,melissa.jackson@company.com,(262) 228-1739,Active
+EMP000746,Amanda,Lopez,Amanda Lopez,40,Engineering,Associate,Boston,113848.36,4102.12,2020-07-18,11,58.7,amanda.lopez@company.com,(638) 553-6855,Active
+EMP000747,Jane,Davis,Jane Davis,49,HR,Specialist,Austin,60207.61,7010.45,2023-04-28,20,56.2,jane.davis@company.com,(286) 904-2073,Inactive
+EMP000748,Sarah,Hernandez,Sarah Hernandez,45,Marketing,Coordinator,New York,72596.19,6568.13,2020-03-17,20,84.6,sarah.hernandez@company.com,(671) 873-7921,Active
+EMP000749,Stephanie,Rodriguez,Stephanie Rodriguez,48,Engineering,Manager,Miami,80559.68,11475.77,2021-10-10,21,79.5,stephanie.rodriguez@company.com,(586) 784-7394,Active
+EMP000750,Sarah,Thomas,Sarah Thomas,24,Sales,Coordinator,Austin,57621.45,1064.63,2022-10-14,1,72.2,sarah.thomas@company.com,(714) 983-6563,Active
+EMP000751,Ashley,Lopez,Ashley Lopez,30,IT,Lead,Austin,91645.48,6618.9,2023-07-25,7,87.2,ashley.lopez@company.com,(277) 748-4507,Active
+EMP000752,Jane,Martinez,Jane Martinez,24,IT,Senior Developer,Austin,55349.79,10370.79,2024-01-09,1,60.8,jane.martinez@company.com,(792) 297-6518,Active
+EMP000753,Anthony,Taylor,Anthony Taylor,44,Legal,Director,Los Angeles,88934.5,8251.04,2021-12-12,16,83.9,anthony.taylor@company.com,(278) 867-5945,Active
+EMP000754,Ashley,Wilson,Ashley Wilson,23,Operations,Associate,Austin,37565.16,1772.03,2022-04-03,1,67.1,ashley.wilson@company.com,(457) 839-9443,Active
+EMP000755,Nicole,Garcia,Nicole Garcia,41,Engineering,Lead,Chicago,99111.63,11493.98,2021-03-12,14,100.0,nicole.garcia@company.com,(876) 960-8656,Active
+EMP000756,Nicole,Martin,Nicole Martin,36,IT,Director,New York,84887.72,7477.17,2022-01-16,14,56.9,nicole.martin@company.com,(673) 351-4938,Active
+EMP000757,Ashley,Wilson,Ashley Wilson,26,IT,Senior Developer,Boston,65560.96,9349.58,2023-07-22,1,73.0,ashley.wilson@company.com,(408) 622-5373,Active
+EMP000758,Emily,Rodriguez,Emily Rodriguez,39,HR,Director,Los Angeles,80974.66,8987.31,2020-08-20,10,100.0,emily.rodriguez@company.com,(353) 396-1453,Active
+EMP000759,Ashley,Anderson,Ashley Anderson,31,Legal,Associate,Los Angeles,89750.93,5692.26,2023-08-17,5,82.6,ashley.anderson@company.com,(237) 406-3610,Active
+EMP000760,John,Rodriguez,John Rodriguez,59,Finance,Manager,Chicago,91822.09,11946.6,2024-01-19,34,97.7,john.rodriguez@company.com,(697) 220-1906,Inactive
+EMP000761,Michael,Hernandez,Michael Hernandez,51,Finance,Associate,San Francisco,82878.77,9355.99,2022-01-14,23,82.2,michael.hernandez@company.com,(887) 873-2479,Active
+EMP000762,David,Davis,David Davis,49,Sales,Specialist,San Francisco,60573.59,7422.25,2022-10-13,21,74.0,david.davis@company.com,(292) 443-3003,Active
+EMP000763,James,Hernandez,James Hernandez,55,IT,Associate,Austin,93355.1,9475.38,2021-03-22,26,100.0,james.hernandez@company.com,(347) 309-3869,Active
+EMP000764,William,Anderson,William Anderson,63,IT,Manager,Seattle,112026.48,8563.73,2022-10-01,41,91.2,william.anderson@company.com,(746) 583-2850,Active
+EMP000765,Stephanie,Thomas,Stephanie Thomas,43,HR,Analyst,Seattle,37741.82,1539.29,2022-01-13,14,70.1,stephanie.thomas@company.com,(686) 932-7025,Active
+EMP000766,John,Martin,John Martin,59,Engineering,Director,New York,117207.86,0.0,2021-06-02,32,52.2,john.martin@company.com,(765) 593-6067,Active
+EMP000767,Amanda,Brown,Amanda Brown,56,HR,Associate,Miami,68819.81,12023.69,2020-01-17,30,55.5,amanda.brown@company.com,(602) 461-5929,Active
+EMP000768,Jessica,Martinez,Jessica Martinez,34,HR,Lead,Chicago,66370.53,5347.74,2023-07-17,10,47.0,jessica.martinez@company.com,(524) 985-7656,Active
+EMP000769,William,Williams,William Williams,27,Legal,Associate,Miami,67000.54,4992.19,2024-09-18,0,78.4,william.williams@company.com,(540) 934-7920,Inactive
+EMP000770,Sarah,Garcia,Sarah Garcia,26,Finance,Coordinator,San Francisco,67448.28,3971.12,2022-05-11,2,58.6,sarah.garcia@company.com,(816) 946-9973,Active
+EMP000771,Daniel,Smith,Daniel Smith,39,Engineering,Lead,Chicago,103065.22,9611.86,2024-06-08,12,71.8,daniel.smith@company.com,(856) 339-1050,Active
+EMP000772,Ashley,Hernandez,Ashley Hernandez,36,Sales,Analyst,San Francisco,58201.59,6276.96,2021-05-26,11,84.2,ashley.hernandez@company.com,(728) 930-3131,Active
+EMP000773,Stephanie,Hernandez,Stephanie Hernandez,56,Legal,Analyst,Miami,101941.52,12281.15,2021-06-17,31,65.5,stephanie.hernandez@company.com,(377) 903-6367,Active
+EMP000774,Robert,Williams,Robert Williams,65,IT,Analyst,Boston,113436.44,18134.22,2022-03-16,43,81.4,robert.williams@company.com,(586) 784-4677,Active
+EMP000775,John,Moore,John Moore,28,HR,Lead,San Francisco,49879.57,5506.61,2021-02-10,0,70.7,john.moore@company.com,(468) 918-3764,Active
+EMP000776,Lisa,Wilson,Lisa Wilson,35,Finance,Senior Developer,Chicago,101897.55,6581.22,2022-01-23,8,61.4,lisa.wilson@company.com,(374) 780-2922,Active
+EMP000777,Matthew,Wilson,Matthew Wilson,25,Legal,Senior Developer,Miami,66430.05,6332.82,2021-04-04,0,75.8,matthew.wilson@company.com,(930) 408-4121,Inactive
+EMP000778,William,Martinez,William Martinez,49,Legal,Analyst,Los Angeles,89075.02,9624.64,2022-06-02,25,100.0,william.martinez@company.com,(411) 814-4531,On Leave
+EMP000779,Ashley,Miller,Ashley Miller,29,IT,Associate,Chicago,107428.8,15545.21,2024-06-10,7,75.3,ashley.miller@company.com,(349) 229-5754,On Leave
+EMP000780,Jessica,Martin,Jessica Martin,28,Legal,Coordinator,Austin,68686.67,11777.9,2023-04-08,4,95.6,jessica.martin@company.com,(900) 862-8506,Active
+EMP000781,Melissa,Jones,Melissa Jones,51,Operations,Director,Los Angeles,71259.69,5384.78,2023-12-31,25,99.5,melissa.jones@company.com,(592) 925-7935,Active
+EMP000782,William,Williams,William Williams,55,Sales,Manager,New York,104236.9,11851.88,2021-11-12,29,70.5,william.williams@company.com,(440) 682-6804,On Leave
+EMP000783,Lisa,Johnson,Lisa Johnson,51,Engineering,Associate,Seattle,128450.37,14478.02,2021-09-11,24,77.1,lisa.johnson@company.com,(604) 887-7076,Active
+EMP000784,Nicole,Johnson,Nicole Johnson,27,Marketing,Analyst,Seattle,53217.74,4062.47,2022-10-28,0,84.8,nicole.johnson@company.com,(704) 547-8669,Active
+EMP000785,James,Taylor,James Taylor,53,IT,Specialist,Chicago,107869.4,9569.87,2020-08-27,26,70.8,james.taylor@company.com,(520) 245-3095,Active
+EMP000786,William,Lopez,William Lopez,24,IT,Specialist,Seattle,69499.05,9835.88,2023-06-09,0,83.1,william.lopez@company.com,(979) 470-9470,Active
+EMP000787,Emily,Hernandez,Emily Hernandez,25,Legal,Lead,Chicago,54008.33,8933.01,2020-04-18,1,63.9,emily.hernandez@company.com,(393) 352-1894,Active
+EMP000788,Jane,Thomas,Jane Thomas,27,Finance,Lead,Chicago,48309.53,4412.4,2022-06-12,0,58.9,jane.thomas@company.com,(318) 706-1668,Active
+EMP000789,Nicole,Thomas,Nicole Thomas,32,Legal,Senior Developer,Miami,109847.86,20044.38,2024-09-28,10,71.4,nicole.thomas@company.com,(937) 351-3025,Active
+EMP000790,Robert,Martinez,Robert Martinez,54,Marketing,Specialist,Chicago,94296.2,6484.58,2023-02-27,32,48.5,robert.martinez@company.com,(879) 799-4479,Active
+EMP000791,John,Taylor,John Taylor,44,Marketing,Senior Developer,Los Angeles,69947.84,2931.57,2021-05-19,16,34.4,john.taylor@company.com,(986) 710-2545,Inactive
+EMP000792,John,Martinez,John Martinez,46,Sales,Coordinator,Los Angeles,72552.92,10400.43,2023-04-24,19,84.8,john.martinez@company.com,(308) 531-3519,Active
+EMP000793,Daniel,Thomas,Daniel Thomas,51,Legal,Manager,Seattle,120663.26,11829.99,2021-11-05,28,99.8,daniel.thomas@company.com,(244) 871-8423,Active
+EMP000794,Anthony,Jones,Anthony Jones,42,HR,Specialist,New York,65395.51,4880.89,2021-10-23,13,69.4,anthony.jones@company.com,(256) 961-2158,Active
+EMP000795,Lisa,Gonzalez,Lisa Gonzalez,23,Sales,Specialist,Los Angeles,56309.04,4538.23,2020-12-30,0,86.1,lisa.gonzalez@company.com,(445) 989-7535,Active
+EMP000796,Robert,Garcia,Robert Garcia,39,IT,Specialist,Los Angeles,60438.27,8074.21,2023-08-18,10,81.5,robert.garcia@company.com,(970) 869-3525,Active
+EMP000797,Melissa,Wilson,Melissa Wilson,27,Finance,Coordinator,Chicago,56352.32,5908.06,2023-09-24,0,90.7,melissa.wilson@company.com,(298) 576-9399,Active
+EMP000798,Daniel,Gonzalez,Daniel Gonzalez,34,Legal,Associate,Seattle,74552.87,7515.41,2020-07-03,11,73.2,daniel.gonzalez@company.com,(974) 632-7033,Active
+EMP000799,Stephanie,Wilson,Stephanie Wilson,48,Sales,Coordinator,New York,63107.41,6435.66,2022-08-07,20,89.0,stephanie.wilson@company.com,(892) 429-3540,Inactive
+EMP000800,Matthew,Taylor,Matthew Taylor,61,Sales,Lead,Seattle,72221.15,4207.74,2022-06-14,37,72.2,matthew.taylor@company.com,(281) 689-5921,Active
+EMP000801,David,Martinez,David Martinez,38,HR,Specialist,Los Angeles,53910.11,5092.71,2023-03-10,13,59.0,david.martinez@company.com,(248) 764-2253,Inactive
+EMP000802,Matthew,Brown,Matthew Brown,50,IT,Senior Developer,Los Angeles,79860.44,11409.38,2022-08-09,22,53.4,matthew.brown@company.com,(876) 937-5151,Active
+EMP000803,Anthony,Williams,Anthony Williams,37,Engineering,Lead,San Francisco,114132.97,0.0,2021-01-02,12,56.2,anthony.williams@company.com,(386) 602-1741,Active
+EMP000804,Ashley,Hernandez,Ashley Hernandez,24,Legal,Specialist,Miami,66972.09,6174.69,2021-11-30,0,100.0,ashley.hernandez@company.com,(391) 416-4032,Active
+EMP000805,Lisa,Rodriguez,Lisa Rodriguez,40,Sales,Manager,Los Angeles,62234.04,4336.15,2020-01-12,14,65.5,lisa.rodriguez@company.com,(604) 319-1217,Active
+EMP000806,Melissa,Anderson,Melissa Anderson,41,IT,Specialist,Miami,95566.28,15646.05,2023-06-20,18,62.5,melissa.anderson@company.com,(831) 569-7471,Active
+EMP000807,Michael,Jones,Michael Jones,43,Marketing,Director,New York,69565.1,6620.43,2020-08-17,16,73.7,michael.jones@company.com,(216) 912-4083,Inactive
+EMP000808,Robert,Thomas,Robert Thomas,44,Marketing,Associate,Austin,65512.47,8991.25,2024-09-20,17,65.6,robert.thomas@company.com,(841) 751-4127,Active
+EMP000809,Daniel,Jones,Daniel Jones,50,Legal,Manager,Los Angeles,75740.89,3778.65,2020-08-26,22,56.5,daniel.jones@company.com,(370) 356-8295,On Leave
+EMP000810,Melissa,Smith,Melissa Smith,40,Legal,Director,Austin,75891.84,8881.27,2021-08-26,12,87.9,melissa.smith@company.com,(783) 601-1834,Active
+EMP000811,Sarah,Wilson,Sarah Wilson,41,IT,Specialist,Miami,104971.6,11171.89,2020-03-16,18,82.8,sarah.wilson@company.com,(699) 609-8964,Active
+EMP000812,Lisa,Thomas,Lisa Thomas,32,HR,Manager,New York,53993.95,2317.23,2022-05-14,6,96.0,lisa.thomas@company.com,(790) 523-2040,Active
+EMP000813,Stephanie,Thomas,Stephanie Thomas,65,Sales,Coordinator,Miami,105394.31,8606.35,2022-07-07,39,100.0,stephanie.thomas@company.com,(914) 646-1340,Active
+EMP000814,Robert,Thomas,Robert Thomas,31,Operations,Director,Miami,74176.65,4508.12,2022-11-05,9,47.5,robert.thomas@company.com,(424) 801-6556,Inactive
+EMP000815,Daniel,Jones,Daniel Jones,53,Finance,Associate,Los Angeles,84496.74,1394.17,2024-09-02,27,81.6,daniel.jones@company.com,(889) 868-6902,Active
+EMP000816,Emily,Martin,Emily Martin,32,HR,Senior Developer,Seattle,51862.56,5952.34,2023-09-28,9,97.0,emily.martin@company.com,(694) 332-3839,Active
+EMP000817,Lisa,Thomas,Lisa Thomas,33,Sales,Lead,Los Angeles,76351.72,8717.8,2021-09-13,10,64.1,lisa.thomas@company.com,(440) 414-1770,On Leave
+EMP000818,Amanda,Rodriguez,Amanda Rodriguez,40,Operations,Analyst,Chicago,93034.43,11402.42,2024-08-22,15,88.5,amanda.rodriguez@company.com,(715) 232-2043,Active
+EMP000819,Sarah,Martin,Sarah Martin,24,HR,Director,San Francisco,65451.92,8782.58,2022-09-23,1,100.0,sarah.martin@company.com,(464) 548-6820,Active
+EMP000820,Nicole,Rodriguez,Nicole Rodriguez,54,Marketing,Manager,San Francisco,78249.88,10544.97,2022-06-15,31,95.6,nicole.rodriguez@company.com,(668) 973-2817,On Leave
+EMP000821,Lisa,Martin,Lisa Martin,58,Sales,Senior Developer,New York,68927.84,3974.2,2020-12-08,36,84.1,lisa.martin@company.com,(845) 320-4365,Inactive
+EMP000822,Emily,Martinez,Emily Martinez,47,Legal,Senior Developer,Miami,120430.35,22240.88,2020-11-11,25,51.1,emily.martinez@company.com,(862) 572-6482,Active
+EMP000823,Sarah,Miller,Sarah Miller,33,Legal,Manager,Los Angeles,84479.9,3924.71,2021-05-17,11,70.4,sarah.miller@company.com,(685) 549-5698,Active
+EMP000824,Michael,Rodriguez,Michael Rodriguez,57,Operations,Coordinator,Los Angeles,97130.59,5486.63,2023-07-13,29,66.8,michael.rodriguez@company.com,(880) 451-3483,Active
+EMP000825,Matthew,Wilson,Matthew Wilson,35,HR,Associate,Chicago,78155.63,14154.74,2022-04-26,9,68.7,matthew.wilson@company.com,(619) 669-9456,Active
+EMP000826,Amanda,Smith,Amanda Smith,45,Legal,Manager,Chicago,131583.91,0.0,2024-01-09,19,85.8,amanda.smith@company.com,(729) 271-2389,Active
+EMP000827,Christopher,Garcia,Christopher Garcia,39,IT,Associate,New York,90184.24,4204.23,2024-04-03,16,70.1,christopher.garcia@company.com,(237) 876-3473,Inactive
+EMP000828,Jane,Taylor,Jane Taylor,57,Finance,Associate,Los Angeles,89547.12,12868.71,2024-12-19,31,51.1,jane.taylor@company.com,(897) 917-5986,Active
+EMP000829,James,Lopez,James Lopez,57,Engineering,Analyst,Seattle,136709.72,18132.13,2023-12-05,29,100.0,james.lopez@company.com,(613) 656-4360,Inactive
+EMP000830,Lisa,Martin,Lisa Martin,61,Legal,Associate,Boston,89668.36,4250.66,2024-05-07,34,72.6,lisa.martin@company.com,(402) 508-2380,Active
+EMP000831,James,Gonzalez,James Gonzalez,27,Marketing,Director,Seattle,67532.31,101.3,2020-07-09,0,79.3,james.gonzalez@company.com,(723) 765-6115,Active
+EMP000832,Emily,Smith,Emily Smith,53,Engineering,Director,Seattle,120940.01,0.0,2024-08-31,27,73.7,emily.smith@company.com,(992) 511-7926,On Leave
+EMP000833,Sarah,Johnson,Sarah Johnson,48,Operations,Coordinator,Seattle,86213.15,11364.47,2020-09-10,24,65.1,sarah.johnson@company.com,(248) 974-3043,Active
+EMP000834,Anthony,Smith,Anthony Smith,52,Legal,Director,Boston,95862.75,457.97,2024-07-07,25,83.8,anthony.smith@company.com,(963) 795-9737,Active
+EMP000835,Jessica,Lopez,Jessica Lopez,44,Finance,Analyst,Seattle,104701.12,17894.68,2024-01-02,16,78.4,jessica.lopez@company.com,(586) 732-5057,Active
+EMP000836,Matthew,Jackson,Matthew Jackson,48,HR,Lead,Boston,49110.95,4391.34,2020-07-19,23,70.0,matthew.jackson@company.com,(350) 928-7974,Active
+EMP000837,Michael,Williams,Michael Williams,65,Engineering,Analyst,Los Angeles,118985.51,11360.89,2022-09-02,39,79.1,michael.williams@company.com,(419) 656-2279,Active
+EMP000838,Matthew,Gonzalez,Matthew Gonzalez,22,IT,Lead,Seattle,86711.73,4571.85,2023-07-27,0,100.0,matthew.gonzalez@company.com,(633) 650-9020,Active
+EMP000839,Stephanie,Garcia,Stephanie Garcia,29,Marketing,Lead,Chicago,48749.75,6929.37,2023-12-27,5,69.0,stephanie.garcia@company.com,(668) 332-9408,Inactive
+EMP000840,Sarah,Miller,Sarah Miller,65,Legal,Manager,Miami,137621.5,21065.52,2024-03-08,43,91.5,sarah.miller@company.com,(360) 772-7051,Inactive
+EMP000841,Sarah,Martin,Sarah Martin,60,IT,Senior Developer,San Francisco,105597.86,11182.2,2022-01-26,33,91.3,sarah.martin@company.com,(785) 496-1659,Active
+EMP000842,Sarah,Lopez,Sarah Lopez,34,Finance,Specialist,Boston,71092.71,3502.17,2021-08-25,7,100.0,sarah.lopez@company.com,(697) 228-3340,Active
+EMP000843,Anthony,Wilson,Anthony Wilson,64,Engineering,Specialist,Seattle,112787.1,1090.72,2021-03-17,41,71.4,anthony.wilson@company.com,(387) 957-9008,Active
+EMP000844,Nicole,Lopez,Nicole Lopez,44,Sales,Associate,New York,78132.64,16876.81,2022-09-12,19,91.8,nicole.lopez@company.com,(786) 517-8411,Inactive
+EMP000845,Christopher,Thomas,Christopher Thomas,40,Marketing,Lead,Chicago,57702.5,8955.07,2024-04-08,16,74.3,christopher.thomas@company.com,(660) 883-8357,Active
+EMP000846,James,Williams,James Williams,59,IT,Director,Los Angeles,113193.02,12330.4,2022-03-20,32,48.7,james.williams@company.com,(547) 753-1750,On Leave
+EMP000847,Daniel,Rodriguez,Daniel Rodriguez,59,Sales,Manager,Chicago,72713.22,8525.9,2023-03-17,35,81.4,daniel.rodriguez@company.com,(845) 990-6060,Active
+EMP000848,Sarah,Moore,Sarah Moore,28,Sales,Manager,Austin,81697.55,17009.46,2023-03-13,6,67.2,sarah.moore@company.com,(734) 393-8796,Active
+EMP000849,John,Brown,John Brown,33,Marketing,Specialist,New York,70244.68,7189.19,2024-05-30,9,100.0,john.brown@company.com,(410) 451-8278,Active
+EMP000850,Nicole,Martin,Nicole Martin,45,Operations,Manager,Los Angeles,73486.57,10549.28,2022-10-03,20,67.3,nicole.martin@company.com,(223) 548-8160,Active
+EMP000851,John,Taylor,John Taylor,25,Operations,Specialist,Los Angeles,69180.16,3533.53,2020-07-05,0,66.3,john.taylor@company.com,(317) 301-9876,Active
+EMP000852,David,Garcia,David Garcia,62,Finance,Analyst,San Francisco,74616.74,6189.8,2021-09-20,37,67.2,david.garcia@company.com,(617) 894-3772,Active
+EMP000853,James,Garcia,James Garcia,64,Engineering,Specialist,New York,116843.13,6974.26,2022-03-09,37,80.1,james.garcia@company.com,(301) 527-3334,Active
+EMP000854,James,Rodriguez,James Rodriguez,35,IT,Manager,San Francisco,80459.28,4104.54,2021-02-18,13,81.9,james.rodriguez@company.com,(445) 970-4874,Active
+EMP000855,Matthew,Gonzalez,Matthew Gonzalez,24,Sales,Manager,Seattle,30000.0,2795.49,2021-10-13,0,64.7,matthew.gonzalez@company.com,(675) 766-7669,Active
+EMP000856,John,Wilson,John Wilson,46,HR,Specialist,New York,83435.34,2688.92,2023-02-08,18,48.1,john.wilson@company.com,(800) 891-2663,Active
+EMP000857,Nicole,Jones,Nicole Jones,59,Finance,Lead,Los Angeles,58384.37,7007.53,2020-06-20,31,57.1,nicole.jones@company.com,(851) 712-4333,Active
+EMP000858,David,Lopez,David Lopez,62,Marketing,Associate,Austin,86987.68,5366.3,2023-02-10,33,66.5,david.lopez@company.com,(662) 242-1016,Active
+EMP000859,Lisa,Martinez,Lisa Martinez,59,Marketing,Manager,New York,77111.68,3401.59,2022-09-14,34,86.0,lisa.martinez@company.com,(479) 812-5110,Active
+EMP000860,Christopher,Lopez,Christopher Lopez,38,HR,Manager,Seattle,58517.5,8509.43,2020-11-26,13,97.5,christopher.lopez@company.com,(956) 746-2145,Active
+EMP000861,Christopher,Brown,Christopher Brown,22,Marketing,Associate,Seattle,52991.11,407.9,2021-03-07,0,68.9,christopher.brown@company.com,(825) 716-6215,Inactive
+EMP000862,James,Rodriguez,James Rodriguez,40,Legal,Director,Seattle,107244.44,751.89,2023-09-18,16,79.1,james.rodriguez@company.com,(529) 549-4450,Active
+EMP000863,Lisa,Hernandez,Lisa Hernandez,48,Engineering,Manager,Chicago,80642.98,4956.57,2023-05-31,23,79.3,lisa.hernandez@company.com,(687) 204-1156,Active
+EMP000864,Stephanie,Moore,Stephanie Moore,52,Legal,Senior Developer,Los Angeles,93744.44,10183.23,2024-05-31,23,63.7,stephanie.moore@company.com,(864) 866-2270,Active
+EMP000865,Daniel,Brown,Daniel Brown,47,Operations,Coordinator,Los Angeles,69485.33,6789.2,2022-03-03,20,24.9,daniel.brown@company.com,(381) 986-1138,Active
+EMP000866,Amanda,Miller,Amanda Miller,65,Legal,Director,New York,99413.67,13345.5,2024-03-01,42,71.5,amanda.miller@company.com,(220) 976-5606,Active
+EMP000867,Amanda,Miller,Amanda Miller,28,Sales,Director,Seattle,44884.1,5466.83,2021-04-24,5,92.7,amanda.miller@company.com,(705) 571-1602,Active
+EMP000868,Lisa,Miller,Lisa Miller,52,Engineering,Associate,Austin,56701.2,9302.94,2020-08-15,24,82.9,lisa.miller@company.com,(484) 782-9197,Active
+EMP000869,Nicole,Miller,Nicole Miller,30,Marketing,Analyst,San Francisco,65937.34,13159.62,2024-03-07,4,52.9,nicole.miller@company.com,(266) 330-5253,Inactive
+EMP000870,Jessica,Taylor,Jessica Taylor,65,Finance,Manager,Austin,87470.99,6168.6,2023-11-20,41,77.0,jessica.taylor@company.com,(894) 745-5143,Active
+EMP000871,Daniel,Smith,Daniel Smith,39,IT,Coordinator,New York,62172.74,4893.65,2022-06-04,17,67.0,daniel.smith@company.com,(616) 480-2994,Active
+EMP000872,Daniel,Thomas,Daniel Thomas,32,Operations,Director,New York,61766.6,9908.44,2020-04-06,10,79.9,daniel.thomas@company.com,(484) 630-9723,Active
+EMP000873,John,Gonzalez,John Gonzalez,55,HR,Senior Developer,Boston,79009.68,7675.41,2024-12-07,30,95.8,john.gonzalez@company.com,(785) 225-4696,On Leave
+EMP000874,Stephanie,Williams,Stephanie Williams,42,HR,Analyst,Austin,76144.21,7241.64,2021-11-05,15,82.8,stephanie.williams@company.com,(518) 264-2584,Active
+EMP000875,Stephanie,Smith,Stephanie Smith,60,Operations,Director,Seattle,57663.43,4586.79,2020-08-08,32,82.6,stephanie.smith@company.com,(684) 444-6583,Active
+EMP000876,James,Taylor,James Taylor,43,HR,Lead,San Francisco,66710.19,4622.61,2024-04-13,20,77.2,james.taylor@company.com,(297) 840-8314,Active
+EMP000877,Michael,Johnson,Michael Johnson,53,Engineering,Coordinator,Los Angeles,110183.62,10404.04,2024-12-27,30,93.5,michael.johnson@company.com,(910) 266-3089,Active
+EMP000878,Daniel,Johnson,Daniel Johnson,24,Finance,Senior Developer,Los Angeles,51838.05,3763.01,2020-07-27,0,67.2,daniel.johnson@company.com,(893) 257-1855,Active
+EMP000879,Christopher,Gonzalez,Christopher Gonzalez,56,Sales,Director,Los Angeles,82885.18,4853.23,2024-11-05,30,66.6,christopher.gonzalez@company.com,(813) 875-1173,Active
+EMP000880,Daniel,Wilson,Daniel Wilson,25,Sales,Manager,Boston,50674.48,12037.02,2022-07-18,1,90.8,daniel.wilson@company.com,(729) 536-4153,Active
+EMP000881,John,Martin,John Martin,30,Sales,Analyst,Austin,72204.42,0.0,2023-07-29,8,76.0,john.martin@company.com,(721) 462-6822,Active
+EMP000882,Lisa,Anderson,Lisa Anderson,31,Marketing,Analyst,Austin,80818.92,7198.33,2024-06-20,6,68.2,lisa.anderson@company.com,(245) 261-3091,Active
+EMP000883,Stephanie,Taylor,Stephanie Taylor,46,Operations,Analyst,Seattle,44400.54,4792.77,2020-10-28,24,76.8,stephanie.taylor@company.com,(680) 516-6618,Active
+EMP000884,John,Taylor,John Taylor,26,Marketing,Director,New York,52526.41,0.0,2022-11-04,3,89.7,john.taylor@company.com,(772) 255-7915,Active
+EMP000885,Robert,Miller,Robert Miller,49,Sales,Director,Boston,62497.21,11816.77,2023-09-29,21,100.0,robert.miller@company.com,(687) 911-8657,Active
+EMP000886,James,Jackson,James Jackson,49,Operations,Associate,Seattle,54502.35,4046.2,2021-11-04,26,59.8,james.jackson@company.com,(366) 307-8443,Inactive
+EMP000887,Jane,Thomas,Jane Thomas,24,HR,Director,New York,53986.3,2902.94,2023-11-20,0,82.4,jane.thomas@company.com,(435) 677-4492,Active
+EMP000888,James,Gonzalez,James Gonzalez,34,HR,Analyst,Los Angeles,38912.41,4878.33,2024-08-18,11,56.1,james.gonzalez@company.com,(206) 571-1162,Active
+EMP000889,John,Moore,John Moore,33,Sales,Specialist,Chicago,63652.74,9516.7,2022-06-20,11,69.6,john.moore@company.com,(399) 846-6896,Active
+EMP000890,John,Miller,John Miller,60,HR,Analyst,Seattle,84934.21,7014.32,2021-03-24,33,82.5,john.miller@company.com,(468) 936-3855,Active
+EMP000891,Nicole,Davis,Nicole Davis,65,Marketing,Manager,Austin,120275.05,8434.75,2020-12-26,41,72.3,nicole.davis@company.com,(468) 303-1343,Active
+EMP000892,David,Gonzalez,David Gonzalez,49,Sales,Director,Boston,95368.53,1203.38,2021-09-16,25,100.0,david.gonzalez@company.com,(667) 445-7056,Active
+EMP000893,Emily,Taylor,Emily Taylor,49,IT,Senior Developer,San Francisco,101155.03,7330.61,2020-10-22,27,79.2,emily.taylor@company.com,(333) 394-4140,Active
+EMP000894,Amanda,Hernandez,Amanda Hernandez,59,IT,Manager,Austin,142038.19,0.0,2024-04-11,32,82.5,amanda.hernandez@company.com,(830) 801-4098,Inactive
+EMP000895,Ashley,Jones,Ashley Jones,43,Operations,Manager,Austin,68320.23,8569.29,2023-07-13,18,62.6,ashley.jones@company.com,(486) 329-9327,On Leave
+EMP000896,Melissa,Miller,Melissa Miller,47,Sales,Senior Developer,Miami,102058.73,4215.64,2020-12-08,18,66.3,melissa.miller@company.com,(720) 597-9342,Active
+EMP000897,Matthew,Anderson,Matthew Anderson,44,Marketing,Coordinator,Boston,34004.32,3097.9,2022-12-12,17,67.2,matthew.anderson@company.com,(911) 694-9106,Active
+EMP000898,Anthony,Gonzalez,Anthony Gonzalez,36,Engineering,Director,Austin,99577.34,3788.66,2021-02-19,8,73.4,anthony.gonzalez@company.com,(662) 440-7486,Active
+EMP000899,Stephanie,Gonzalez,Stephanie Gonzalez,48,Marketing,Specialist,Boston,54573.69,3992.82,2023-02-01,24,80.1,stephanie.gonzalez@company.com,(286) 337-2376,Active
+EMP000900,Matthew,Lopez,Matthew Lopez,28,HR,Lead,New York,65827.49,11358.54,2022-11-15,1,80.0,matthew.lopez@company.com,(836) 544-7981,Active
+EMP000901,Stephanie,Wilson,Stephanie Wilson,48,Operations,Coordinator,Miami,74479.23,7674.82,2021-07-13,20,100.0,stephanie.wilson@company.com,(591) 225-3942,Active
+EMP000902,William,Williams,William Williams,34,Operations,Specialist,San Francisco,39180.76,2732.18,2024-09-21,7,47.1,william.williams@company.com,(713) 725-9956,Active
+EMP000903,William,Davis,William Davis,49,Sales,Senior Developer,San Francisco,84400.65,5019.46,2022-01-07,27,100.0,william.davis@company.com,(239) 759-4281,Active
+EMP000904,James,Rodriguez,James Rodriguez,32,Finance,Director,Seattle,43514.42,2375.44,2023-12-16,6,89.9,james.rodriguez@company.com,(818) 341-9898,Inactive
+EMP000905,John,Martinez,John Martinez,32,Finance,Associate,Boston,82728.96,5495.01,2022-04-10,4,76.8,john.martinez@company.com,(793) 975-1194,Active
+EMP000906,Matthew,Jones,Matthew Jones,40,IT,Director,Austin,88433.06,18219.72,2024-01-21,14,87.8,matthew.jones@company.com,(967) 414-8773,Active
+EMP000907,Anthony,Moore,Anthony Moore,45,Legal,Coordinator,Miami,112969.73,11050.32,2024-06-09,20,75.8,anthony.moore@company.com,(287) 520-4077,Active
+EMP000908,Stephanie,Miller,Stephanie Miller,64,Legal,Manager,Miami,80456.45,11337.01,2022-02-06,38,49.4,stephanie.miller@company.com,(342) 791-3102,Active
+EMP000909,John,Thomas,John Thomas,40,Operations,Director,Boston,66836.51,7166.02,2022-05-08,13,93.3,john.thomas@company.com,(635) 902-7608,Active
+EMP000910,Nicole,Martinez,Nicole Martinez,40,Operations,Manager,New York,71739.68,5727.09,2020-10-11,11,69.2,nicole.martinez@company.com,(357) 538-7404,On Leave
+EMP000911,Robert,Gonzalez,Robert Gonzalez,39,Sales,Director,Los Angeles,79038.43,5181.63,2022-08-30,12,47.5,robert.gonzalez@company.com,(311) 536-8397,Active
+EMP000912,Ashley,Williams,Ashley Williams,62,Marketing,Analyst,San Francisco,87154.16,3078.69,2020-03-06,37,76.1,ashley.williams@company.com,(905) 817-9005,Active
+EMP000913,Robert,Williams,Robert Williams,39,IT,Director,Seattle,72497.88,1490.02,2021-04-22,17,51.6,robert.williams@company.com,(498) 875-9591,Active
+EMP000914,Jane,Lopez,Jane Lopez,61,Engineering,Coordinator,Chicago,144302.12,18789.01,2024-10-26,36,91.0,jane.lopez@company.com,(620) 600-3572,On Leave
+EMP000915,David,Moore,David Moore,38,IT,Senior Developer,Miami,82547.61,8988.55,2022-03-07,13,90.0,david.moore@company.com,(411) 333-4369,Active
+EMP000916,Melissa,Garcia,Melissa Garcia,50,Finance,Lead,Austin,90339.06,13583.08,2021-07-18,21,60.4,melissa.garcia@company.com,(406) 207-3337,Active
+EMP000917,Christopher,Martin,Christopher Martin,24,HR,Lead,Boston,49545.42,3981.46,2022-07-31,0,81.8,christopher.martin@company.com,(673) 789-1640,Active
+EMP000918,Ashley,Anderson,Ashley Anderson,58,Operations,Associate,Seattle,56062.88,3389.28,2023-06-09,33,86.7,ashley.anderson@company.com,(379) 625-5081,Active
+EMP000919,Lisa,Wilson,Lisa Wilson,28,Legal,Analyst,Los Angeles,62873.51,10099.95,2023-12-01,0,49.6,lisa.wilson@company.com,(782) 297-7447,Active
+EMP000920,Jane,Davis,Jane Davis,42,Marketing,Specialist,Seattle,76768.53,9196.18,2023-09-27,18,72.3,jane.davis@company.com,(268) 914-4559,Inactive
+EMP000921,Stephanie,Moore,Stephanie Moore,26,Sales,Senior Developer,Boston,72201.78,5770.34,2024-03-27,3,90.8,stephanie.moore@company.com,(307) 716-6341,Active
+EMP000922,Emily,Rodriguez,Emily Rodriguez,23,HR,Lead,New York,50473.72,6272.75,2020-02-24,0,73.9,emily.rodriguez@company.com,(274) 854-8567,Active
+EMP000923,Christopher,Miller,Christopher Miller,63,IT,Manager,New York,93818.92,18284.21,2021-05-28,39,95.8,christopher.miller@company.com,(317) 926-3236,Active
+EMP000924,Daniel,Thomas,Daniel Thomas,26,Legal,Senior Developer,San Francisco,58227.01,1694.23,2023-01-28,2,67.5,daniel.thomas@company.com,(872) 448-8171,Active
+EMP000925,William,Garcia,William Garcia,37,Marketing,Senior Developer,New York,72743.43,8807.58,2020-12-28,9,81.7,william.garcia@company.com,(501) 327-9759,Active
+EMP000926,Emily,Williams,Emily Williams,35,Engineering,Analyst,Seattle,93602.96,3945.47,2022-06-21,13,52.4,emily.williams@company.com,(566) 382-4549,Active
+EMP000927,Nicole,Miller,Nicole Miller,37,Legal,Senior Developer,New York,68438.29,7465.5,2022-03-10,8,74.5,nicole.miller@company.com,(906) 515-8274,Active
+EMP000928,John,Johnson,John Johnson,40,IT,Director,Austin,72739.71,9882.72,2022-02-06,14,69.3,john.johnson@company.com,(444) 404-2497,Active
+EMP000929,John,Smith,John Smith,28,Operations,Senior Developer,Austin,58242.67,4573.61,2021-03-27,6,83.3,john.smith@company.com,(298) 880-3750,Active
+EMP000930,Jane,Wilson,Jane Wilson,38,Sales,Coordinator,Boston,83645.69,11368.6,2023-02-25,10,57.9,jane.wilson@company.com,(841) 394-4393,Inactive
+EMP000931,Christopher,Wilson,Christopher Wilson,55,Sales,Director,Austin,83784.68,13375.11,2020-08-04,26,73.0,christopher.wilson@company.com,(565) 531-3844,Active
+EMP000932,James,Smith,James Smith,51,IT,Lead,Austin,74318.37,4814.62,2021-03-26,23,89.2,james.smith@company.com,(267) 873-5562,Active
+EMP000933,Amanda,Johnson,Amanda Johnson,30,Sales,Associate,Austin,64509.51,2764.17,2021-09-09,1,77.5,amanda.johnson@company.com,(985) 813-9185,On Leave
+EMP000934,Sarah,Moore,Sarah Moore,24,Marketing,Senior Developer,Seattle,67927.25,12928.31,2023-05-13,0,71.9,sarah.moore@company.com,(532) 846-7366,Active
+EMP000935,David,Hernandez,David Hernandez,28,Marketing,Lead,Boston,43326.47,6708.46,2020-05-18,4,69.1,david.hernandez@company.com,(543) 218-8354,Active
+EMP000936,Jessica,Taylor,Jessica Taylor,57,Engineering,Manager,Austin,139047.26,18803.4,2023-06-16,35,48.9,jessica.taylor@company.com,(977) 327-6060,Active
+EMP000937,Stephanie,Davis,Stephanie Davis,56,Sales,Analyst,New York,73320.8,3745.51,2022-02-06,27,39.0,stephanie.davis@company.com,(710) 503-4309,Active
+EMP000938,Robert,Johnson,Robert Johnson,38,HR,Coordinator,Miami,82351.54,6490.23,2020-10-01,15,63.3,robert.johnson@company.com,(484) 525-1648,Active
+EMP000939,Stephanie,Martinez,Stephanie Martinez,35,Engineering,Coordinator,Austin,78375.38,12011.7,2021-12-02,11,71.9,stephanie.martinez@company.com,(448) 410-9836,Active
+EMP000940,Jessica,Davis,Jessica Davis,29,IT,Analyst,Boston,101987.1,17595.23,2022-06-24,3,89.4,jessica.davis@company.com,(844) 206-2058,Inactive
+EMP000941,Michael,Miller,Michael Miller,62,Engineering,Director,Chicago,114752.71,3236.55,2020-09-14,39,77.0,michael.miller@company.com,(293) 377-9992,Active
+EMP000942,Robert,Davis,Robert Davis,50,Sales,Lead,Los Angeles,60262.76,8866.29,2021-09-29,24,34.2,robert.davis@company.com,(368) 938-4236,Active
+EMP000943,Emily,Martin,Emily Martin,52,HR,Specialist,Seattle,70477.01,7804.72,2023-03-26,25,60.2,emily.martin@company.com,(659) 850-4299,Active
+EMP000944,Melissa,Williams,Melissa Williams,51,Operations,Associate,Los Angeles,61517.27,657.08,2020-12-09,25,50.4,melissa.williams@company.com,(682) 651-7925,Active
+EMP000945,Stephanie,Jones,Stephanie Jones,43,Legal,Associate,New York,102566.77,5936.06,2022-05-25,20,67.7,stephanie.jones@company.com,(285) 977-5918,Active
+EMP000946,David,Moore,David Moore,37,Marketing,Associate,Seattle,71865.47,4210.61,2022-08-07,11,87.9,david.moore@company.com,(513) 664-5640,Active
+EMP000947,Lisa,Thomas,Lisa Thomas,60,Sales,Analyst,Boston,101448.83,7743.27,2024-01-04,32,49.9,lisa.thomas@company.com,(680) 400-3535,Inactive
+EMP000948,John,Smith,John Smith,37,Operations,Associate,Miami,67839.76,186.33,2022-05-01,15,91.7,john.smith@company.com,(604) 960-7113,Active
+EMP000949,Ashley,Jackson,Ashley Jackson,26,Sales,Manager,Los Angeles,71232.85,4577.85,2020-09-11,0,100.0,ashley.jackson@company.com,(594) 779-3660,Active
+EMP000950,Stephanie,Rodriguez,Stephanie Rodriguez,59,Operations,Coordinator,Miami,80766.32,9563.39,2023-11-27,31,83.9,stephanie.rodriguez@company.com,(259) 866-7313,Inactive
+EMP000951,Jessica,Davis,Jessica Davis,22,Legal,Coordinator,New York,86282.38,0.0,2023-07-16,0,60.1,jessica.davis@company.com,(923) 892-1462,Active
+EMP000952,David,Rodriguez,David Rodriguez,64,Legal,Specialist,Chicago,117346.44,17610.58,2021-05-21,41,88.0,david.rodriguez@company.com,(816) 792-3644,Active
+EMP000953,Michael,Gonzalez,Michael Gonzalez,62,IT,Director,San Francisco,112614.81,18315.91,2024-11-29,35,77.5,michael.gonzalez@company.com,(633) 369-7993,Active
+EMP000954,Ashley,Taylor,Ashley Taylor,34,IT,Associate,Seattle,72571.96,11303.69,2024-03-21,8,88.0,ashley.taylor@company.com,(945) 291-2790,Active
+EMP000955,Amanda,Jones,Amanda Jones,63,Finance,Associate,Austin,104579.21,11908.22,2023-12-02,36,81.5,amanda.jones@company.com,(515) 206-3759,Active
+EMP000956,John,Brown,John Brown,39,Sales,Associate,Los Angeles,70865.82,1326.61,2023-09-02,12,78.7,john.brown@company.com,(495) 950-8060,Active
+EMP000957,Amanda,Garcia,Amanda Garcia,64,Marketing,Lead,Austin,90279.93,12028.46,2021-01-07,42,49.3,amanda.garcia@company.com,(714) 312-8383,Active
+EMP000958,Robert,Garcia,Robert Garcia,41,HR,Analyst,New York,58055.57,3512.8,2024-07-15,12,59.0,robert.garcia@company.com,(977) 396-5249,On Leave
+EMP000959,Stephanie,Anderson,Stephanie Anderson,28,Sales,Senior Developer,Chicago,65930.82,4556.88,2021-08-23,0,55.1,stephanie.anderson@company.com,(287) 586-3042,Active
+EMP000960,James,Smith,James Smith,50,HR,Lead,Miami,55162.86,5278.89,2023-10-09,27,43.9,james.smith@company.com,(978) 303-1155,Active
+EMP000961,John,Jackson,John Jackson,22,Engineering,Director,San Francisco,54281.6,7895.15,2022-12-05,0,59.1,john.jackson@company.com,(207) 584-9520,On Leave
+EMP000962,William,Thomas,William Thomas,43,Legal,Associate,Boston,101613.57,15195.28,2021-11-20,21,60.2,william.thomas@company.com,(579) 898-6620,On Leave
+EMP000963,Jessica,Lopez,Jessica Lopez,65,IT,Manager,Los Angeles,141176.91,15933.22,2021-12-30,36,72.5,jessica.lopez@company.com,(538) 302-1050,Active
+EMP000964,Christopher,Jones,Christopher Jones,61,Engineering,Specialist,San Francisco,110747.03,9740.24,2023-12-03,36,70.2,christopher.jones@company.com,(969) 454-7036,Active
+EMP000965,Melissa,Taylor,Melissa Taylor,31,IT,Manager,Austin,71611.42,6572.73,2023-07-30,7,75.0,melissa.taylor@company.com,(529) 217-6901,Inactive
+EMP000966,James,Anderson,James Anderson,28,HR,Associate,Miami,59023.26,5932.85,2024-02-22,2,90.8,james.anderson@company.com,(827) 283-6707,Active
+EMP000967,Melissa,Brown,Melissa Brown,25,IT,Director,Seattle,65905.56,3648.57,2023-12-29,0,98.7,melissa.brown@company.com,(346) 732-9267,Active
+EMP000968,Melissa,Williams,Melissa Williams,38,Finance,Analyst,Miami,85914.64,8661.55,2022-07-02,9,96.7,melissa.williams@company.com,(318) 693-9858,Active
+EMP000969,Robert,Garcia,Robert Garcia,62,Sales,Associate,San Francisco,74692.06,12377.04,2024-01-05,36,81.3,robert.garcia@company.com,(229) 364-6349,Inactive
+EMP000970,William,Davis,William Davis,27,Finance,Senior Developer,Miami,60473.51,5761.24,2023-09-24,4,67.4,william.davis@company.com,(339) 747-9060,Active
+EMP000971,James,Davis,James Davis,34,Sales,Associate,Boston,61457.74,6249.41,2024-01-09,8,73.1,james.davis@company.com,(960) 953-7252,Active
+EMP000972,Nicole,Wilson,Nicole Wilson,54,HR,Specialist,Austin,100301.61,10838.42,2020-08-24,25,100.0,nicole.wilson@company.com,(497) 289-2824,Active
+EMP000973,Anthony,Miller,Anthony Miller,35,Sales,Analyst,Boston,91551.97,7413.85,2024-10-13,11,73.1,anthony.miller@company.com,(520) 589-1027,Active
+EMP000974,Anthony,Moore,Anthony Moore,62,HR,Associate,Los Angeles,76171.79,8419.07,2021-10-16,39,99.9,anthony.moore@company.com,(989) 573-3069,Active
+EMP000975,Lisa,Jackson,Lisa Jackson,53,HR,Associate,San Francisco,80519.49,3021.92,2020-01-19,31,78.3,lisa.jackson@company.com,(751) 671-6176,Active
+EMP000976,Ashley,Davis,Ashley Davis,53,Legal,Analyst,Miami,82225.32,10986.54,2023-05-16,30,77.8,ashley.davis@company.com,(490) 349-1562,Active
+EMP000977,Ashley,Taylor,Ashley Taylor,55,Sales,Lead,Seattle,91703.53,7895.13,2023-07-16,30,100.0,ashley.taylor@company.com,(420) 706-5775,Active
+EMP000978,Christopher,Johnson,Christopher Johnson,63,Operations,Director,Chicago,72540.85,7643.32,2024-10-02,34,85.8,christopher.johnson@company.com,(950) 430-1861,Inactive
+EMP000979,Emily,Thomas,Emily Thomas,62,IT,Analyst,Seattle,136432.77,12620.44,2020-02-14,37,77.4,emily.thomas@company.com,(761) 601-6528,Active
+EMP000980,Melissa,Lopez,Melissa Lopez,23,IT,Senior Developer,Los Angeles,44283.27,0.0,2022-12-17,0,80.0,melissa.lopez@company.com,(944) 489-5626,Active
+EMP000981,Robert,Moore,Robert Moore,36,IT,Analyst,San Francisco,75669.29,3367.46,2021-10-24,7,55.3,robert.moore@company.com,(970) 794-1886,Active
+EMP000982,Ashley,Anderson,Ashley Anderson,31,Marketing,Lead,Chicago,77905.62,13066.49,2023-11-26,5,62.4,ashley.anderson@company.com,(694) 498-3372,Active
+EMP000983,Robert,Smith,Robert Smith,59,Operations,Analyst,San Francisco,76859.92,5625.48,2022-02-10,32,53.9,robert.smith@company.com,(637) 895-3756,Inactive
+EMP000984,Sarah,Lopez,Sarah Lopez,58,Legal,Manager,Chicago,103049.29,15881.12,2020-08-28,33,70.2,sarah.lopez@company.com,(727) 865-6545,Active
+EMP000985,David,Gonzalez,David Gonzalez,45,HR,Senior Developer,New York,74784.38,14491.61,2021-05-08,19,71.8,david.gonzalez@company.com,(606) 700-5959,Active
+EMP000986,Emily,Gonzalez,Emily Gonzalez,32,Sales,Associate,Miami,89886.03,2005.2,2021-07-17,6,70.0,emily.gonzalez@company.com,(847) 868-8292,Active
+EMP000987,Sarah,Brown,Sarah Brown,45,Sales,Lead,San Francisco,62086.53,2802.06,2023-08-06,19,91.0,sarah.brown@company.com,(884) 721-4685,Active
+EMP000988,Anthony,Jackson,Anthony Jackson,50,Legal,Senior Developer,Seattle,72307.66,6739.34,2024-06-14,25,80.7,anthony.jackson@company.com,(807) 385-7290,Active
+EMP000989,Stephanie,Martinez,Stephanie Martinez,64,Marketing,Coordinator,San Francisco,84582.4,1976.27,2020-05-10,40,69.8,stephanie.martinez@company.com,(930) 750-4029,Active
+EMP000990,John,Gonzalez,John Gonzalez,40,Legal,Senior Developer,San Francisco,86319.74,4861.66,2024-03-23,17,74.6,john.gonzalez@company.com,(971) 412-2922,Active
+EMP000991,Lisa,Garcia,Lisa Garcia,47,Engineering,Coordinator,Miami,115090.81,0.0,2020-09-08,18,54.0,lisa.garcia@company.com,(240) 331-4378,Active
+EMP000992,Michael,Moore,Michael Moore,63,Finance,Senior Developer,New York,96764.95,12013.68,2020-09-12,38,47.8,michael.moore@company.com,(718) 505-6956,On Leave
+EMP000993,Emily,Wilson,Emily Wilson,24,Engineering,Specialist,Austin,99407.02,1671.26,2020-04-04,0,71.7,emily.wilson@company.com,(731) 500-9750,Active
+EMP000994,Anthony,Thomas,Anthony Thomas,57,Operations,Director,Boston,86136.35,10248.67,2023-11-09,30,81.4,anthony.thomas@company.com,(301) 878-1732,Active
+EMP000995,Robert,Jones,Robert Jones,22,Finance,Analyst,Austin,61306.95,10248.96,2023-05-18,0,66.5,robert.jones@company.com,(765) 421-6882,Active
+EMP000996,Lisa,Wilson,Lisa Wilson,60,Sales,Specialist,Seattle,60814.98,1803.73,2022-02-20,31,94.9,lisa.wilson@company.com,(865) 367-7554,Active
+EMP000997,William,Wilson,William Wilson,28,Marketing,Senior Developer,Austin,63513.44,5078.57,2023-07-13,5,99.3,william.wilson@company.com,(950) 475-4156,Active
+EMP000998,Anthony,Taylor,Anthony Taylor,41,Marketing,Analyst,Los Angeles,105132.65,0.0,2021-10-09,16,61.7,anthony.taylor@company.com,(644) 588-1424,On Leave
+EMP000999,Jessica,Williams,Jessica Williams,47,Finance,Senior Developer,San Francisco,115975.8,18224.49,2023-11-01,18,78.4,jessica.williams@company.com,(761) 616-2080,Active
+EMP001000,Michael,Lopez,Michael Lopez,42,Operations,Analyst,Seattle,78349.13,3183.07,2024-11-14,15,86.3,michael.lopez@company.com,(431) 480-1161,Active

@@ -1,0 +1,53 @@
+brand_code,brand_name,category_code
+ACME,AcmeTech,CE
+NOVW,  NovaWave ,CE
+ZNTH,Zenith,CE
+BYTM,ByteMax,CE
+ECOT,EcoTone,CE
+SKYL,SkyLink,CE
+VOLT@,VoltEdge,CE
+PHTX,Photonix,CE
+URTL,UrbanTrail,APP
+COTC,CottonClub,APP
+FTFX,FitFlex,APP
+ABLF,AmberLeaf,APP
+MOSA,  Mosaic ,APP
+NTHR,  NorthThread ,APP
+CBLT,CobaltWear,APP
+CKMT@,CookMate,HNK
+HMNS,HomeNest,HNK
+PRLV,PureLiving,HNK
+CSNV@,CasaNova,HNK
+AQPR,AquaPure,HNK
+STCR,SteelCraft,HNK
+WRMH,  WarmHearth ,HNK
+GLOW*,  GlowOn ,BPC
+HRBC,  HerbaCare ,BPC
+DMLX,DermaLux,BPC
+SLKE,SilkEssence,BPC
+ALMS,AloeMist,BPC
+BTNQ,Botaniq,BPC
+BLIN,BlueInk,BOOKS
+PGTR@,PageTurner,BOOKS
+RDMR,ReadMore,BOOKS
+QLHS!,  QuillHouse ,BKS
+STAC,StoryArc,BKS
+LFSP,Leaf&Spine,BKS
+FRFL,FreshFields,GROCERY
+DLHV,  DailyHarvest ,GRCY
+GRBK,  GreenBasket ,GROCERY
+NTCH,  NutriChoice ,GRCY
+GGRN,GoodGrain,GROCERY
+FRMJ,FarmJoy,GRCY
+PLCB,PlayCube,TOY
+HPFN*,  HappyFun ,TOYS
+GMFG@,GameForge,TOY
+KDLN,KiddoLand,TOYS
+TNGR@,TinyGears,TOY
+RKBR*,  RocketBear ,TOYS
+PRSD,  ProStride ,SPT
+TRBZ,TrailBlazer,SPT
+ARFT,AeroFit,SPT
+PKPR,PeakPro,SPT
+SMLN,  SummitLine ,SPT
+SWCR,  SwiftCore ,SPT

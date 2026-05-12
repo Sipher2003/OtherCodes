@@ -1,0 +1,21 @@
+Company,Ticker,Stock_Price,Market_Cap_Billions,PE_Ratio,Dividend_Yield,Sector
+Apple,APPL,62.67,2997.91,52.74,0.19,Consumer Discretionary
+Microsoft,MICR,485.73,749.97,54.05,1.38,Consumer Discretionary
+Amazon,AMAZ,155.91,1845.52,58.39,1.03,Consumer Discretionary
+Google,GOOG,487.01,2322.19,30.82,0.39,Consumer Discretionary
+Meta,META,288.53,676.31,12.75,1.24,Technology
+Tesla,TESL,243.31,1256.83,58.44,1.61,Finance
+Netflix,NETF,59.62,306.11,31.51,2.88,Healthcare
+NVIDIA,NVID,174.82,1200.84,28.78,0.41,Technology
+Adobe,ADOB,179.51,378.54,17.55,2.4,Energy
+Intel,INTE,474.08,2972.46,16.65,0.94,Healthcare
+IBM,IBM,256.82,150.05,49.7,2.07,Healthcare
+Salesforce,SALE,108.19,2044.76,43.13,0.97,Energy
+Oracle,ORAC,444.26,1986.64,50.23,1.58,Healthcare
+AMD,AMD,427.77,406.46,36.2,1.36,Technology
+Qualcomm,QUAL,163.03,1569.01,51.5,1.46,Consumer Discretionary
+Uber,UBER,239.75,1195.74,47.42,2.68,Energy
+Airbnb,AIRB,294.2,1111.58,50.51,0.69,Healthcare
+Spotify,SPOT,224.64,2007.27,31.95,1.97,Finance
+Zoom,ZOOM,288.53,2268.82,57.6,2.31,Consumer Discretionary
+Shopify,SHOP,276.36,214.4,58.71,1.8,Energy
