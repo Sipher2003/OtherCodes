@@ -44,16 +44,92 @@
 # sort(nums)    
 
 #reverse a list
-nums=[33,12,67,54,11]
+# nums=[33,12,67,54,11]
 
-a=0
-b=len(nums)-1
+# a=0
+# b=len(nums)-1
 
-while a<b:
-    temp=nums[a]
-    nums[a]=nums[b]
-    nums[b]=temp
-    a+=1
-    b-=1
-print(nums)
+# while a<b:
+#     temp=nums[a]
+#     nums[a]=nums[b]
+#     nums[b]=temp
+#     a+=1
+#     b-=1
+# print(nums)
 
+
+#palindrome 
+# word="malayalamm"
+
+# def reverse(word):
+#     word=list(word)
+#     a=0
+#     b=len(word)-1
+#     original=''.join(word)
+    
+#     while a<b:
+#         temp=word[a]
+#         word[a]=word[b]
+#         word[b]=temp
+#         a+=1
+#         b-=1
+    
+#     if original==''.join(word):
+#         return True
+#     else:
+#         return False
+
+# print(reverse(word))
+
+# sentence="Hey Kaustubh"
+
+# def count_vowels(sentence):
+#     vow=['a','e','i','o','u']
+    
+#     string=list(sentence.lower())
+    
+#     count=0
+#     for i in string:
+#         if i in vow:
+#             count+=1
+#     return count
+
+# print(count_vowels(sentence))        
+
+#student with highest marks
+# students = {
+#     "Alice": 85,
+#     "Bob": 72,
+#     "Charlie": 90
+# }
+
+# max=0
+# for key, value in students.items():
+#     if value>max:
+#         max=value
+#         maxkey=key
+
+# print(f"higest marks are scored by {maxkey} which are {max} ")
+
+words="apple banana apple cherry"
+
+count={}
+repeating=[]
+string=words.split()
+
+for word in string:
+    if word in count:
+        count[word]+=1
+    else:
+        count[word]=1
+
+for i,j in count.items():
+    if j>1:
+        repeating.append(i)
+    
+print(repeating)
+    
+
+    
+    
+    
